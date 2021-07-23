@@ -31,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final List<Widget> _children = [
     LandingPage(),
     RempahListPage(),
-    RempahDetailPage(id: '5'),
+    RempahDetailPage(id: '2'),
     AboutPage(),
   ];
 

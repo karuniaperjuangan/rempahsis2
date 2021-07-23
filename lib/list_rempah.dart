@@ -13,6 +13,8 @@ class RempahListPage extends StatefulWidget{
 
 
 class _RempahListPageState extends State<RempahListPage>{
+
+  
   
   final List<Rempah> _dataRempah = [
     Rempah(Nama: "Adas", NamaIlmiah: "Foeniculum vulgare"),
@@ -23,6 +25,7 @@ class _RempahListPageState extends State<RempahListPage>{
     Rempah(Nama: "Jahe Gajah", NamaIlmiah: "Zingiber officinale Rosc."), 
     Rempah(Nama: "Jahe Merah", NamaIlmiah: "Zingiber officinale varietas rubrum") 
     ];
+    
   List<Rempah> _dataFilter = [];
   @override
   void initState() {
@@ -98,7 +101,7 @@ class _RempahListPageState extends State<RempahListPage>{
         child: MaterialButton(
           onPressed:(){
                 Navigator.push(context,
-                MaterialPageRoute(builder: (context) => RempahDetailPage(id: '5')));
+                MaterialPageRoute(builder: (context) => RempahDetailPage(id: '1')));
               },
             child: ListTile(
               title: Text(_dataFilter[index].nama,style: TextStyle(fontSize: 14,fontWeight: FontWeight.w500),),
