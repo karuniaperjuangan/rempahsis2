@@ -16,6 +16,7 @@ class RempahSIS extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Rempah SIS',
       theme: ThemeData(
 
@@ -23,6 +24,7 @@ class RempahSIS extends StatelessWidget {
         primaryColor: Color(0xffCE8D51),
         accentColor: Colors.white,
         textTheme: GoogleFonts.robotoTextTheme(Theme.of(context).textTheme),
+        
         inputDecorationTheme: InputDecorationTheme(
           border: UnderlineInputBorder(
             borderSide: BorderSide(color: Colors.white),),
@@ -30,6 +32,10 @@ class RempahSIS extends StatelessWidget {
             borderSide: BorderSide(color: Colors.white),),
           focusedBorder: UnderlineInputBorder(
             borderSide: BorderSide(color: Colors.white),),
+        ),
+        bottomSheetTheme: BottomSheetThemeData(
+          backgroundColor: Colors.transparent,
+          modalBackgroundColor: Colors.transparent,
         ),
         appBarTheme: AppBarTheme(
           iconTheme: IconThemeData(color: Colors.white)

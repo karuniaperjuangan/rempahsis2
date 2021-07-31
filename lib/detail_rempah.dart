@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'dart:convert';
+import 'dart:ui';
 import 'package:csv/csv.dart';
 import 'package:expandable/expandable.dart';
 import 'package:flutter/material.dart';
@@ -68,54 +69,26 @@ class _RempahDetailPage extends State<RempahDetailPage>{
                   ),
                   ],
                   ),
-                  SizedBox(height: 10,),
-                  //Morfologi
-                  ExpandablePanel(
-                    header: Text("Morfologi"),
-                    collapsed: Text(""),
-                    expanded: MarkdownBody(data: 
-                  _dataRempah[int.parse(widget.id)][5], 
-                  styleSheet: MarkdownStyleSheet(p: TextStyle(fontWeight: FontWeight.w500, fontSize: 12),textAlign: WrapAlignment.spaceBetween),)
-                  ),
-                  SizedBox(height: 10,),
-                  //Ciri-ciri
-                  ExpandablePanel(
-                    header: Text("Ciri-ciri"),
-                    collapsed: Text(""),
-                    expanded: MarkdownBody(data: 
-                  _dataRempah[int.parse(widget.id)][6], 
-                  styleSheet: MarkdownStyleSheet(p: TextStyle(fontWeight: FontWeight.w500, fontSize: 12),textAlign: WrapAlignment.spaceBetween),)),
-                  SizedBox(height: 10,),
-                  //Khasiat
-                  ExpandablePanel(
-                    header: Text("Khasiat"),
-                    collapsed: Text(""),
-                    expanded: MarkdownBody(data: 
-                  _dataRempah[int.parse(widget.id)][7], 
-                  styleSheet: MarkdownStyleSheet(p: TextStyle(fontWeight: FontWeight.w500, fontSize: 12),textAlign: WrapAlignment.spaceBetween),)), 
-                  SizedBox(height: 10,),
-                  //Kegunaan
-                  ExpandablePanel(
-                    header: Text("Kegunaan"),
-                    collapsed: Text(""),
-                    expanded: MarkdownBody(data: 
-                  _dataRempah[int.parse(widget.id)][8], 
-                  styleSheet: MarkdownStyleSheet(p: TextStyle(fontWeight: FontWeight.w500, fontSize: 12),textAlign: WrapAlignment.spaceBetween),)),
-                  SizedBox(height: 10,),
-                  //Potensi
-                  ExpandablePanel(
-                    header: Text("Potensi"),
-                    collapsed: Text(""),
-                    expanded: MarkdownBody(data: 
-                  _dataRempah[int.parse(widget.id)][9], 
-                  styleSheet: MarkdownStyleSheet(p: TextStyle(fontWeight: FontWeight.w500, fontSize: 12),textAlign: WrapAlignment.spaceBetween),)),
+                  SizedBox(height: 15,),
+                  
+                  SizedBox(height: 15,),
+                  ExpandableInformation(context: context, title: "Morfologi", data: _dataRempah, infoCol: 5, refCol: 10),
+                  ExpandableInformation(context: context, title: "Ciri-Ciri", data: _dataRempah, infoCol: 6, refCol: 11),
+                  ExpandableInformation(context: context, title: "Khasiat", data: _dataRempah, infoCol: 7, refCol: 12),
+                  ExpandableInformation(context: context, title: "Kegunaan", data: _dataRempah, infoCol: 8, refCol: 13),
+                  ExpandableInformation(context: context, title: "Potensi", data: _dataRempah, infoCol: 9, refCol: 14),
                 ],
               ),
             )
           ]
           )
         )
-        :CircularProgressIndicator();
+        :Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Center(child: CircularProgressIndicator()),
+          ],
+        );
       }
     ),
     )
@@ -138,4 +111,66 @@ class _RempahDetailPage extends State<RempahDetailPage>{
     return new File(filePath).writeAsBytes(
         buffer.asUint8List(data.offsetInBytes, data.lengthInBytes));
 }
+
+void referensi(context,data,refCol) {
+  showModalBottomSheet(
+    context: context,
+    builder: (BuildContext bc) {
+      return BackdropFilter(
+        filter: ImageFilter.blur(sigmaX: 2,sigmaY: 2),
+        child: Container(
+          padding: EdgeInsets.all(15),
+          child:  Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              color: Colors.black.withOpacity(0.25),
+              
+            ),
+            child: Container(
+              margin: EdgeInsets.all(12),
+              child: Wrap(
+                children: <Widget>[
+                  MarkdownBody(data: 
+                        data[int.parse(widget.id)][refCol], 
+                        styleSheet: MarkdownStyleSheet(
+                          p: TextStyle(fontWeight: FontWeight.w500, fontSize: 12, color: Colors.white),
+                          textAlign: WrapAlignment.spaceBetween,
+                          listBullet: TextStyle(fontWeight: FontWeight.w500, fontSize: 12, color: Colors.white),
+                          orderedListAlign: WrapAlignment.spaceBetween,
+                          ),
+                        ),
+                        SizedBox(height: 10,)
+                ],
+              ),
+            ),
+          ),
+        ),
+      );
+    },
+  );
+}
+
+Widget ExpandableInformation({required context,required title,required data,required infoCol,required refCol}){
+  return Column(
+    children: [
+              ExpandablePanel(
+                    header: Text(title),
+                    collapsed: Text(""),
+                    expanded:  Column(
+                      children: [
+                        Row(children: [TextButton(onPressed: (){referensi(context,data,refCol);}, child: Text("Referensi")),],mainAxisAlignment: MainAxisAlignment.end,),
+                        MarkdownBody(data: 
+                  data[int.parse(widget.id)][infoCol], 
+                  styleSheet: MarkdownStyleSheet(p: TextStyle(fontWeight: FontWeight.w500, fontSize: 12),
+                  textAlign: WrapAlignment.spaceBetween,
+                  unorderedListAlign: WrapAlignment.spaceBetween),
+                  ),
+                      ],
+                    )
+                  ),
+                  SizedBox(height: 10,),
+    ],
+  );
+}
+
 }

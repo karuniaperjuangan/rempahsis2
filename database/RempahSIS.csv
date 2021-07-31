@@ -1,4 +1,4 @@
-id,nama_rempah,nama_ilmiah,gambar,ikhtisar,morfologi,ciri,khasiat,kegunaan,potensi,ref
+id,nama_rempah,nama_ilmiah,gambar,ikhtisar,morfologi,ciri,khasiat,kegunaan,potensi,referensi_morfologi,referensi_ciri,referensi_khasiat,referensi_kegunaan,referensi_potensi
 1,Adas,*Foeniculum vulgare Mill.*,Adas.jpg,"Adas (dikenal juga dengan sebutan “Adas Pulosari” atau “Adas Pulowaras”) merupakan salah satu rempah yang digunakan di Indonesia yang berbeda dengan jenis Adas Manis (*Pimpinella anisum*). Adas berasal dari wilayah Eropa dan Mediterania, diduga masuk ke wilayah Nusantara akibat dibawa dan dibudidayakan oleh bangsa Eropa. Adas digunakan untuk membuat makanan, misalnya kue adas dari Pekalongan, dan juga digunakan untuk membuat beberapa ramuan herbal.","- Tanaman adas memiliki cabang batang monopodial sebanyak 3-5 buah dalam satu rumpun tanaman dengan tinggi 1-2 m.  
 - Akar tanaman adas berwarna kuning mirip bentuknya dengan tanaman wortel dengan diameter 1-1,5 cm dan panjang 10-15 cm. Terkadang juga tumbuh umbi berwarna putih.  
 - Daun tanaman adas bewarna warna hijau muda, berselang-seling majemuk, berhelai panjang 30-50 cm dan lebar 5-7 cm.  
@@ -17,16 +17,22 @@ id,nama_rempah,nama_ilmiah,gambar,ikhtisar,morfologi,ciri,khasiat,kegunaan,poten
 - Mengatasi keracunan dan sakit perut.  ","- *Corrigens saporis*, memperbaiki rasa dan mengharumkan ramuan herbal.  
 - Ramuan teh adas yang kaya manfaat.  
 - Memberi aroma dan menambah cita rasa pada bumbu masakan, biji adas memiliki rasa manis sedikit pedas yang dapat digunakan untuk memperkaya rasa.  
-- Sebagai bumbu dalam memasak kari, gulai, atau opor (terkadang bersama dengan Adas Manis).  ","- Aktivitas antikanker  
+- Sebagai bumbu dalam memasak kari, gulai, atau opor (terkadang bersama dengan Adas Manis).  ","- Aktivitas antikanker    
 Kandungan senyawa anethole mempunyai efek inhibisi dalam pengaktifan TNF-α oleh faktor transkripsi NF-KB (Garga et al., 2009).  
-- Aktivitas antioksidan  
+- Aktivitas antioksidan   
 Adas diduga sebagai salah satu sumber antioksidan alami. Adas dapat menghambat radikal bebas karena kandungan polifenol dan flavonoid yang tinggi. Contoh kandungan fenolik yang ada di dalam rempah ini adalah caffeoylquinic acid, rosmarinic acid, eriodictyol-7-orutinoside, quercetin-3-O-galactoside, dan kaempferol-3-O-glucoside (Parejo et al., 2004).  
-- Aktivitas antiinflamasi  
+- Aktivitas antiinflamasi    
 Ekstrak metanol dari biji adas menghambat inflamasi (peradangan) melalui cyclooxygenase dan lipoxygenase pathways (Kataoka et al., 2002).  
-- Aktivitas antidiabetes  
-Ekstrak methanol dari buah adas dapat mengurangi gula darah dan trigliserida serta menyebabkan kenaikan level glikogen hati dan otot (Dongare et al., 2010).  
+- Aktivitas antidiabetes    
+Ekstrak methanol dari buah adas dapat mengurangi gula darah dan trigliserida serta menyebabkan kenaikan level glikogen hati dan otot (Dongare et al., 2010).    
 - Aktivitas proteksi memori  
-Studi dari Joshi et al. (2) menyatakan bahwa ekstrak adas dapat menjadi faktor neurotropik dan anti-acetylcholinesterase di dalam tikus percobaan. Studi menemukan bahwa ekstrak fenel dapat menghambat acetylcholinesterase secara signifikan.  ", https://agrotek.id/klasifikasi-dan-morfologi-tanaman-adas/ 
+Studi dari Joshi et al. (2) menyatakan bahwa ekstrak adas dapat menjadi faktor neurotropik dan anti-acetylcholinesterase di dalam tikus percobaan. Studi menemukan bahwa ekstrak fenel dapat menghambat acetylcholinesterase secara signifikan.    ",1.  https://agrotek.id/klasifikasi-dan-morfologi-tanaman-adas/  ,"2. Sudarsono dkk., 2002 ; Diaaz-Maroto dkk., 2006.  
+3. Farmakope Herbal Indonesia Edisi II 2017  
+4. https://www.farmasi-id.com/adas-foeniculum-vulgare-mill/  
+",5.  https://www.alodokter.com/aneka-manfaat-adas-untuk-kesehatan  ,_,"6. Therapeutic and pharmacological potential of Foeniculum vulgare Mill: a Review, Journal of HerbMed Pharmacology 
+7. Garga C, Khan S, Ansari S, Suman A, Garg M. Chemical composition, therapeutic potential and perspectives of Foeniculum vulgare. Pharmacogn Rev 2009; 3(6): 346-352  
+8. Parejo I, Jauregui O, Sánchez-Rabaneda F, Viladomat F, Bastida J, Codina C. Separation and characterization
+of phenolic compounds in fennel (Foeniculum vulgare) using liquid chromatography-negative electrospray ionization tandem mass spectrometry. J Agric Food Chem 2004; 52(12): 3679-87.  "
 2,Asam gelugur,*Garcinia atroviridis*,AsamGelugur.jpg,"Asam gelugur merupakan rempah yang masih berkerabat dekat dengan manggis dan asam kandis. Asam gelugur merupakan rempah yang berasal dari Asia Selatan, bahkan ada yang mengatakan asli dari wilayah Semenanjung Malaya dan Thailand (Asia Tenggara). Asam gelugur sejak dulu telah digunakan sebagai bahan obat herbal dan saat ini juga digunakan sebagai bahan masakan, manisan, minuman hingga kosmetik.","- Pohon asam gelugur merupakan tumbuhan kayu dengan akar tunggang dan tajuk yang tinggi dan besar yang dapat tumbuh di mana saja.  
 - Pohon asam gelugur dapat tumbuh dengan tinggi sekitar 30 meter dengan lebar 8 meter.  
 - Bunga asam gelugur betina berupa satu kuntum dalam satu tangkai. Sementara, bunga jantan ada banyak kuntum dalam satu tangkai.  
@@ -42,13 +48,16 @@ Studi dari Joshi et al. (2) menyatakan bahwa ekstrak adas dapat menjadi faktor n
 - Memelihara kesehatan jantung, mencegah serangan jantung  ","- Buahnya bisa dimakan langsung atau diolah menjadi asinan.  
 - Dapat menghilangkan rasa amis pada masakan yang menggunakan ikan.  
 - Digunakan sebagai pemberi cita rasa asam pada masakan, terutama dalam masakan khas Sumatera dan Melayu, misalnya dalam sajian kuah pindang, gulai aceh, arsik ikan mas, kalio, dan asam padeh.  
-- Dapat dijadikan sebagai bahan ramuan herbal.  ","- Aktivitas antioksidan  
+- Dapat dijadikan sebagai bahan ramuan herbal.  ","- Aktivitas antioksidan    
 Nursakinah et al. (2012) melaporkan bahwa total phenolic content (TPC) yang ada pada daun tanaman asam gelugur sangat tinggi, diikuti oleh kandungan flavonoid dan tannin yang cukup tinggi juga.  
 - Aktivitas antimikroba dan antifungal  
 Berbagai bagian dari tanaman asam gelugur menurut banyak penelitian menunjukkan berbagai potensi antibakteri terhadap bakteri tertentu. Penelitian Maacken et al. (2000) yang menggunakan metode difusi cakram terhadap ekstrak akar tanaman asam gelugur, menunjukkan keampuhan dalam uji antimikroba terhadap Bacillus subtilis B28 (mutan; Gram-positif), B. subtilis B29 (tipe liar; Grampositif), Staphylococcus aureus (Grampositif) resisten methicillin, Escherichia coli (Gram-negatif).  
 - Aktivitas antihiperkolesterol/antiobesitas  
-Penelitian Jena et al. (2002) menggunakan kalium hidroksisitrat dari jus buah asam gelugur terhadap tikus percobaan menunjukkan kemampuan pengurangan kolesterol pada tikus. Percobaan berhasil menurunkan kadar kolesterol LDL (kolesterol jahat) dan berat badan tikus serta sebaliknya, meningkatkan kadar kolesterol baik HDL.  ", https://bpdasbarito.or.id/asam-gelugur/
-3,Asam jawa,*Tamarindus indica*,AsamJawa.png,"Asam jawa (dikenal juga sebagai asem) merupakan rempah yang sering digunakan dalam masakan tradisional Indonesia, bahkan sering digunakan untuk membuat berbagai ramuan herbal. Asam Jawa diduga berasal dari wilayah Afrika dan masuk ke wilayah Asia, khususnya Asia selatan dan Asia tenggara sebagai bagian kultivasi dari kebudayaan masyarakat prasejarah. Buah asam yang telah tua, sangat masak dan dikeringkan biasa disebut asem kawak.","- Pohon asam jawa memiliki batang dengan tinggi sekitar 30 m dengan diameter 1-2 m. Tekstur kulit batangnya kasar memecah, beralur vertical, dan berwarna coklat.  
+Penelitian Jena et al. (2002) menggunakan kalium hidroksisitrat dari jus buah asam gelugur terhadap tikus percobaan menunjukkan kemampuan pengurangan kolesterol pada tikus. Percobaan berhasil menurunkan kadar kolesterol LDL (kolesterol jahat) dan berat badan tikus serta sebaliknya, meningkatkan kadar kolesterol baik HDL.    ",1. https://bpdasbarito.or.id/asam-gelugur/  ,_,2. https://tabloidsinartani.com/detail/indeks/klinik-teknologi/3081-segudang-khasiat-asam-gelugur  ,_,"3. Nursakinah I, Zulkhairi HA, Norhafizah M, Hasnah B, Razif D. Nutritional content and in vitro antioxidant potential of Garcinia atroviridis (Asam gelugor) leaves and fruits. Malays J Nutr 2012; 18: 363-71.  
+4. Mackeen MM, Ali AM, Lajis NH, Kawazu K, Hassan Z, Amran M, Habsah M, Mooi LY, Mohamed SM. Antimicrobial, antioxidant, antitumour-promoting and cytotoxic activities of different plant part extracts of Garcinia atroviridis Griff. ex T. Anders. J Ethnopharmacol 2000; 72: 395-402.  
+5. Jena BS, Jayaprakasha GK, Singh RP, Sakariah KK. Chemistry and biochemistry of (−)-hydroxycitric acid from Garcinia. J Hamidon et al. Marmara Pharm J 21: 38-47, 2017 Garcinia atroviridis – A review on phytochemicals and pharmacological properties 47 Agric Food Chem 2002; 50: 10-22.  
+"
+3,Asam jawa,*Tamarindus indica*,AsamJawa.jpg,"Asam jawa (dikenal juga sebagai asem) merupakan rempah yang sering digunakan dalam masakan tradisional Indonesia, bahkan sering digunakan untuk membuat berbagai ramuan herbal. Asam Jawa diduga berasal dari wilayah Afrika dan masuk ke wilayah Asia, khususnya Asia selatan dan Asia tenggara sebagai bagian kultivasi dari kebudayaan masyarakat prasejarah. Buah asam yang telah tua, sangat masak dan dikeringkan biasa disebut *asem kawak*.","- Pohon asam jawa memiliki batang dengan tinggi sekitar 30 m dengan diameter 1-2 m. Tekstur kulit batangnya kasar memecah, beralur vertical, dan berwarna coklat.  
 - Pohon asam jawa berdaun majemuk, memiliki anak daun yang lonjong dan menyempit berjumlah 8-16 pasang.  
 - Bunga pohon asam jawa tersusun dalam tandan yang renggang, di ketiak daun atau ujung ranting, dengan panjang hingga 16 cm. Bunga memiliki kelopak 4 buah dan mahkota sebanyak 5 buah, beraroma harum.  
 - Buah pohon asam jawa berbentuk polong dengan panjang 5-15 cm. Daging buah muda berwarna putih kehijauan dan menjadi merah kecoklatan hingga hitam ketika sangat masak. Biji buah asam jawa umumnya berwarna hitam, keras, berbentuk kotak pipih, serta mengkilap.  ","- Buah asam berbentuk polong menggelembung, silindris lurus atau bengkok.  
@@ -69,8 +78,1148 @@ Uji fitokimia pendahuluan menunjukkan adanya sterol dan triterpen dalam ekstrak;
 - Aktivitas antimikroba  
 Ekstrak kental (air, etanolik, aseton) dari asam jawa dievaluasi untuk menentukan diameter hambat pada bakteri Gram positif dan Gram negatif serta jamur menggunakan metode paper disc diffusion. Hasil menunjukkan bahwa ekestrak memiliki aktivitas antimikroba potent terhadap Salmonella paratyphi, Bacillus subtilis, Salmonella typhi, dan Staphylococcus aureus (Doughari, 2006).  
 - Aktivitas antioksidan  
-Ekstrak Soxhlet metanol dari asam jawa menunjukkan aktivitas antioksidan yang baik yang dapat menjadi sumber penting kemopreventif kanker. Nilai aktivitas antioksidan yang baik (64,5-71,7%) terhadap sistem emulsi asam linoleat adalah lebih rendah dan lebih tinggi dibandingkan senyawa antioksidan sintesis, seperti butylated hydroxyl anisole dan asam askorbat (Siddhuraju, 2007).  
+Ekstrak Soxhlet metanol dari asam jawa menunjukkan aktivitas antioksidan yang baik yang dapat menjadi sumber penting kemopreventif kanker. Nilai aktivitas antioksidan yang baik (64,5-71,7%) terhadap sistem emulsi asam linoleat adalah lebih rendah dan lebih tinggi dibandingkan senyawa antioksidan sintesis, seperti butylated hydroxyl anisole dan asam askorbat (Siddhuraju, 2007).    
 - Diare dan disentri  
-Daging buah asam jawa dengan lemon sering digunakan untuk mengobati diare (Kerharo dan Bouquet, 1950). Sementara itu, akar asam jawa sering digunakan untuk mengatasi disentri (Chhabra et al., 1987).  
+Daging buah asam jawa dengan lemon sering digunakan untuk mengobati diare (Kerharo dan Bouquet, 1950). Sementara itu, akar asam jawa sering digunakan untuk mengatasi disentri (Chhabra et al., 1987).    
 - Malaria dan demam  
-Di Ghana, malaria sering diobati dengan daun dari tanaman asam jawa (Asase et al., 2005). Sementara itu, buah asam jawa dikenal sebagai antipretik atau pereda demam di Madagascar (Norscia dan Borgognini-Tarli, 2006).  ",https://agrotek.id/klasifikasi-dan-morfologi-tanaman-asam-jawa/
+Di Ghana, malaria sering diobati dengan daun dari tanaman asam jawa (Asase et al., 2005). Sementara itu, buah asam jawa dikenal sebagai antipretik atau pereda demam di Madagascar (Norscia dan Borgognini-Tarli, 2006).  ",1. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-asam-jawa/  ,"2. Evizal, R., 2013, *Tanaman Rempah dan Fitofarmaka*, Lembaga Penelitian Universitas Lampung, Bandar Lampung.  ",3. https://www.klikdokter.com/info-sehat/read/3619548/tak-sekadar-bumbu-asam-jawa-juga-berkhasiat-bagi-kesehatan  ,_,"4. Dighe NS, Pattan1 SR, Nirmal SA, Kalkotwar RS, Gaware VM, Hole MB. Analgesic activity of Tamarindus indica. Res J Pharmacogn Phytochem 2009; 1:69-71.  
+5. Doughari JH. Antimicrobial Activity of Tamarindus indica Linn. Trop J Pharm Res 2006; 5:597-603.  
+6. Siddhuraju P. Antioxidant activity of polyphenolic compounds extracted from defatted raw and dry heated Tamarindus indica seed coat. LWT Food Sci Tech 2007; 40:982-90.  
+7. Kerharo J, Bouquet A. Plantes Médicinales et Toxiques de la Côte d’Ivoire et Haute-Volta. Paris: Vigot Freres; 1950.  
+8. Chhabra SC, Mahunnah BLA, Mshiu EN. Plants used in traditional medicine in eastern Tanzania. I. Pteridophytes and angiosperms (Acanthaceae to Canellaceae). J Ethnopharmacol 1987; 21:253-77.  
+9. Asase A, Oteng-Yeboah AA, Odamtten GT, Simmonds MSJ. Ethnobotanical study of some Ghanaian anti-malarial plants. J Ethnopharmacol 2005; 99:273-9.  
+10. Norscia I, Borgognini-Tarli SM. Ethnobotanical reputation of plant species from two forests of Madagascar: A preliminary investigation. S Afr J Bot 2006; 72:656-60.  "
+4,Asam kandis,*Garcinia xanthochymus*,AsamKandis.jpg,"Asam kandis merupakan rempah yang berkerabat dengan manggis walaupun buahnya berukuran lebih kecil yang seringkali didapati tumbuh setengah liar di Sumatera dan Kalimantan. Asam kandis berasal dari wilayah India, lalu persebarannya hingga ke Tiongkok selatan dan Asia Tenggara. Asam kandis yang telah dikeringkan biasanya yang digunakan sebagai bumbu dalam masakan tradisional Indonesia, bahkan juga dipelajari potensi khasiatnya sebagai tumbuhan obat.","- Pohon asam kandis dapat tumbuh setinggi 15 m dengan tajuk yang lebat. Kulit kayunya berwarna cokelat kelabu yang bergetah lengket.  
+- Daunnya lonjong sempit, panjang 12-24 cm dan lebar 4-7 cm, berwarna hijau tua. Panjang tangkai daunnya sekitar 1,5-2 cm.  
+- Bunga muncul dari ketiak daun, dalam berkas sejumlah 4-10 kuntum, berdiameter sekitar 1 cm, berwarna putih, panjang gagang bunga 2-3,5 cm, daun kelopak dan daun mahkota masing-masing 5 helai.  
+- Buah berbentuk agak bulat, berujung lancip, berdiameter sampai 9 cm, dengan kulit buah halus, lembut, dan tipis berwarna jingga pucat sampai kuning tua. Bijinya 1-5 butir per buah, berwarna coklat, panjang sekitar 2,5 cm, terbungkus oleh daging yang berwarna kuning-jingga cerah.  ","- Buah asam kandis berbentuk bulatan, namun ujung bawahnya meruncing/mengerucut.  
+- Buahnya berwarna kuning kecoklatan saat masak dan daging buah yang telah dikeringkan umumnya berwarna hitam kecoklatan (seperti jamur shitake).  
+- Kulit buah asam kandis yang matang berwarna kuning dan berwarna hijau mengilap saat masih mentah.  
+- Di dalam buah, terdapat biji berwarna coklat yang bulat memanjang.  
+- Buah asam kandis biasanya dipisahkan dari bijinya dan dipotong-potong kecil, lalu dijemur selama beberapa hari hingga kering menjadi asam kandis, biasanya dapat bertahan lama hingga bertahun-tahun.  
+- Asam kandis memiliki cita rasa asam yang pahit.  ","- Mencegah infeksi dan radang  
+- Menjaga imunitas tubuh  
+- Memelihara kinerja persarafan  
+- Menjaga kesehatan jantung  
+- Melawan radikal bebas  ","- Buahnya dapat dibuat menjadi acar.  
+- Digunakan sebagai selai dan bumbu dapur masakan yang kaya rempah, misalnya rendang, pindang, gulai, kari, dan masakan khas Sumatera lainnya.  
+- Dijadikan sebagai minuman kesehatan.  
+- Dijadikan sebagai pewarna, contohnya sebagai gamboge.  ","- Aktivitas sitotoksik  
+Ekstrak akar dan kulit batang pohon asam kandis menunjukkan aktivitas sitotoksik terhadap sel MCF-7. Ekstrak juga mampu menghambat produksi NO sel makrofag RAW 264.7 yang dirangsang lipopolisakarida. Hal itu menunjukkan potensi tanaman asam kandis sebagai sumber pengobatan kanker dan peradangan yang membutuhkan studi lebih lanjut.  
+- Aktivitas antioksidan  
+Fraksi etilasetat dari ekstrak daun pohon asam kandis memiliki potensi aktivitas antioksidan poten yang setara dengan aktivitas antioksidan BHT standar.  ",1. http://forestid.blogspot.com/2016/01/garcinia-xanthochymus.html  ,_,2. https://resepkoki.id/5-khasiat-asam-kandis-bagi-kesehatan/  ,3. https://today.line.me/id/v2/article/Vjr001  ,"4. https://scholarhub.ui.ac.id/cgi/viewcontent.cgi?article=1101&context=mjhr  
+5. https://www.sciencedirect.com/science/article/pii/S1875536412600296#aep-abstract-sec-id10  "
+5,Asam sunti,*Averrhoa bilimbi*,AsamSunti.jpg,"Asam sunti merupakan salah satu bumbu dapur lokal khas Aceh. Asam sunti bukanlah merupakan tanaman, melainkan adalah rempah lokal yang diolah dari tanaman belimbing wuluh/belimbing sayur (*Averrhoa bilimbi*) yang merupakan tanaman yang berasal dari Indonesia dan Asia Tenggara. Asam ini mempunyai cita rasa khas Aceh sehingga biasa digunakan dalam masakan-masakan khas Aceh, misalnya masam keu'eueng dan ikan kayu (eungkot keumamah).",_,"- Selama proses pengolahan, tekstur akan berubah dari lembek (melunak) menjadi agak keras.  
+- Proses pengeringan menyebabkan warna asam sunti yang asalnya dari belimbing wuluh bewarna hijau menjadi kering coklat kemerah-merahan.  ",_,"- Digunakan sebagai pemberi cita rasa khas dalam bumbu masakan-masakan khas Aceh, misalnya masam keu'eueng dan ikan kayu (eungkot keumamah). Selain itu, asam sunti dapat digunakan dalam makanan dadar asam (boh manok), kari, serta gulai khas Aceh.  
+- Dapat digunakan sebagai sambal saja atau diolah menjadi rujak asam sunti.  ",_,_,_,_,1. https://baranewsaceh.co/dumho-na-asam-sunti-si-kaya-rempah-aceh/  ,_
+6,Bunga lawang,*Illicium verum*,BungaLawang.jpg,"Bunga lawang (dikenal juga sebagai kembang lawang/pekak) adalah tanaman rempah yang biasa tumbuh di daerah sejuk, seperti dataran tinggi. Bunga lawang berasal dari Tiongkok yang dikenal dengan nama 八角 (pinyin: *bājiǎo*) ‘delapan tanduk’ dan mulai diperkenalkan ke Eropa pada abad XVII. Di Indonesia, bunga lawang sering digunakan sebagai rempah ataupun bumbu dalam masakan tradisional, minuman tradisional, ataupun ramuan herbal.","- Batang tanaman bunga lawang bercabang banyak dengan ukuran kecil yang dapat tumbuh hingga mencapai 8 meter. Batangnya bewarna cokelat serta agak kemerah-merahan.  
+- Daun tanaman bunga lawang tumbuh di tangkai atau tajuknya ukuran kecil. Daunnya bewarna hijau tua dengan permukaannya memiliki tekstur sangat mengkilap (juga licin). Biasanya daun yang tumbuh di ujung cabang akan mengumpul dalam jumlah 5 helai daun.  
+- Tanaman bunga lawang menghasilkan bunga yang berukuran kecil dengan warna putih hingga kuning. Bunga tersebut biasanya tumbuh secara bergerombol di ujung tangkai yang ditumbuhi daun atau membentuk tajuk sendiri. Terdapat lingkaran kecil ditengah bunga dan disekelilingnya berupa mahkota yang sepintas mirip bunga matahari.  
+- Buah bunga lawang adalah bagian yang sering disebut sebagai bunga dengan bentuk bintang yang biasanya tumbuh di ujung tangkai ataupun ketiak daun yang membentuk tangkai kecil untuk masing-masing buah.   
+- Setiap buah terdiri dari 6 hingga 8 karpel yang memiliki tekstur keras dan agak keriput yang panjangnya kurang lebih 1 cm. Buahnya berwarna hijau muda sebelum masak. Biasanya buah yang siap digunakan maupun dipasarkan itu dipanen sebelum masak, lalu dikeringkan dengan cara dijemur hingga buah bewarna cokelat dan merekah sehingga terlihat bijinya.  ","- Buah bunga lawang berbentuk bintang yang biasanya tersusun dari 6–8 karpel dengan tekstur kasar dan keras serta agak keriput.  
+- Sebelum masak, tepat di tengah setiap karpel terdapat goresan mirip jahitan pada kulit yang berwarna putih kecokelatan dengan biji di dalam karpel.  
+- Buah bunga lawang yang biasanya digunakan maupun dipasarkan adalah yang sudah dikeringkan bewarna cokelat serta agak kemerah-merahan.  
+- Setiap karpel mengandung biji buah bunga lawang yang bewarna cokelat berbentuk bulir layaknya bulir jagung yang biasanya terlihat pada bunga lawing yang telah dikeringkan dan karpelnya telah merekah.  ","- Memiliki kandungan antioksidan  
+- Meningkatkan kesehatan ibu hamil  
+- Memelihara kesehatan sistem pencernaan  
+- Mengatasi sakit perut  
+- Mengatasi flu dan batuk  
+- Mengatasi infeksi jamur dan bakteri  
+- Memperkuat dan menjaga imunitas tubuh  
+- Sebagai sumber asam shikimat (terutama dari jenis *Illicium anisatum*)  ","- *Corrigens odoris*, sebagai pemberi aroma harum dan penyedap pada masakan.  
+- Ramuan herbal untuk mengatasi beberapa penyakit ringan, misalnya flu dan batuk.  
+- Sebagai bahan pembuatan beberapa kosmetik.  
+- Sebagai bahan masakan yang membutuhkan rasa kuat, misalnya gulai Aceh, kari, dan rendang.  
+- Sebagai bahan minuman dan ramuan tradisional, misalnya wedang pekak khas Demak, wedang uwuh khas Bantul.   ","- Aktivitas antimikroba  
+De et al. (2002) meneliti bahwa anethole yang diisolasi dari *I. verum* sebagai komponen antiseptik topikal menunjukkan konsentrasi hambat minimum (MIC) 5–50 μg/mL terhadap 12 jenis bakteri dan 15 jenis jamur. Biasanya, ekstrak minyak bunga lawang mengandung lebih dari 70% senyawa anethole.  
+- Aktivtas antioksidan  
+Bunga lawang mengandung beberapa sumber antioksidan, seperti minyak esensial linaool dan vitamin C yang dapat memelihara imunitas tubuh.   
+- Aktivitas antitumor   
+Wang et al. menguji sitotoksisitas ekstrak metanol dengan menggunakan sulphorhodamin B (SRB) assay dan IC50 (konsentrasi yang mengurangi persentase pertumbuhan sel B16 sebesar 50% relatif terhadap kontrol) dan dihasilkan nilai masing-masing sebesar 43,68 dan 37,59 μg/mL. Dapat disimpulkan bahwa aktivitas antiangiogenik *I. verum*, daripada sitotoksisitasnya, mungkin berkontribusi pada aktivitas antitumor.    
+- Sumber asam shikimate  
+Menurut Biessels et al. (2002), genus Illicium menjadi sumber asam shikimat yang merupakan bahan utama untuk membuat obat antivirus, Tamiflu (oseltamivir fosfat), obat untuk jenis virus flu burung H5N1. Walaupun ditemukan pertama kali pada *Illicium anisatum*, kandungan asam shikimat ternyata tersebar di genus tersebut, salah satunya *Illicium verum *(bunga lawing). Fenilpropanoid yang dibiosintesis dari asam shikimat kemungkinan termasuk dari komponen yang berasal dari genus *Illicium*.    ","1. https://rimbakita.com/bunga-lawang/  
+2. https://alamalami.com/bunga-lawang/  ",_,"3. https://hellosehat.com/herbal-alternatif/herbal/manfaat-bunga-lawang/  
+4. https://rubi77botani.wordpress.com/2017/11/13/deskripsi-dan-klasifikasi-tanaman-kembang-lawang/  ",_,"5. De, M., De, A.K., Sen, P., Banerjee, A.B., 2002. Antimicrobial properties of star anise (Illicium verum). Phytotherapy Research 16, 94–95.  
+6. Wang, G.W., Hu, W.T., Huang, B.K., Qin, L.P, 2011, Illicium verum: A review on its botany, traditional use, chemistry and pharmacology, Journal of Ethnopharmacology 136, 10-20.  
+7. Biessels, G.J., Vermeij, F.H., Leijten, F.S., 2002. Epileptic seizure after a cup of tea: intoxication with Japanese star anise. Ned Tijdschr Geneeskd 146, 813–816.  "
+7,Cabai jawa,*Piper retrofractum*,CabaiJawa.jpg,"Cabai jawa (juga dikenal sebagai cabya) merupakan salah satu rempah asli Indonesia yang banyak tersebar di Jawa, Madura, dan Sumatera Cabya masih berkerabat dengan lada dan kemukus yang berbeda dengan lombok atau cabai (*Capsicum L.*) dan dulunya, Cabya digunakan sebagai pemberi rasa pedas, tetapi perannya digantikan oleh lombok yang dibawa oleh bangsa Eropa dari Dunia Baru (kawasan Amerika Tengah). Kultivasi lombok itu membuat kultivasi cabya menurun sehingga saat ini cabya hanya digunakan sebagai bahan ramuan herbal atau bahan jamu saja.","- Tumbuhan cabai Jawa mempunyai batang berwarna hijau yang menjalar yang panjangnya kurang lebih 10 m dengan akar lekat yang mampu melekat pada pohon lainnya ataupun batu cadas.  
+- Daun tumbuhan cabai jawa dewarna hijau dengan bentuknya mirip daun sirih hanya saja daunnya lebih lebar. Daunnya merupakan daun tunggal dengan duduk daunnya berseling. Helaian daun berbentuk bulat memanjang (lanset) atau bulat melebar, dengan panjang daun 3 - 10 cm dan lebar daun 2,5 - 4,5 cm.  
+- Bunga cabai jawa berbentuk malai, berbunga tak terbatas, beraroma agak harum.   
+- Buah cabai jawa umumnya berbentuk silinder, panjangnya 2,5-4 cm, diameter 5-8 mm, panjang tangkai 1-1,5 cm. Buahnya berwarna hijau saat muda, berwarna merah saat masak, dan berwarna coklat setelah tua. Buah akan gugur setelah lewat masak, ditandai dengan warna merah tua dan daging yang lunak  
+- Buah cabai jawa memiliki biji yang berukuran sekitar 2-2,5 mm  ","- Buah cabai jawa berwarna hijau saat muda, berwarna oranye atau merah saat masak, dan berwarna cokelat setelah tua. Umumnya, cabai jawa yang digunakan yang berwarna coklat.  
+- Buahnya berbentuk lonjong, mirip dengan cabai, namun tekstur kulitnya lebih kasar dan berbintik-bintik layaknya stroberi.  
+- Aroma cabai jawa mirip dengan aroma lada, tetapi tidak semenyengat dan sepedas lada.  ","- Mengatasi anemia.  
+- Mengatasi batuk dan pilek.  
+- Mengatasi sakit perut dan kolik pada bayi.  
+- Meningkatkan imunitas tubuh.  
+- Meningkatkan vitalitas pria dan mengatasi lemah syahwat.  
+- Membantu meredakan asam urat.  
+- Membantu mengobati kencing manis.  
+- Sebagai sumber vitamin B (mencegah penyakit beri-beri).  ","- Digunakan sebagai bahan obat/ramuan herbal.  
+- Digunakan sebagai bahan jamu.  
+- Dapat digunakan sebagai pemberi rasa pedas dalam masakan, tetapi masyarakat sekarang lebih banyak menggunakan cabai daripada cabai jawa.  ","- Aktivitas afrodisiak   
+Cabai jawa mengandung zat, seperti minyak atsiri, piperin, piperidin, dan turunannya yang merupakan sumber potensial bahan baku obat afrodisiaka (meningkatkan gairah seksual). Zat-zat tersebut mengandung testosteron alami. Senyawa alkaloid yang utama adalah piperin, yang mampu meningkatkan afrodisiaka dan berpengaruh terhadap hormon testosteron.    
+- Aktivitas antioksidan  
+Jadid et al. (2017) meneliti aktivitas antioksidan dalam ekstrak buah cabai jawa menggunakan DPPH assay pada konsentrasi berbeda. Hasil menunjukkan bahwa radikal bebas DPPH diambil oleh semua ekstrak tumbuhan bergantung pada konsentrasi. Nilai IC50 untuk DPPH radikal dengan metanol, etil asetat, dan ekstrak n-heksana dari *P. retrofractum* masing-masing ditemukan 101,74, 66,12, dan 57,66 ppm.  
+- Aktivitas sitotoksik  
+Penelitian Ekowati et al. (2012) menunjukkan bahwa ekstrak kombinasi antara *P. retrofractum* dengan *Zingiber officinale* memiliki aktivitas sitotoksik pada sel Myeloma dengan IC50 masing-masing 36 dan 55 mg/mL, dan garis sel WiDr dengan IC50 masing-masing 158 dan 64 mg/mL. Ekstrak juga diinduksi oleh aktivitas apoptosis, dan peningkatan ekspresi p53 pada Myeloma dan sel WiDr.  
+- Aktivitas antituberkolosis  
+Amad et al. (2017) melaporkan bahwa ekstrak metanol kasar menunjukkan aktivitas antibakteri terhadap *Mycobacterium tuberculosis* dengan konsentrasi hambat minimum (MIC) sebesar 25,00 μg/mL. Aktivitas tersebut dinilai dengan menghitung *green fluorescent protein* (GFP) yang dihasilkan oleh *Mycobacterium tuberculosis strain H37Ra*.    ","1. https://indonesia.go.id/kategori/kuliner/944/cabai-jawa-harta-karun-tanaman-obat-indonesia  
+2. https://www.goodnewsfromindonesia.id/2019/06/18/inilah-nenek-moyang-cabai-yang-asli-indonesia  
+3. Evizal, R., 2013, *Tanaman Rempah dan Fitofarmaka*, Lembaga Penelitian Universitas Lampung, Bandar Lampung.  ",_,"4. https://www.sehatq.com/forum/apa-saja-manfaat-cabe-jawa-untuk-pria-q35216  
+5. https://naturaherbal.id/id/medias/jurnal/7-khasiat-cabe-jawa-untuk-tingkatkan-stamina-tubuh-anda  
+",_,"6. Himayani R. Hubungan pemberian ekstrak cabe jawa (Piper retrofractum Vahl) terhadap jumlah spermatozoa mencit jantan dewasa (Mus musculus,L). Jurnal Kedokteran dan Kesehatan Universitas Lampung. 2012;2(1):73-6. D’cruz SC, Mathur PP. Effect of piperine on the epididymis of adult male rats. [document on the internet]. Pondicherry University; 2005 [cited 2014 Nov 28]. Available from: http://www.asiaandro.com/1008-682x / 7/363.htm.  
+7. Jadid N., Arraniry B.A., Hidayati D., Purwani K.I., Wikanta W., Hartanti S.R., Rachman R.Y. (2018). Proximate composition, nutritional values and phytochemical screening of Piper retrofractum vahl. fruits. Trop Biomed 8(1): 37-43.  
+8. Ekowati H., Achmad A., Prasasti E., Wasito H., Sri K., Hidayati Z., Ekasari T. (2012). Zingiber officinale, Piper retrofractum and combination induced apoptosis and p53 expression in Myeloma and WiDr cell lines. Hayati J Biosci 19(3): 137-140.  
+9. Amad S., Yuenyongsawad A., Wattanapiromsakul C. (2017). Investigation of antitubercular and cytotoxic activities of fruit extract and isolated compounds from Piper retrofractum Vahl. Walailak J Sci Tech 14(9): 731-739.  "
+8,Cabai keriting,*Capsicum annuum L.*,CabaiKeriting.jpg,"Cabai, ada yang menggolongkannya sebagai rempah, ada yang hanya menggolongkannya sebagai bumbu dapur, adalah salah satu bumbu yang sering digunakan untuk memberikan cita rasa pedas. Cabai berasal dari Meksiko, kawasan selatan Amerika Tengah dan kawasan utara Amerika Selatan. Cabai memiliki beberapa kultivar yang dapat berbeda nama di setiap wilayah walaupun asal usul spesiesnya sama. Cabai keriting merupakan varietas/kultivar/jenis besar dari cabai merah besar yang memiliki tata nama binomial sama, tetapi bentuk fisiknya berbeda.","- Cabai atau cabai besar merupakan tanaman perdu yang tumbuh tinggi sekitar 1 m. Batang tanaman cabai berkayu dengan warna hijau. Batangnya memiliki percabangan yang lebar dengan banyak jumlah buah cabai.  
+- Tanaman cabai berakar serabut dan terdapat akar yang tumbuh bersamaan ke bawah, membentuk akar tunggang semu.  
+- Daun tanaman cabai merupakan daun tunggal berbentuk oval dengan ujung runcing dan memiliki pertulangan menyirip. Permukaan daun bagian atas bewarna hijau gelap, sedangkan permukaan bawahnya bewarna hijau lebih muda. Daunnya memilki panjang berkisar 10-13 cm dan lebar 4-5 cm.  
+- Bunga cabai merupakan bunga lengkap yang berbentuk layaknya bintang berdiameter 5-20 mm. Bunga umumnya tumbuh di ketiak daun dalam keadaan tunggal atau bertandan yang terdiri dari 2-3 bunga. Tiap bunga memiliki satu putik dan enam benang sari. Warna bunganya putih, tetapi ada juga yang ungu.  
+- Buah cabai keriting berbeda dengan buah cabai merah besar. Cabai keriting memiliki ukuran panjang 10-17 cm dan lebar kurang dari 1 cm dengan ujung meruncing. Cabai keriting bewarna hijau saat muda lalu menjadi merah ketika telah masak dan saat tua. Cabai keriting lebih panjang daripada cabai rawit dan cabai keriting lebih ramping daripada cabai merah besar. Permukaannya lebih mengeriting dibandingkan cabai merah besar yang cenderung lurus memanjang dan sedikit melengkung.  ","- Cabai keriting berbeda bentuk dengan cabai merah besar walaupun memiliki tata nama yang sama (satu spesies). Cabai keriting boleh jadi sama panjangnya dengan cabai merah besar, tetapi ukurannya lebih ramping dan kurus, lebih kecil lebarnya dibandingkan cabai merah besar.  
+- Cabai keriting bisa berbentuk lurus memanjang atau sedikit melengkung dengan ujung yang meruncing dan memiliki tangkai hijau pendek. Cabai keriting memiliki lebih banyak bagian melengkungnya dibandingkan cabai merah besar (terlihat mengeriting), sebab itulah cabainya bernama cabai keriting.  
+- Cabai keriting memiliki permukaan yang cukup halus dan licin, tetapi sedikit bergelembung yang berisi biji karena ukurannya lebih ramping dibandingkan cabai merah besar.  
+- Cabai keriting memiliki warna hijau ketika masih muda dan menjadi bewarna merah ketika sudah masak/tua. Semua cabai keriting, baik cabai keriting merah maupun cabai keriting hijau dapat digunakan sebagai bumbu masakan.  
+- Cabai keriting memberi rasa dan aroma pedas dalam masakan. Namun, cabai rawit lebih pedas dibandingkan cabai keriting (baik hijau maupun merah) karena cabai rawit mengandung lebih banyak senyawa capsaicin.  ","- Meringankan nyeri dan rasa sakit.  
+- Memelihara kesehatan pencernaan.  
+- Melancarkan dan melegakan pernapasan, misalnya dari flu atau asma.  
+- Melancarkan sirkulasi dan peredaran darah.  
+- Menurunkan risiko penyakit jantung dan gangguan pembuluh darah.  
+- Menurunkan risiko kanker.  
+- Menjaga kesehatan mata karena kandungan vitamin A yang cukup banyak.  
+- Memiliki kandungan vitamin C yang baik untuk imunitas dan mencegah sariawan.  
+- Memiliki kandungan karbohidrat.  
+- Membantu menjaga kondisi tubuh karena mengandung vitamin B1.  ","- Digunakan dalam bumbu masakan untuk memberi cita rasa pedas dan aroma pedas dalam masakan, misalnya gulai, kari, opor, tumisan, asinan. Selain itu, cabai dapat digunakan sebagai pelengkap saat menyantap gorengan, baik secara langsung atau dibuat dalam bentuk pasta/saus cabai khas Indonesia, yakni sambal.  
+- Digunakan dalam beberapa terapi pengobatan alternatif.  
+- Digunakan dalam beberapa industri, misalnya industri makanan untuk dibuat beberapa produk olahan makanan, misalnya bubuk cabai, saus cabai.  ","- Aktivitas antiangiogenesis  
+Peptida antimikroba lipofilik dari EML-CAP3, strain bakteri endofit baru yang diisolasi dari daun cabai merah (Capsicum annuum L.), menunjukkan aktivitas antiangiogenik yang kuat baik secara in vitro maupun in vivo. Peptida antimikroba secara efektif menghambat proliferasi sel endotel vena umbilikalis manusia dan menekan karakteristik angiogenesis in vitro. Dengan demikian, dapat digunakan untuk pengobatan tumor hipervaskular.    
+- Aktivitas antikanker  
+Capsaicin ditlaporkan memiliki efek antiproliferatif yang mendalam pada sel kanker prostat dengan menginduksi apoptosis reseptor androgen garis sel kanker prostat positif dan negatif yang terkait dengan peningkatan antibodi p53, p21, dan Bax. Ini menurunkan pertumbuhan sel leukemia manusia, sel karsinoma lambung dan hati secara in vitro.  
+- Aktivitas antimikroba  
+Isolasi senyawa peptida dari cabai juga efektif dalam melawan ragi, misalnya jenis Candida sp. Lampe (2003) dan Adamu et al. (2005) melaporkan bahwa cabai menunjukkan aktivitas antimikroba yang signifikan terhadap banyak mikroorganisme, misalnya Proteus mirabilis, Pseudomonas aeruginosa, Staphylococcus aureus, dan Escherichia coli.  
+- Aktivitas antioksidan  
+Maforimbo (2002) menyatakan bahwa Capsicum mengandung antioksidan seperti tokoferol, asam skorbat dan b-karoten yang efektif melawan kanker, penyakit jantung, dan katarak.   
+- Efek antiplatelet   
+Wang et al. (1984) menemukan capsaicin menjadi penghambat kuat agregasi dan reaksi pelepasan trombosit. Hal itu mengurangi hemolisis sel darah merah yang diinduksi oleh H2O2. Capsaicin memiliki sifat menstabilkan membran dengan mengganggu aktivasi fosfolipase A2.    ","1. https://pertanian-mesuji.id/morfologi-tanaman-cabai/   
+2. https://balitsa.litbang.pertanian.go.id/ind/index.php/varietas/cabai/36-halaman/613-cabai-keriting-varietas-kencana  ",_,"3. https://hellosehat.com/herbal-alternatif/herbal/manfaat-cabe-untuk-kesehatan/  
+4. https://www.alodokter.com/tak-hanya-pedas-banyak-manfaat-cabai-untuk-kesehatan-tubuh  ",_,"5. Jung HJ, Kim Y, Lee HB, Kwon HJ. Antiangiogenic activity of the lipophilic antimicrobial peptides from an endophytic bacterial strain isolated from red pepper leaf. Mol Cells. 2015 Mar;38(3):273-8.  
+6. Mori A, Lehmann S, O'Kelly J, Kumagai T, Desmond TC, Pervan M, McBride WH, Kizaki M, Koeffler HP. Capsaicin, a Component of Red Peppers, Inhibits the Growth of Androgen-Independent, p53 Mutant Prostate Cancer Cells. Cancer Research. 2006; 66:3222-3229.  
+7. Lampe JW. 2003. Spicing up a vegetarian diet: chemopreventive effects of phytochemicals. Am J Clin Nutr. 78:579S–583S.  
+8. Adamu HM, Abayeh OJ, Agho MO, Abdullahi AL, Uba A, Dukku HU, Wufem BM. 2005. An ethnobotanical survey of Bauchi State herbal plants and their antimicrobial activity. J Ethnopharmacol. 99:1–4.  
+9. Maforimbo E. Evaluation of capsicum as a source of natural anti-oxidants in presventing rancidity in sun flower oil. The Journal of Food Technology in Africa. 2002; 7(2): 68-72.  
+10. Wang JP, Hsu MF, Teng CM. Antiplatelet effect of capsaicin. Thrombosis Research. 1984; 36(6):497-507.  "
+9,Cabai merah besar,*Capsicum annuum L.*,CabaiMerah.jpg,"Cabai, ada yang menggolongkannya sebagai rempah, ada yang hanya menggolongkannya sebagai bumbu dapur, adalah salah satu bumbu yang sering digunakan untuk memberikan cita rasa pedas. Cabai berasal dari Meksiko, kawasan selatan Amerika Tengah dan kawasan utara Amerika Selatan. Cabai memiliki beberapa kultivar yang dapat berbeda nama di setiap wilayah walaupun asal usul spesiesnya sama. Cabai berbeda dengan cabai jawa karena cabai jawa merupakan salah satu tanaman asli Indonesia walaupun sama-sama memberikan cita rasa pedas, tetapi lebih pedas dan nyaman rasa cabai.","- Cabai atau cabai besar merupakan tanaman perdu yang dapat tumbuh hingga 1,5 atau 2 m lebih. Batang tanaman cabai berkayu dengan warna hijau saat muda dan kecokelatan saat sudah tua. Batangnya memiliki percabangan yang lebar dengan banyak jumlah buah cabai.  
+- Tanaman cabai berakar serabut dan terdapat akar yang tumbuh bersamaan ke bawah, membentuk akar tunggang semu.  
+- Daun tanaman cabai merupakan daun tunggal berbentuk oval dengan ujung runcing dan memiliki pertulangan menyirip. Permukaan daun bagian atas bewarna hijau gelap, sedangkan permukaan bawahnya bewarna hijau lebih muda. Daunnya memilki panjang berkisar 9-15 cm dan lebar 3,5-5 cm.  
+- Bunga cabai merupakan bunga lengkap yang berbentuk layaknya bintang berdiameter 5-20 mm. Bunga umumnya tumbuh di ketiak daun dalam keadaan tunggal atau bertandan yang terdiri dari 2-3 bunga. Tiap bunga memiliki satu putik dan enam benang sari. Warna bunganya putih, tetapi ada juga yang ungu.  
+- Buah cabai umumnya bewarna merah, berukuran besar, dan berbentuk kerucut memanjang lurus atau melengkung dengan ujung yang meruncing. Namun, bentuk buah bisa berbeda pada tiap varietas (kultivar). Buahn bewarna hijau saat muda dan merah setelah masak. Permukaannya bertekstur halus mengilap dengan diameter 1-2 cm dan panjang 4-17 cm.  ","- Cabai biasa atau cabai merah berukuran lebih besar dibandingkan cabai lainnya serta lebih terlihat berisi/menggembung. Pada umumnya, cabai merah memiliki ujung meruncing dan berbentuk lurus memanjang walaupun ada juga yang berbentuk sedikit melengkung. Cabai juga memiliki tangkai bewarna hijau yang pendek. Cabai biasa memiliki varietas lain bernama cabai keriting yang bentuknya juga berbeda.  
+- Cabai memiliki permukaan yang terlihat cukup licin dan mengilap dengan warna merah. Warna merah merupakan warna setelah masak, sedangkan cabai besar bewarna hijau adalah cabai yang masih berusia muda. Semua cabai, baik cabai merah besar maupun cabai hijau besar dapat digunakan sebagai bumbu masakan.  
+- Cabai besar memberi rasa dan aroma pedas dalam masakan yang dapat tubuh lebih hangat. Akan tetapi, cabai rawit lebih pedas dibandingkan cabai besar (baik hijau maupun merah) karena cabai rawit mengandung lebih banyak senyawa capsaicin.  ","- Meringankan nyeri dan rasa sakit.  
+- Memelihara kesehatan pencernaan.  
+- Melancarkan dan melegakan pernapasan, misalnya dari flu atau asma.  
+- Melancarkan sirkulasi dan peredaran darah.  
+- Menjaga kesehatan mata karena kandungan vitamin A yang cukup banyak.  
+- Menurunkan risiko penyakit jantung dan gangguan pembuluh darah.  
+- Menurunkan risiko kanker.  
+- Membantu menurunkan risiko diabetes tipe 2.  
+- Membantu meningkatkan imunitas tubuh.  
+- Membantu menurunkan berat badan dan mencegah obesitas.  
+- Membantu membakar lemak tubuh.  ","- Digunakan dalam bumbu masakan untuk memberi cita rasa pedas dan aroma pedas dalam masakan, misalnya gulai, kari, opor, tumisan, oseng-oseng. Selain itu, cabai dapat digunakan sebagai pelengkap saat menyantap gorengan, baik secara langsung atau dibuat dalam bentuk pasta/saus cabai khas Indonesia, yakni sambal.  
+- Digunakan dalam beberapa terapi pengobatan alternatif.  
+- Digunakan dalam beberapa industri, misalnya industri makanan untuk dibuat beberapa produk olahan makanan, misalnya bubuk cabai, saus cabai.  ","- Aktivitas antimikroba   
+Isolasi senyawa peptida dari cabai juga efektif dalam melawan ragi, misalnya jenis Candida sp. Lampe (2003) dan Adamu et al. (2005) melaporkan bahwa cabai menunjukkan aktivitas antimikroba yang signifikan terhadap banyak mikroorganisme, misalnya Proteus mirabilis, Pseudomonas aeruginosa, Staphylococcus aureus, dan Escherichia coli.   
+- Aktivitas antioksidan  
+Maforimbo (2002) menyatakan bahwa Capsicum mengandung antioksidan seperti tokoferol, asam skorbat dan b-karoten yang efektif melawan kanker, penyakit jantung, dan katarak.   
+- Aktivitas antiangiogenesis  
+Peptida antimikroba lipofilik dari EML-CAP3, strain bakteri endofit baru yang diisolasi dari daun cabai merah (Capsicum annuum L.), menunjukkan aktivitas antiangiogenik yang kuat baik secara in vitro maupun in vivo. Peptida antimikroba secara efektif menghambat proliferasi sel endotel vena umbilikalis manusia dan menekan karakteristik angiogenesis in vitro. Dengan demikian, dapat digunakan untuk pengobatan tumor hipervaskular.   
+- Aktivitas antikanker    
+Capsaicin ditlaporkan memiliki efek antiproliferatif yang mendalam pada sel kanker prostat dengan menginduksi apoptosis reseptor androgen garis sel kanker prostat positif dan negatif yang terkait dengan peningkatan antibodi p53, p21, dan Bax. Ini menurunkan pertumbuhan sel leukemia manusia, sel karsinoma lambung dan hati secara in vitro.   
+- Aktivitas antidiabetes   
+Mohammed et al. (2017) meneliti efek fraksi aseton Capsicum annuum terhadap diabetes dalam tikus. Hasil menunjukkan suplementasi oral dari fraksi aseton buah Capsicum annuum utuh pada dosis yang lebih tinggi (300 mg/kg bb) memberikan aktivitas antidiabetes yang menjanjikan melalui perbaikan dari polifagia, polidipsia dan hiperglikemia, meningkatkan kemampuan toleransi glukosa, sensitivitas insulin, histologi dan fungsi sel β pancreas, dan meningkatkan dislipidemia pada model T2D dari tikus.   
+- Efek antiplatelet  
+Wang et al. (1984) menemukan capsaicin menjadi penghambat kuat agregasi dan reaksi pelepasan trombosit. Hal itu mengurangi hemolisis sel darah merah yang diinduksi oleh H2O2. Capsaicin memiliki sifat menstabilkan membran dengan mengganggu aktivasi fosfolipase A2.    
+- Efek antiobesitas  
+Menurut Leung (2014), statistik epidemiologi menunjukkan bahwa orang yang mengonsumsi makanan yang mengandung capsaicin mengalami insiden obesitas yang lebih rendah dengan beberapa bukti eksperimental yang mendukung peran capsaicin sebagai agen anti-obesitas. Konsumsi capsaicin meningkatkan pengeluaran energi melalui aktivasi jaringan adiposa coklat sehingga meningkatkan oksidasi lemak dan lipolisis. Capsaicin juga menghambat adipogenesis pada preadiposit dan adiposit serta menginduksi apoptosis. Efek capsaicin di hati dan jaringan adiposa disebabkan oleh aksi gandanya pada reseptor alfa yang diaktifkan proliferator peroksisom dan ekspresi/aktivasi potensial reseptor sementara vanilloid-1.      
+- Efek gastroprotektif   
+Capsaicin mencegah kerusakan mukosa lambung yang disebabkan oleh induksi indometasin dan etanol. Ekspresi reseptor capsaicin dan peptida terkait gen kalsitonin ditemukan meningkat pada mukosa lambung pasien dengan gastritis kronis (terlepas dari adanya infeksi Helicobacter pylori) dan capsaicin dapat berhasil digunakan untuk memberantas kerusakan mukosa yang diinduksi Helicobacter pylori.   
+- Efek respiratori   
+Stjärne et al (1998) menyatakan bahwa senyawa capsaicin mengurangi senstivitas mukosa hidung dan mengurangi gejala alergi atau nyeri hidung yang disebabkan oleh agen lain.    ",1. https://pertanian-mesuji.id/morfologi-tanaman-cabai/   ,_,"2. https://hellosehat.com/herbal-alternatif/herbal/manfaat-cabe-untuk-kesehatan/  
+3. https://www.alodokter.com/tak-hanya-pedas-banyak-manfaat-cabai-untuk-kesehatan-tubuh  ",_,"4. Lampe JW. 2003. Spicing up a vegetarian diet: chemopreventive effects of phytochemicals. Am J Clin Nutr. 78:579S–583S.  
+5. Adamu HM, Abayeh OJ, Agho MO, Abdullahi AL, Uba A, Dukku HU, Wufem BM. 2005. An ethnobotanical survey of Bauchi State herbal plants and their antimicrobial activity. J Ethnopharmacol. 99:1–4.  
+6. Maforimbo E. Evaluation of capsicum as a source of natural anti-oxidants in presventing rancidity in sun flower oil. The Journal of Food Technology in Africa. 2002; 7(2): 68-72.  
+7. Jung HJ, Kim Y, Lee HB, Kwon HJ. Antiangiogenic activity of the lipophilic antimicrobial peptides from an endophytic bacterial strain isolated from red pepper leaf. Mol Cells. 2015 Mar;38(3):273-8.  
+8. Mori A, Lehmann S, O'Kelly J, Kumagai T, Desmond TC, Pervan M, McBride WH, Kizaki M, Koeffler HP. Capsaicin, a Component of Red Peppers, Inhibits the Growth of Androgen-Independent, p53 Mutant Prostate Cancer Cells. Cancer Research. 2006; 66:3222-3229.  
+9. Mohammed, A., Koorbanally, N.A., & Islam, MD.S., 2017, Anti-diabetic effect of Capsicum annuum L. fruit acetone fraction in a type 2 diabetes model of rats, Acta Poloniae Pharmaceutica-Drug Research 74(6): 1767-1779.  
+10. Wang JP, Hsu MF, Teng CM. Antiplatelet effect of capsaicin. Thrombosis Research. 1984; 36(6):497-507.  
+11. Leung FW. Capsaicin as an anti-obesity drug. Prog Drug Res. 2014; 68:171-179.  
+12. Mózsik G. Capsaicin as new orally applicable gastroprotective and therapeutic drug alone or in combination with nonsteroidal anti-inflammatory drugs in healthy human subjects and in patients. Prog Drug Res. 2014; 68:209-58.  
+13. Stjärne P, Rinder J, Hedén-Blomquist E, Cardell LO, Lundberg J, Zetterström O, Anggård A. Capsaicin desensitization of the nasal mucosa reduces symptoms upon allergen challenge in patients with allergic rhinitis. Acta Otolaryngol. 1998 Mar;118(2):235-9.  "
+10,Cabai rawit,*Capsicum frutescens*,CabaiRawit.jpg,"Cabai rawit, ada yang menggolongkannya sebagai rempah, ada yang hanya menggolongkannya sebagai bumbu dapur, adalah salah satu bumbu yang sering digunakan untuk memberikan cita rasa pedas. Spesies cabai ini berasal dari Amerika Tengah dan kawasan utara Amerika Selatan yang orang Eropa membawanya ke kawasan Asia. Cabai spesies ini memiliki beberapa kultivar yang dapat berbeda nama di setiap wilayah walaupun asal usul spesiesnya sama. Cabai rawit dikenal juga sebagai cabai ‘kathur’ yang buahnya tumbuh menjulang ke atas dan cengek dalam bahasa Sunda.  ","- Cabai rawit merupakan tanaman perdu yang dapat tumbuh setinggi 50-135 cm. Namun, sumber lain menyebutkan bahwa tinggi batang aslinya hanya tumbuh hingga 20 cm selanjutnya akan membentuk percabangan acak yang bisa tumbuh hingga 80 cm atau lebih.  
+- Tanaman cabai rawit memiliki akar serabut dengan akar semu pada ujung bagian akarnya untuk mencari nutrisi atau zat hara.  
+- Tanaman cabai rawit berdaun jenis tunggal yang bertangkai berbentuk lanset dengan letak berselingan pada batang. Daunnya berukuran panjang sekitar 3-4 cm dan lebar sekitar 1-2 cm.  
+- Bunga cabai rawit dapat berada di ujung atau di bagian ketiak daun. Bunganya dapat berbentuk tunggal atau komunal. Satu tandan bisa berisi 2-3 bunga.  
+- Buah cabai rawit berukuran lonjong dan meruncing pada ujungnya dengan panjang 3-4 cm, tetapi bisa lebih beragam. Buahnya mengandung senyawa capsaicin yang memberikan rasa pedas. Buahnya bewarna hijau pada saat muda dan bewarna merah ketika telah masak. Di dalam buahnya terdapat banyak biji.  ","- Cabai rawit berukuran kecil dibandingkan cabai jenis lainnya yang berbentuk lonjong lurus atau sedikit melengkung dengan ujung meruncing. Cabai rawit juga memiliki tangkai bewarna hijau yang pendek.  
+- Cabai rawit bewarna hijau saat masih muda lalu saat masak dapat bewarna oranye atau merah. Namun, semua cabai dapat digunakan, baik yang bewarna hijau, kuning, oranye, atau merah. Selain itu, terdapat varietas lain yang bewarna putih atau kuning keputihan yang digunakan sebagai bumbu masakan. Diduga warna putih tersebut merupakan hasil dari persilangan.  
+- Cabai rawit memberikan rasa pedas dan panas serta aroma pedas dalam masakan. Cabai rawit merah memiliki kepedasan yang lebih tinggi daripada cabai rawit hijau karena cabai rawit merah lebih berumur dibandingkan cabai rawit hijau yang masih muda. Cabai rawit juga lebih pedas daripada cabai merah besar.  ","- Baik untuk metabolisme tubuh.  
+- Memelihara kesehatan pencernaan.  
+- Memiliki potensi untuk menurunkan tekanan darah.  
+- Memiliki kandungan vitamin A yang baik untuk penglihatan.  
+- Memiliki kandungan vitamin C yang baik untuk imunitas dan penyembuhan luka.  
+- Membantu meredakan nyeri.  
+- Membantu mengatasi penyaki autoimun (psoriasis).  
+- Potensi untuk membantu mencegah kanker.  ","- Digunakan sebagi bumbu pemberi cita rasa pedas dan aroma pedas dalam masakan, misalnya masakan ayam betutu khas Bali. Cabai dapat pula digunakan sebagai pelengkap saat menyantap gorengan atau jajanan pasar lainnya, atau dibuat dalam bentuk pasta/saus cabai khas Indonesia, yakni sambal.  
+- Dibuat dalam beberapa produk olahan makanan, misalnya bubuk cabai, saus cabai.  
+- Digunakan dalam beberapa terapi pengobatan alternatif.  
+- Digunakan dalam beberapa industri, terutama diekstrak untuk diambil dan digunakan capsaicin yang terkandung dalam cabai rawit sebagai bahan obat atau produk kesehatan, misalnya koyo.  ","- Aktivitas antibakteri  
+Munira dan Nasir (2019) melaporkan bahwa diameter hambat yang dihasilkan oleh ekstrak cabai terhadap Staphylococcus aureus adalah 24,58 mm untuk ekstrak cabai rawit hijau, 22,08 mm untuk ekstrak cabai rawit merah, dan 26,18 mm untuk kombinasi ekstrak cabai rawit hijau dan merah. Jika dilihat dari kategori daya hambat, semua ekstrak cabai memberikan kategori aktivitas penghambatan sangat kuat dan yang paling kuat adalah ekstrak kombinasi. Namun, perlu dilakukan studi lebih lanjut dan memperbandingkan ekstrak terhadap antibiotik.   
+- Aktivitas penurunan level glukosa plasma    
+Penelitian Chaiyasit et al. (2009) menemukan bahwa 5 gram capsicum menunjukkan kadar capsaicin yang dikaitkan dengan penurunan kadar glukosa plasma dan pemeliharaan kadar insulin. Kemungkinan hasil ini memiliki implikasi klinis dalam pengelolaan diabetes tipe 2 sehingga dapat dilakukan studi lebih lanjut untuk menyelidiki implikasi tersebut.      ",1. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-cabai-rawit/  ,_,"2. https://www.kompas.com/sains/read/2021/03/24/170200223/mengenal-cabai-rawit-dari-manfaat-nutrisi-hingga-cara-menanamnya?page=all  
+3. https://dukcapil.baritokualakab.go.id/baca-berita-192-7-manfaat-cabai-rawit-bagi-kesehatan-dapat-mencegah-berbagai-penyakit.html  ",_,"4. Munira, K.U. dan Nasir, M. 2019. Uji Aktivitas Antibakteri Cabai Rawit Hijau Dan Cabai Rawit Merah (Capsicum frutescens L) Serta Kombinasinya Terhadap Bakteri Staphylococcus aureus. Jurnal Bioleuser. 3(1): 13-17.  
+5. Chaiyasit K, Khovidhunkit W, Wittayalertpanya S. Pharmacokinetic and the effect of capsaicin in Capsicum frutescens on decreasing plasma glucose level. J Med Assoc Thai. 2009 Jan;92(1):108-13. PMID: 19260251.  "
+11,Cengkih,*Syzygium aromaticum*,Cengkih.jpg,"Cengkih adalah salah satu rempah asli Indonesia yang memiliki rasa dan aroma rempah yang khas. Cengkih hingga abad XVII hanya dapat ditemukan di daerah Maluku, yakni dari lima pulau: Ternate, Tidore, Moti, Machian, dan Bacan yang diperdagangkan ke Cina, India, Eropa dan saat ini tanaman Cengkih juga telah dibudidayakan di luar Maluku, misalnya di Madagaskar, Sri Lanka, dan Tanzania. Cengkih biasanya digunakan sebagai bahan masakan ataupun ramuan herbal, tetapi juga digunakan sebagai bahan rokok maupun diambil ekstraknya untuk dijadikan minyak cengkih.  ","- Pohon cengkih dapat tumbuh tinggi sekitar 10 – 15 m bahkan hingga lebih dari 20 m tergantung pada usianya. Batangnya berbentuk bulat dengan permukaannya bertekstur kasar. Percabangannya banyak yang tumbuh semi tegak berjenis monopodial dengan ranting yang cukup lebat.  
+- Daun pohon cengkih bertekstur licin dan tidak berbulu. Daunnya berjenis majemuk. Permukaan daun cengkih khususnya bagian bawah memiliki banyak kelenjar minyak mengandung minyak atsiri (utamanya eugenol).  
+- Bunga cengkih merupakan bunga majemuk tak berbatas malai rata yang berjenis bunga tunggal. Bunganya ada yang bewarna agak merah dan ada yang bewarna kuning putih, tergantung varietasnya. Bunganya memiliki kelopak berbentuk corong, pangkal berlekatan, dan mahkota berbentuk bintang dengan panjang 4-5 mm.  
+- Buah cengkih ialah buah buni yang memiliki panjang 2-2,5 cm dengan warna merah hingga merah kehitaman. Buahnya memiliki biji berwarna coklat dengan diameter sebesar ± 4 mm.  ","- Cengkih berukuran kecil dengan tangkai layaknya tongkat dengan bulatan di atasnya.  
+- Cengkih memiliki warna coklat hingga coklat kehitaman dengan tekstur layaknya batang pohon/tangkai teh, tidak halus.  
+- Cengkih memiliki bau aromatik khas yang sedap serta menghasilkan rasa manis.  ","- Memelihara kesehatan mulut dan menghilangkan bau mulut.  
+- Membantu mengatasi sakit gigi.  
+- Membantu mengontrol gula darah dan diabetes.  
+- Menurunkan kadar kolestrol.  
+- Membantu mengatasi diare dan tukak lambung.  
+- Meredakan mual, muntah, dan kembung.  
+- Meredakan sakit kepala/pening.  
+- Membantu meredakan batuk.  
+- Membantu meredakan asam urat.  
+- Meningkatkan dan menjaga imunitas/daya tahan tubuh.  
+- Dapat mengusir nyamuk.  
+- Sebagai sumber eugenol (dapat digunakan sebagai antiseptik; antibakteri; analgesik).  ","- Cengkih memiliki cita rasa manis dan bau aromatik yang khas yang biasanya digunakan untuk memperkuat aroma dan menambah rasa pada masakan atau minuman, misalnya pada kue, masakan yang memiliki aroma tajam, masakan Timur Tengah dan India, seperti gulai dan kari.  
+- Digunakan untuk menghilangkan bau tak sedap dalam masakan, misalnya dalam mengolah daging atau jeroan.  
+- Digunakan sebagai ramuan tradisional atau obat herbal.  
+- Digunakan dalam produk obat kumur dan produk kosmetik.  
+- Digunakan sebagai bahan baku rokok kretek khas Indonesia.  
+- Diambil kandungan minyak esensialnya dan dijadikan minyak cengkih yang bermanfaat, terutama karena mengandung senyawa eugenol.  ","- Aktivitas antibakteri     
+Aktivitas antibakteri dari cengkih dilaporkan berasal dari komponen senyawa karbonilnya, terutama senyawa eugenol dan turunannya. Senyawa-senyawa itu dapat mendenaturasi protein dan dapat bereaksi dengan membrane fosfolipid yang dapat mengubah permeabilitas membran. Menurut Gupta et al. (2014), minyak cengkih dilaporkan dapat melawan food borne gram positive bacteria, seperti S. aureus, B. cereus, E. faecalis, dan L. monocytogenes serta gram negative bacteria, seperti E. coli, Y. enterocolitica, S. choleraesuis, dan P. aeruginosa.   
+- Aktivitas antifungi  
+Minyak cengkih dan eugenol (terutama komponen fenoliknya) dilaporkan memiliki sifat fungisida terhadap khamir dan kapang. Spektrum besar fungisida dari aktivitas minyak cengkih dan eugenol dilaporkan ada pada jenis Candida sp, Aspergillus sp, dan dermatofita yang bekerja dengan membuat lesi pada membran. Eugenol bersifat fungisida karena dapat membuat spora dan misel lisis sebagaimana yang dilaporkan Devi et al. (2010) mekanismenya juga menghancurkan membrane dan deformasi molekul.    
+- Aktivitas antioksidan  
+Menurut Dorman et al. (2000), cengkih dan komponen eugenolnya didapati memiliki aktivitas antioksidan yang kuat, yang sebanding dengan aktivitas antioksidan sintetis, BHA dan pyrogallol. Cengkih memang sudah terkenal sejak dulu sebagai suplemen makanan dan bahkan digunakan dalam beberapa resep tradisional untuk berumur panjang.    
+- Aktivitas antikanker    
+Menurut Liu et al. (2014), ekstrak etil asetat, terutama asam oleanolat berperan dalam aktivitas antitumor yang menghambat pertumbuhan tumor dengan promosi pengecekan siklus sel dan induksi apoptosis. Hussain et al. (2011) juga menambahkan bahwa kombinasi eugenol dengan obat gemcitabine dapat meiningkatkan kinerja obat dan bisa menghambat pertumbuhan sel kanker pada kanker serviks sekalipun pada konsentrasi yang rendah.       
+- Aktivitas analgesik (anastesi)  
+Eugenol yang banyak terdapat dalam cengkih telah banyak digunakan sebagai analgesik dalam meredakan sakit gigi. Hal itu diyakini bahwa eugenol menekan prostaglandin dan mediator inflamasi seperti leukotriene sert menginhibisi konduksi pada reseptor sensorik nyeri.    
+- Aktivitas antiinflamasi   
+Secara tradisional, minyak cengkih biasa digunakan sebagai ekspektoran (melonggarkan dahak/lender di tenggorokan) dan mengobati beberapa gangguan pernapasan, seperti asma, batuk, pilek, sinus, dan bronkitis. Studi Oztruk (2005) et al. menunjukkan bahwa minyak esensial dari cengkih memiliki efek antiinflamasi yang signifikan pada dosis 0,05 ml/kg (penghambatan 90,15%) dan 0,200 ml/kg (penghambatan 82,78%).    - Aktivitas antibakteri     
+Aktivitas antibakteri dari cengkih dilaporkan berasal dari komponen senyawa karbonilnya, terutama senyawa eugenol dan turunannya. Senyawa-senyawa itu dapat mendenaturasi protein dan dapat bereaksi dengan membrane fosfolipid yang dapat mengubah permeabilitas membran. Menurut Gupta et al. (2014), minyak cengkih dilaporkan dapat melawan food borne gram positive bacteria, seperti S. aureus, B. cereus, E. faecalis, dan L. monocytogenes serta gram negative bacteria, seperti E. coli, Y. enterocolitica, S. choleraesuis, dan P. aeruginosa.   
+- Aktivitas antifungi  
+Minyak cengkih dan eugenol (terutama komponen fenoliknya) dilaporkan memiliki sifat fungisida terhadap khamir dan kapang. Spektrum besar fungisida dari aktivitas minyak cengkih dan eugenol dilaporkan ada pada jenis Candida sp, Aspergillus sp, dan dermatofita yang bekerja dengan membuat lesi pada membran. Eugenol bersifat fungisida karena dapat membuat spora dan misel lisis sebagaimana yang dilaporkan Devi et al. (2010) mekanismenya juga menghancurkan membrane dan deformasi molekul.    
+- Aktivitas antioksidan  
+Menurut Dorman et al. (2000), cengkih dan komponen eugenolnya didapati memiliki aktivitas antioksidan yang kuat, yang sebanding dengan aktivitas antioksidan sintetis, BHA dan pyrogallol. Cengkih memang sudah terkenal sejak dulu sebagai suplemen makanan dan bahkan digunakan dalam beberapa resep tradisional untuk berumur panjang.    
+- Aktivitas antikanker    
+Menurut Liu et al. (2014), ekstrak etil asetat, terutama asam oleanolat berperan dalam aktivitas antitumor yang menghambat pertumbuhan tumor dengan promosi pengecekan siklus sel dan induksi apoptosis. Hussain et al. (2011) juga menambahkan bahwa kombinasi eugenol dengan obat gemcitabine dapat meiningkatkan kinerja obat dan bisa menghambat pertumbuhan sel kanker pada kanker serviks sekalipun pada konsentrasi yang rendah.       
+- Aktivitas analgesik (anastesi)  
+Eugenol yang banyak terdapat dalam cengkih telah banyak digunakan sebagai analgesik dalam meredakan sakit gigi. Hal itu diyakini bahwa eugenol menekan prostaglandin dan mediator inflamasi seperti leukotriene sert menginhibisi konduksi pada reseptor sensorik nyeri.    
+- Aktivitas antiinflamasi   
+Secara tradisional, minyak cengkih biasa digunakan sebagai ekspektoran (melonggarkan dahak/lender di tenggorokan) dan mengobati beberapa gangguan pernapasan, seperti asma, batuk, pilek, sinus, dan bronkitis. Studi Oztruk (2005) et al. menunjukkan bahwa minyak esensial dari cengkih memiliki efek antiinflamasi yang signifikan pada dosis 0,05 ml/kg (penghambatan 90,15%) dan 0,200 ml/kg (penghambatan 82,78%).    ",1. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-cabai-jawa/  ,_,"2. https://kesehatan.kontan.co.id/news/7-manfaat-cengkeh-untuk-kesehatan  
+3. https://www.klikdokter.com/info-sehat/read/2843387/segudang-manfaat-cengkeh-untuk-kesehatan  ",_,"4. Gupta N, Mittal M, Parashar P, Mehra V, Khatri M. Antibacterial Potential of Elletaria cardamomum, Syzygium aromaticum and Piper nigrum, their synergistic effects and phytochemical determination. J Pharm Res 2014;8(8).  
+5. Eugenia P, Luıs VS, Carlos C, Lıgia S. Antifungal activity of the clove essential oil from Syzygium aromaticum on Candida, Aspergillus and dermatophyte species. J Med Microbiol 2009;58:1454-62. Devi KP, Nisha SA, Sakthivel R, Pandian SK. Eugenol (an essential oil of clove) acts as an antibacterial agent against Salmonella typhi by disrupting the cellular membrane. J Ethnopharmacol 2010;130(1):107-15.  
+6. Dorman HJD, Figueiredo AC, Barroso JG, Deans SG. In vitro evaluation of antioxidant activity of essential oils and their components. Flav Frag J 2000;15:12-6.  
+7. Liu H, Schmitz JC, Wei J, Cao S, Beumer JH, Strychor S, et al. Clove extract inhibits tumor growth and promotes cell cycle arrest and apoptosis. J Oncol Res 2014;21(5):247-59. Hussain A, Brahmbhatt K, Priyani A, et al. Eugenol enhances the chemotherapeutic potential of gemcitabine and induce anticarcinogenic and anti-inflammatory activity in human cervical cancer cells. J Cancer Biother Radiopharm 2011;26(5):519-27.  
+8. Mittal, M., Gupta, N., Parashar, P., Mehra, V., & Khatri, M., 2014, Phytochemical evaluation and pharmacological activity of syzygium aromaticum: International Journal of Pharmacy and Pharmaceutical Sciences (6): 8.  
+9. Ozturk A, Ozbek H. The anti-Inflammatory activity of Eugenia caryophyllata essential Oil. An animal model of antiinflammatory activity. Eur J Gen Med 2005;2(4):159-63.  "
+12,Jahe,*Zingiber officinale R.*,Jahe.jpg,"Jahe biasa (dikenal juga sebagai Jahe Kuning, Jahe Putih, atau Jahe Gajah/Badak) adalah salah satu rempah jenis rimpang yang banyak digunakan di Indonesia untuk menghangatkan tubuh, misalnya digunakan dalam racikan minuman atau masakan tradisional serta ramuan herbal. Jahe dipercaya berasal dari wilayah India atau Cina daerah selatan. Di Indonesia, jahe adalah jahe biasa yang berukuran besar dan bewarna kuning hingga kuning keputihan dan sering disebut sebagai jahe gajah karena ukurannya yang besar yang berbeda dari varietas yang kecil, yakni jahe emprit. Namun, penamaan jenis dari ketiga varietas tersebut, khususnya antara jahe gajah dan jahe emprit dapat berbeda atau bahkan disamakan tergantung sumber literaturnya.  ","- Tanaman jahe adalah tanaman terna menahun dengan batang semu bewarna hijau muda yang dapat tumbuh hingga 75 cm atau 100 cm. Batangnya muncul dari rimpang yang ada di bawah permukaan tanah dan dibalut pelepah daun yang membentuk batang semu.  
+- Rimpang ialah modifikasi batang yang tumbuh menjalar tak beraturan di bawah permukaan tanah. Layaknya umbi, rimpang jahe menyimpan cadangan makanan dengan ukuran dan warna yang berbeda. Akar dan tunas tanaman jahe keluar dan tumbuh dari ruas-ruas rimpang tersebut. Rimpang inilah yang menjadi pembeda antara tiga varietas jahe.  
+- Tanaman jahe gajah memiliki rimpang dengan ukuran yang paling besar, yakni diameter 8–8,5 cm, panjang 15–32 cm, dan tinggi rimpang 6–11,3 cm, berwarna kuning dan potongan melintang berwarna putih kekuningan, serta berserat rendah.  
+- Tanaman jahe berdaun tunggal dan pertulangan sejajar bewarna hijau muda dan berbentuk lanset yang memanjang layaknya pita dengan panjang 15 cm – 23 cm dan lebar 2,5 cm. Permukaan daun licin, sedangkan tangkainya berbulu halus. Daunnya memiliki pelepah dan seludang daun.  
+- Bunga tanaman jahe merupakan malai bunga dengan warna hijau kekuningan yang terdiri dari beberapa bunga. Bunganya hemafrodit dengan dua tangkai putik dan kepala sari bewarna ungu. Bunga jahe memiliki mahkota berukuran 2 – 2,5 cm dan kelopak 3 buah.  ","- Jahe gajah memiliki beberapa kesamaan morfologi dengan jahe emprit, hanya saja ukuran jahe gajah adalah yang paling besar dibandingkan jenis jahe lainnya.  
+- Jahe gajah memiliki ruas rimpang berukuran besar dan menggembung yang tidak beraturan.  
+- Rimpang jahe gajah bewarna putih hingga kuning muda dengan potongan melintang putih kekuningan.  
+- Jahe gajah berserat halus dan lebih rendah dibandingkan jenis jahe lainnya.  
+- Jahe gajah yang mengandung kadar minyak atsiri 0,82–1,66% biasanya dipanen atau digunakan saat masih berusia muda. Kadar tersebut membuat jahe gajah memiliki aroma yang kurang tajam dan rasa yang kurang pedas dibandingkan jenis jahe lainnya.  ","- Memiliki sifat antiinflamasi.  
+- Memiliki sifat diaforetik (mengeluarkan keringat).  
+- Memiliki sifat karminatif (meluruhkan kentut).  
+- Mengurangi mual dan mengatasi mulas.  
+- Meredakan nyeri atau nyeri sendi (rematik).  
+- Meredakan sakit kepala, migrain, mabuk kendaraan.  
+- Menghangatkan tubuh dan mengatasi masuk angin.  
+- Memelihara kesehatan kulit.  
+- Memelihara kesehatan gusi dan gigi.  
+- Membantu mengatasi gangguan pencernaan.  
+- Membantu mencegah kanker.  
+- Membantu mencegah infeksi.  
+- Melancarkan peredaran darah, terlebih mengandung antioksidan.  
+- Meningkatkan imunitas tubuh.  ","- Jahe bisa digunakan sebagai ramuan herbal untuk penyakit ringan, tetapi rasanya tidak sepedas dan menghangatkan jahe emprit dan jahe merah.  
+- Digunakan sebagai bahan jamu atau minuman tradisional, misalnya wedang jahe, wedang uwuh, wedang secang. Bisa juga dibuat minuman beralkohol, seperti anggur, bir, dan koktail.  
+- Digunakan sebagai rempah dan bumbu dalam masakan, misalnya opor, oseng sayur, rendang, atau digunakan sebagai perasa dalam pastri untuk membuat kue dan roti, misalnya roti jahe (gingerbread), bolu jahe dari Ponorogo, kue bangket asal Jawa Barat, roti gambang atau kue ganjel rel.  
+- Diolah sebagai produk makanan bernilai ekonomis, misalnya asinan jahe, minyak jahe, permen jahe, jahe kering.  ","- Aktivitas antiinflamasi    
+Jahe ditemukan dapat menghambat induksi beberapa gen yang terlibat dalam respon inflamasi, misalnya, gen yang mengkodekan cytokines, chemokines dan inducible enzyme cyclo-oxygenase-2 (COX-2). Grzanna et al. (2004) melakukan percobaan untuk mengetahui efek jahe terhadap sel monosit manusia dengan monosit THP-1 yang dikultur. Hasil menunjukkan bahwa ekstrak tersebut dapat menghambat ekspresi cytokines dan chemokines yang terinduksi oleh beta-amyloid peptide.    
+- Aktivitas antikanker  
+Jahe mengandung beberapa senyawa, seperti 6-gingerol, 6-paradol, shogaols, zingerone, serta Galanals A dan B yang diduga menjadi senyawa antikanker. Miyoshi et al. (2003) menyebutkan bahwa Galanal A dan B menjadi agen penginduksi apoptosis yang kuat bagi sel limfosit T/sel Jurkat manusia.    
+- Aktivitas antimikroba  
+Miri et al. (2008) melaporkan bahwa 10-gingerol menjadi inhibitor aktif M. avium dan M. tuberculosis in vitro. Selain itu, 6- gingerol dan 12-gingerol yang diisolasi dari rimpang jahe, menunjukkan aktivitas antibakteri terhadap bakteri periodontal (yang menimbulkan plak gigi).    
+- Aktivitas antioksidan   
+Menurut Wang et al. (2003), senyawa 6-gingerol tampaknya menjadi konstituen antioksidan yang melindungi sel HL-60 dari stres oksidatif. Menurut Ma et al. (2004), minyak jahe memiliki efek perlindungan yang dominan pada kerusakan DNA yang disebabkan oleh H2O2 yang bertindak sebagai scavenger (spesi yang mencegah terbentuknya oksigen radikal) dari radikal oksigen yang merupakan bagian dari antioksidan.       
+- Aktivitas antigenotoksik   
+Beg et al. (2008) menggunakan genistein dan 6-gingerol sebagai agen antigenotoksik untuk memperbaiki genotoksisitas yang disebabkan oleh steroid dalam percobaan yang contohnya menggunakan norethandrolone dan oxandrolone. Genistein dan 6- gingerol terbukti efektif dalam mengurangi kerusakan genotoksik pada dosis yang sesuai, terutama mengurangi efek genotoksik norethandrolone dan oxandrolone pada dosis 30 and 40 μM.    
+- Efek antitusif  
+Beberapa senyawa dari jahe diduga memiliki efek antitusif. Suekawa et al. (1984) melaporkan bahwa efek antitusif dari 6-shogaol, umumnya lebih poten daripada 6-gingerol.     
+- Efek imunomodulator  
+Penelitian secara in vitro menunjukkan bahwa jahe memiliki efek imunomodulator yang merupakan agen antimikroba dan antivirus yang efektif.         ","1. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-jahe/  
+2. https://limapuluhkotakab.go.id/lpk-detail-berita/UEdTUll2amJmcWU5VHowcVZDdXVydz09#:~:text=Jahe%20gajah%20memiliki%20rimpang%2Fumbi,8%20%E2%80%93%202%2C8%20%25.  ","3. https://travel.kompas.com/read/2020/03/25/150100527/3-jenis-jahe-dan-karakteristik-masing-masing-pedasnya-beda?page=all  
+4. Evizal, R., 2013, *Tanaman Rempah dan Fitofarmaka*, Lembaga Penelitian Universitas Lampung, Bandar Lampung.  ","5. https://hellosehat.com/nutrisi/fakta-gizi/6-manfaat-jahe-bagi-kesehatan/  
+6. https://health.kompas.com/read/2020/03/08/120000068/13-manfaat-konsumsi-jahe-bukan-hanya-untuk-tingkatkan-imunitas?page=all  ",7. https://www.golekpawarto.com/manfaat-jahe-gajah-dalam-kehidupan-sehari-hari/  ,"8. Grzanna, R., Phan, P., Polotsky, A., Lindmark, L., Frondoza, C.G., 2004. Ginger extract inhibits beta-amyloid peptide-induced cytokine and chemokine expression in cultured THP-1 monocytes. J. Altern. Complement. Med. 10, 1009–1013.  
+9. Miyoshi N, Nakamura Y, Ueda Y, Abe M, Ozawa Y, Uchida K and Osawa T. Dietary ginger constituents, galanals A and B, are potent apoptosis inducers in Human T lymphoma Jurkat cells. Cancer Lett. 9-25- 2003;199(2):113-119.  
+10. Miri P, Bae J and Lee DS. Antibacterial activity of [10]-gingerol and [12]-gingerol isolated from ginger rhizome against periodontal bacteria. Phytothery Res. 2008; 22:1446-1449.  
+11. Wang CC, Chen LG, Lee LT and Yang LL. Effects of 6-gingerol, an antioxidant from ginger, on inducing apoptosis in human leukemic HL-60 cells. In Vivo. 2003; 17(6):641-645.  
+12. Ma J, Jin X, Yang L and Liu ZL. Diarylheptanoids from the rhizomes of Zingiber officinale. Phytochemistry. 2004;65(8): 1137-1143.  
+13. Beg T, Siddiqe Y S, Ara G, Gupta J and Afzal M; Antigenotoxic Effect of Genistein and gingerol on genotoxicity induced by norethandrolone and oxandrolone in cultured human lymphocytes. Int J Pharmacol. 2008;4:177-183.  
+14. Suekawa M, Ishige A, Yuasa K, Sudo K, Aburada M and Hosoya E. Pharmacological studies on ginger. I. Pharmacological actions of pungent constitutents, (6)-gingerol and (6)- shogaol. J Pharmacobiodyn. 1984;7(11):836- 848.  
+15. Miri P, Bae J and Lee DS. Antibacterial activity of [10]-gingerol and [12]-gingerol isolated from ginger rhizome against periodontal bacteria. Phytothery Res. 2008; 22:1446-1449.  "
+13,Jahe emprit,*Zingiber officinale var. Amarum*,JaheEmprit.jpg,"Jahe emprit (dikenal juga sebagai Jahe Putih Kecil, Jahe Kuning, atau Jahe Sunti) adalah salah satu varietas rempah jahe di Indonesia yang lebih digunakan sebagai bahan ramuan herbal untuk penyakit ringan sehari-hari karena kandungan senyawa esensialnya lebih banyak daripada jahe gajah walaupun masih digunakan sebagai bahan masakan. Jahe berasal dari India atau Cina selatan, tetapi khusus varian emprit merupakan varietas lokal Indonesia. Di Indonesia, jahe emprit adalah jahe yang sama dengan jahe biasa, tetapi ukurannya lebih kecil (karenanya disebut ‘emprit’). Namun, penamaan jenis dari ketiga varietas tersebut, khususnya antara jahe emprit dan jahe gajah bisa berbeda atau bahkan disamakan tergantung sumber literaturnya.  ","- Tanaman jahe emprit adalah tanaman terna menahun dengan batang semu bewarna hijau muda yang dapat tumbuh hingga 75 cm atau 100 cm. Batangnya muncul dari rimpang yang ada di bawah permukaan tanah dan dibalut pelepah daun yang membentuk batang semu.  
+- Rimpang ialah modifikasi batang yang tumbuh menjalar tak beraturan di bawah permukaan tanah. Layaknya umbi, rimpang jahe menyimpan cadangan makanan dengan ukuran dan warna yang berbeda. Akar dan tunas tanaman jahe keluar dan tumbuh dari ruas-ruas rimpang tersebut. Rimpang inilah yang menjadi pembeda antara tiga varietas jahe.  
+- Tanaman jahe emprit memiliki rimpang berukuran kecil hingga sedang, yakni diameter 3–4 cm, panjang 6–32 cm, dan tinggi rimpang 6–11 cm. Rimpangnya berlapis-lapis dengan ruas yang kecil, cenderung pipih, dan sedikit menggembung dengan warna putih hingga kuning muda dan potongan melintang berwarna putih kekuningan. Rimpangnya juga bertekstur lembut/halus dan berserat tinggi.  
+- Tanaman jahe berdaun tunggal dan pertulangan sejajar bewarna hijau muda dan berbentuk lanset yang memanjang layaknya pita dengan panjang 15 cm – 23 cm dan lebar 2,5 cm. Permukaan daun licin, sedangkan tangkainya berbulu halus. Daunnya memiliki pelepah dan seludang daun.  
+- Bunga tanaman jahe merupakan malai bunga dengan warna hijau kekuningan yang terdiri dari beberapa bunga. Bunganya hemafrodit dengan dua tangkai putik dan kepala sari bewarna ungu. Bunga jahe memiliki mahkota berukuran 2 – 2,5 cm dan kelopak 3 buah.  ","- Jahe emprit memiliki beberapa kesamaan morfologi dengan jahe gajah, hanya saja ukuran jahe emprit adalah lebih kecil dibandingkan jahe gajah.  
+- Jahe emprit memiliki ruas rimpang berukuran kecil dan ramping yang cenderung pipih dan sedikit menggembung dengan bentuk yang kurang beraturan.  
+- Jahe emprit memiliki warna kulit yang sama dengan jahe biasa/jahe gajah, putih hingga kuning. Warna potongan melintang jahe emprit juga hampir sama dengan jahe gajah, yakni warna kuning hingga kuning keputihan, ada juga yang putih agak keabuan.  
+- Jahe emprit berkulit tebal, berserat halus dengan kandungan yang tinggi.  
+- Jahe emprit yang mengandung kadar minyak atsiri 1,5–3,5% biasanya dipanen saat sudah tua. Kadar yang lebih banyak daripada jahe gajah membuat jahe emprit memiliki aroma yang lebih tajam dan rasa yang lebih pedas dan kuat dibandingkan jahe gajah.  ","- Mengandung senyawa antioksidan.  
+- Memiliki sifat antiinflamasi.  
+- Memiliki sifat *antiaging*.  
+- Meredakan batuk dan flu.  
+- Meredakan nyeri otot dan nyeri sendi (rematik).  
+- Meredakan sakit kepala dan migran.  
+- Meredakan mual dan menurunkan asam lambung.  
+- Membantu meningkatkan vitalitas dan kesuburan pria.  
+- Membantu mengatasi asma dan gangguan pernapasan.  
+- Membantu menghangatkan tubuh dan mengatasi masuk angin.  
+- Membantu menjaga kesehatan sistem kardiovaskular.  
+- Membantu mencegah kanker.  
+- Membantu menjaga imunitas tubuh.  ","- Jahe emprit digunakan sebagai ramuan herbal untuk penyakit ringan, misalnya batuk, sakit kepala, flu, masuk angin, mual karena kandungan senyawanya lebih kuat daripada jahe gajah dan menghangatkan tubuh.  
+- Digunakan sebagai bahan minuman tradisional, misalnya wedang jahe yang terkenal di Yogyakarta. Selain itu, banyak juga digunakan sebagai bahan jamu.  
+- Digunakan sebagai rempah dalam masakan. Selain itu, digunakan dalam pengolahan makanan, misalnya pengawetan telur asin karena mengandung senyawa antimikroba yang membuat telur asin lebih tahan lama.  ","- Aktivitas antifungi    
+Satriyani et al. (2007) melaporkan bahwa ekstrak minyak atsiri dari jahe putih kecil memiliki efek antijamur terhadap spesies jamur C. albicans. Konsentrasi optimal minyak atsiri jahe putih kecil yang berefek pada penurunan koloni C. albicans adalah pada konsentrasi 6,25%. Diperlukan penelitian lebih lanjut untuk melihat potensinya sebagai obat antijamur dengan cara membandingkannya dengan obat antijamur standar.     
+- Aktivitas antibakteri      
+Wibowo et al. (2020) melaporkan bahwa jahe emprit dapat mencegah pertumbuhan 3 spesies yaitu Staphylococcus aureus, Escherichia coli, dan MRSA dengan KHM masing-masing sebesar 250 µg/mL, 1000 µg/mL, dan µg/mL serta KBM sebesar >1000 µg/mL, 1000 µg/mL, 1000 µg/mL. Hal itu menunjukkan bahwa ekstrak jahe emprit memiliki potensial sebagai antibakteri walaupun kurang poten apabila dibandingkan dengan ekstrak jahe gajah.      ","1. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-jahe/  
+2. https://limapuluhkotakab.go.id/lpk-detail-berita/UEdTUll2amJmcWU5VHowcVZDdXVydz09#:~:text=Jahe%20gajah%20memiliki%20rimpang%2Fumbi,8%20%E2%80%93%202%2C8%20%25.  
+3. http://jahesunti.blogspot.com/2014/01/jahe-emprit-jahe-zingiber-officinale.html  ","4. https://travel.kompas.com/read/2020/03/25/150100527/3-jenis-jahe-dan-karakteristik-masing-masing-pedasnya-beda?page=all  
+5. Evizal, R., 2013, *Tanaman Rempah dan Fitofarmaka*, Lembaga Penelitian Universitas Lampung, Bandar Lampung.  ",6. https://pkmmlati2.slemankab.go.id/jahe-emprit/  ,_,"7. Satriyani, H., Leepel, L.A., dan Tanzil, A., 2007, Efek Antijamur Minyak Atsiri Jahe Putih Kecil (Zingiber officinale var. Amarum) terhadap Candida albicans. Indonesia Journal of Dentistry. 14(3): 210-215.  
+8. Wibowo DP, Mariani R, Hasanah SU, Aulifa DL. Chemical Constituents, Antibacterial Activity and Mode of Action of Elephant Ginger (Zingiber officinale var. officinale) and Emprit Ginger Rhizome (Zingiber officinale var. amarum) Essential Oils. Pharmacog J. 2020;12(2):404-9.  "
+14,Jahe merah,*Zingiber officinale var. Rubrum*,JaheMerahExample.jpg,"Jahe merah merupakan salah satu varietas jahe yang digunakan di Indonesia sebagai rempah dalam minuman atau masakan tradisional serta ramuan herbal yang berbeda dengan lengkuas merah (Alpinia purpurata). Jahe dipercaya berasal dari wilayah India atau Cina daerah selatan lalu menyebar ke Kawasan Asia Pasifik. Jahe merah adalah jahe yang sama dengan jahe biasa, tetapi kulitnya saja yang bewarna merah dan juga memiliki komponen minyak atsiri dan oleoresin yang mirip dengan jahe emprit sehingga banyak digunakan dalam ramuan herbal. ","- Tanaman jahe merah adalah tanaman terna menahun dengan batang semu bewarna hijau kemerahan yang dapat tumbuh hingga 75 cm atau 100 cm. Batangnya muncul dari rimpang yang kemudian dibalut pelepah daun yang akan membentuk batang semu.  
+- Rimpang ialah modifikasi batang yang tumbuh menjalar tak beraturan di bawah permukaan tanah. Layaknya umbi, rimpang jahe menyimpan cadangan makanan dengan ukuran dan warna yang berbeda. Akar dan tunas tanaman jahe keluar dan tumbuh dari ruas-ruas rimpang tersebut. Rimpang inilah yang menjadi pembeda antara tiga varietas jahe.  
+- Tanaman jahe merah memiliki rimpang dengan ukuran yang paling kecil, yakni diameter 4–4,5 cm, panjang 12–13 cm, dan tinggi rimpang 5–11 cm. Rimpangnya berukuran kecil yang mengandung sedikit air dengan warna merah hingga jingga muda dan potongan melintang berwarna putih kekuningan. Rimpangnya berserat kasar dan memiliki aroma yang paling tajam dan pedas daripada jenis jahe lainnya.  
+- Tanaman jahe merah berdaun tunggal dan pertulangan sejajar bewarna lebih hijau daripada jenis jahe lainnya. Daun tanaman jahe berbentuk lanset yang memanjang layaknya pita dengan panjang 15 cm – 23 cm dan lebar 2,5 cm. Permukaan daun licin, sedangkan tangkainya berbulu halus. Daunnya memiliki pelepah dan seludang daun.  
+- Bunga tanaman jahe merupakan malai bunga dengan warna hijau kekuningan yang terdiri dari beberapa bunga. Bunganya hemafrodit dengan dua tangkai putik dan kepala sari bewarna ungu. Bunga jahe memiliki mahkota berukuran 2 – 2,5 cm dan kelopak 3 buah.  ","- Jahe merah memiliki beberapa kesamaan morfologi dengan jahe emprit/jahe biasa. Jahe merah adalah jahe dengan ukuran yang paling kecil dibandingkan jahe gajah dan jahe emprit.  
+- Jahe merah memiliki ruas rimpang berukuran kecil dan ramping tidak beraturan yang mengandung sedikit air.  
+- Jahe merah memiliki warna kulit merah hingga jingga muda. Warna potongan melintangnya seperti jahe pada umumnya, yakni kuning hingga kuning keputihan.  
+- Jahe merah memiliki serat yang agak kasar dan berukuran lebih besar dibandingkan dengan jenis jahe lainnya.  
+- Jahe merah yang mengandung kadar minyak atsiri 2,6–3,9% biasanya dipanen saat sudah tua. Kadar itu membuat jahe merah menjadi jenis jahe dengan aroma yang paling tajam dan kuat serta rasa yang paling pedas dibandingkan dengan jenis jahe lainnya.  ","- Meredakan nyeri lutut dan otot.  
+- Mengatasi kulit gatal.  
+- Mengatasi masuk angin, kembung, sakit kepala, pening.  
+- Mengurangi morning sickness bagi ibu hamil.  
+- Mengurangi peradangan lambung dan menurunkan asam lambung.  
+- Meningkatkan imunitas dan daya tahan tubuh.  
+- Meningkatkan vitalitas dan gairah seksual pria.  
+- Membantu mengatasi flu dan batuk.  
+- Membantu meredakan rematik.  
+- Membantu mencegah dan mengatasi gangguan pencernaan.  
+- Membantu menurunkan asam urat.  
+- Memiliki efek yang lebih menghangatkan dibanding jenis lainnya.  ","- Jahe merah digunakan sebagai ramuan herbal dan obat tradisional. Tidak jarang juga digunakan dalam pembuatan obat atau ramuan oleh industri farmasi atau industri minuman, misalnya dalam obat masuk angin.  
+- Digunakan sebagai bahan minuman tradisional.  
+- Bisa juga digunakan sebagai bumbu masakan walaupun rasanya lebih pedas dari jahe lainnya dan lebih sering digunakan dalam pembuatan ramuan herbal.  ","- Aktivitas antibakteri   
+Handrianto (2016) melaporkan bahwa ekstrak segar rimpang jahe merah (Zingiber officinale var. Rubrum) memiliki daerah hambat tertinggi terhadap S. aureus (16.90 mm), termasuk dalam tingkat sedang dan E. coli (14.22 mm), termasuk tingkat lemah.   
+- Aktivitas antiinflamasi   
+Menurut Kitaga et al. (2011), tanaman jahe merah menunjukkan aktivitas anti-inflamasi melalui penghambatan TNF-α. Shan et al. (2010) juga melaporkan bahwa ekstrak tumbuhan ini dalam dosis oral rendah 0,2-2 mg/kg menunjukkan efek analgesik dan antiinflamasi yang efektif. Efektivitas tersebut menunjukkan sinergisme berbagai senyawa fisiologis yang ada dalam ekstrak tanaman jahe merah.   
+- Aktivitas antikanker  
+Kitagata et al. (2011) melaporkan bahwa ekstrak jahe merah menunjukkan aktivitas antikanker melalui penghambatan aktivasi NF-κB.   
+- Aktivitas sitotoksik    
+Uji toksisitas dosis tunggal menggunakan ekstrak jahe merah 2000 mg/kg (dosis maksimum tanpa beban pada hewan) tidak mengakibatkan abnormalitas, baik berat badan maupun organ tubuh pada mencit. Kitagata et al. (2011) menyimpulkan jika nilai LD50 (oral) ekstrak jahe merah pada mencit jantan/betina adalah sebesar >2.000 mg/kg.    ","1. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-jahe/  
+2. https://limapuluhkotakab.go.id/lpk-detail-berita/UEdTUll2amJmcWU5VHowcVZDdXVydz09#:~:text=Jahe%20gajah%20memiliki%20rimpang%2Fumbi,8%20%E2%80%93%202%2C8%20%25.  ","3. https://travel.kompas.com/read/2020/03/25/150100527/3-jenis-jahe-dan-karakteristik-masing-masing-pedasnya-beda?page=all  
+4. Evizal, R., 2013, *Tanaman Rempah dan Fitofarmaka*, Lembaga Penelitian Universitas Lampung, Bandar Lampung.  ",5. https://kesehatan.kontan.co.id/news/9-manfaat-jahe-merah-untuk-kesehatan  ,_,"6. Handrianto, P. 2016. Uji Antibakteri Ekstrak Jahe Merah Zingiber officinale var. Rubrum terhadap Staphylococcus aureus dan Escherichia coli. Journal of Research and Technology. 2(1): 1-4.  
+7. Kitagata, C. N., I. Ichinomiya & A. Aichi. 2011. Red ginger extract an all natural anti-arthritic and anti inflammatory agent for food and cosmetics applications. Oryza Oil and Fat Chem. 1-31.  
+8. Shan, S.J., J. Tanaka, A. Seki, J.W. Seo, N. Kasajima, S. Tamura, Y. Ke & N. Murakami N. 2010. Antiinflamatory properties of red ginger (Zingiber officinale var. Rubra) extract and suppression of nitric oxide production by its constituents. J. Med. Food. 13(1): 156-162.  
+9. Kitagata, C. N., I. Ichinomiya & A. Aichi. 2011. Red ginger extract an all natural anti-arthritic and anti inflammatory agent for food and cosmetics applications. Oryza Oil and Fat Chem. 1-31.  
+10. Kitagata, C. N., I. Ichinomiya & A. Aichi. 2011. Red ginger extract an all natural anti-arthritic and anti inflammatory agent for food and cosmetics applications. Oryza Oil and Fat Chem. 1-31.  "
+15,Jintan,*Cuminum cyminum*,Jintan.jpg,"Jintan atau jintan putih (cumin) adalah yang digunakan sebagai bumbu masak oleh masyarakat Indonesia serta sebagai obat tradisional walaupun jintan hitam (Nigella sativa) yang lebih banyak digunakan dalam obat tradisional. Cumin berasal dari kawasan Mesir Kuno dan Timur Tengah. Cumin sebetulnya berbeda dengan caraway ‘jintan’ biasa (Carum roxburghianum/Carum carvi) yang mana rasa cumin lebih pedas, bentuknya lebih besar, dan warnanya lebih cerah, namun dalam beberapa bahasa, kedua jintan itu tidak dibedakan.","- Jintan putih adalah tanaman terna bewarna hijau yang mampu tumbuh hingga sekitar 1,5-5 meter. Batang tanaman jintan putih bergaris-garis dan tidak berbulu, serta berbentuk pita dengan panjang 3-10 cm.  
+- Tanaman jintan putih memiliki pelepah daun layaknya ranting-ranting kecil dengan daun yang tidak berwujud lembaran, tetapi lebih seperti benang-benang kaku dan pendek. Daunnya tersusun secara melingkar dan bertumpuk.  
+- Bunga tanaman jintan putih berbentuk payung, panjang mahkota bunga 1 mm, warna putih atau merah. Bunganya berukuran kecil dengan warna kuning tua yang ditopang oleh tangkai yang agak panjang.  
+- Buah tanaman jintan putih memiliki panjang sekitar 5-7 mm dan lebar 3 mm.  ","- Jintan putih berukuran kecil layaknya gabah dan mirip adas. Bedanya dengan adas adalah jintan putih berukuran lebih kecil dan warnanya lebih gelap dari adas.  
+- Jintan putih beraroma harum dan berasa lebih pedas serta tidak semanis adas.  
+- Jintan putih berbentuk lojong dan berusuk dengan tekstur yang tidak halus.  
+- Jintan putih yang ada di pasaran biasanya berbentuk biji yang telah dikeringkan bewarna cokelat.  ","- Memiliki kandungan antioksidan.  
+- Memiliki sifat antibakteri dan antiinflamasi.  
+- Memelihara kesehatan pencernaan.  
+- Memelihara imunitas tubuh.  
+- Membantu mengatasi gangguan pencernaan.  
+- Membantu mengontrol kadar gula darah.  
+- Membantu menurunkan berat badan.  
+- Sebagai sumber zat besi.  ","- Memberi aroma harum dalam masakan.  
+- Memberi cita rasa sedikit manis dan rasa pedas yang lebih dari adas.  
+- Sebagai bahan ramuan/obat tradisional.  
+- Biasanya dijadikan produk dalam bentuk bubuk, misalnya dalam produk cabai bubuk atau diambil ekstraknya untuk dijadikan minyak jintan.  
+- Jintan putih dapat digunakan bijinya secara langsung atau dihaluskan terlebih dahulu. Jintan putih dapat digunakan dalam masakan, misalnya rawon, rendang, opor, soto, kari, gulai, dan laksa.  ","- Aktivitas antioksidan    
+Ekstrak minyak jintan putih diketahui memiliki aktivitas antioksidan yang tinggi karena adanya kandungan alkohol monoterpen, flavonoid, dan molekul polifenol lainnya.   
+- Aktivitas antibakteri    
+Ekstrak alkohol dan minyak biji jintan putih dan ekstrak alkoholnya didapati menghambat pertumbuhan Klebsiella pneumoniae dan isolat klinisnya yang menyebabkan perbaikan morfologi sel, ekspresi kapsul dan penurunan aktivitas urease. Jintan putih diketahui juga dapat menghambat pembentukan dari Streptococcus mutans and Streptococcus pyogenes.   
+- Aktivitas antidiabetik   
+Jintan putih memiliki efek hipoglikemik pada penelitian dengan kelinci normal, menghasilkan penurunan kurva yang signifikan pada area di bawah kurva toleransi glukosa puncak hiperglikemik. Cuminaldehyde yang aktif secara biologis menghambat aldose reductase dan alpha glukosidase yang diisolasi dari tikus. Pemberian jintan putih secara oral kepada tikus diabetes hiperlipidemia yang diinduksi aloksan, menurunkan berat badan, menurunkan kadar kolesterol, fosfolipid, asam lemak bebas dan trigliserida, serta menurunkan aktivitas aspartat transaminase (AST), alkaline phosphatase (ALP), dan -glutamil transferase (GGT).    
+- Aktivitas antikarsinogeneik/antikanker   
+Menurut Takayanagi et al. (2003), senyawa yang diduga mempunyai aktivitas antikarsinogenik dari Cuminum cyminum L. adalah senyawa glikosida lakton sesquiterpen. Penelitian Nalini (1998) juga membuktikan bahwa jintan putih mampu melindungi kolon dari senyawa karsinogen 1,2-dimetil hidrasin (DMH). DMH menyebabkan peningkatan aktivitas β-glukoronidase, yang diikuti oleh peningkatan proses hidrolisis konjugat glukoronida yang akhirnya memicu pelepasan toksin. Cumin mampu menurunkan aktivitas beta glukoronidase sehingga bisa mencegah pelepasan toksin yang juga terekspresi pada beberapa jenis kanker.    ","1. https://ccrc.farmasi.ugm.ac.id/?page_id=98  
+2. Heyne, K., 1987, *Tanaman Berguna Indonesia Jilid II*, cetakan pertama, 1073-1074, diterjemahkan oleh Badan Litbang Departemen Kehutanan, Yayasan Sarana Wana Jaya, Jakarta.  1. https://ccrc.farmasi.ugm.ac.id/?page_id=98  
+2. Heyne, K., 1987, *Tanaman Berguna Indonesia Jilid II*, cetakan pertama, 1073-1074, diterjemahkan oleh Badan Litbang Departemen Kehutanan, Yayasan Sarana Wana Jaya, Jakarta.  ",_,4. https://www.sehatq.com/artikel/temukan-manfaat-jintan-putih-untuk-kesehatan  ,4. https://www.kompas.com/food/read/2021/05/10/160200375/fungsi-jintan-pada-masakan-bikin-gulai-dan-opor-makin-sedap-?page=all  ,"5. Najda A, Dyduch J, Brzozowski N. Flavonoid content and antioxidant activity of caraway roots (Carum carvi L.). Veg Crops Res Bull 2008; 68:127-33.  
+6. Derakhshan S, Sattari M, Bigdeli M. Effect of cumin (Cuminum cyminum L.) seed essential oil on biofilm formation and plasmid integrity by Klebsiella pneumoniae. Pharmacog Mag 2010; 6: 57-61. 69.  
+7. Shayegh S, Rasooli I, Taghizadeh M, Astaneh SD. Phytotherapeutic inhibition of supragingival dental plaque. Nat Prod Res 2008; 22:428- 39.  
+8. Roman-Ramos R, Flores-Saenz JL, Alarcon-Aguilar FJ. Antihyperglycemic effect of some edible plants. J Ethnopharmacol 1995; 48: 25-32.  
+9. Lee HS. Cuminaldehyde: Aldose Reductase and alpha glucosidase inhibitor derived from Cuminum cyminum L. seeds. J Agric Food Chem 2005; 53: 2446-53.  
+10. Takayanagi T, Ishikawa T, Kitajima J, 2003, Sesquiterpene lactone glucosides and alkyl glycosides from the fruit of cumin, Phytochemistry, 63(4):479-84. Nalini, Sabitha, Viswanathan, Menon, 1998, Influence of Spices on the Bacterial (Enzyme) Activity in Experimental Colon Cancer, J Ethnopharmacol, 62(1): 15-24.  "
+16,Kapulaga jawa,*Amomum compactum* atau *Amomum cardamomum auct. non L.*,KapulagaJawa.jpg,"Kapulaga atau dikenal juga sebagai kapulaga jawa merupakan salah satu rempah lokal asli dari Indonesia yang berbeda dengan kapulaga sabrang (Elettaria cardamomum) walaupun masih dalam satu famili Zingiberaceae. Kapulaga jawa adalah tanaman rempah endemik dari Jawa, terutama daerah perbukitan di Jawa bagian barat. Kapulaga jawa memiliki aroma khas yang biasa digunakan dalam masakan, digunakan dalam ramuan herbal/jamu, atau diambil ekstraknya yang mengandung minyak atsiri guna dijadikan sebagai bahan penyedap atau pengharum.","- Tanaman kapulaga berbatang semu yang bersifat basah dengan bentuk bulat dan tegak yang mampu tumbuh hingga setinggi 1-2,5 meter. Kapulaga termasuk tanaman rumpun yang dalam satu rumpunnya terdapat 20-30 batang semu dengan pangkal batang bewarna hijau kemerahan.  
+- Tanaman kapulaga memiliki daun berbentuk lanset dengan ujung runcing dan tepian rata. Daun tanaman kapulaga bersifat tunggal yang tersebar berselang-seling. Pertulangan daun kapulaga berjenis menyirip yang berwarna hijau.  
+- Bunga kapulaga berjenis majemuk dengan bentuk bonggol yang terletak di pangkal batang dan bertangkai pendek yang tersusun dalam tandan yang keluar dari rimpangnya. Mahkota bunga kapulaga berbentuk tabung dengan warna putih atau putih kekuningan.  
+- Buah kapulaga tersusun pada tandan buah dengan jumlah 5-8 buah tiap tandannya. Buah kapulaga memiliki warna putih kekuningan atau kuning kelabu dengan bentuk bulat berlekuk, bersegi tiga, agak pipih, dan terkadang memiliki bulu. Buahnya juga memiliki 3 ruang yang dipisahkan oleh selaput tipis setebal kertas. Setiap ruang berisi sekitar 5-7 biji kecil yang bewarna coklat atau hitam dengan aroma harum khas.  
+- Biji-biji kapulaga mempunyai cita rasa pedas, aroma kamper, berbau wangi, dan terasa dingin pada lidah jika dikunyah.  ","- Kapulaga lokal berukuran kecil, lebih kecil daripada kapulaga hijau.  
+- Kapulaga bentuknya lebih bulat daripada kapulaga hijau layaknya bawang dengan memiliki 3-4 sisi.  
+- Kapulaga bewarna putih hingga kecoklatan (terutama apabila sudah disimpan terlalu lama) dengan tekstur permukaan yang cukup halus.  
+- Kapulaga memiliki aroma sedap dan harum layaknya bau minyak aromatik.  
+- Kapulaga mempunyai biji bewarna coklat kehitaman hingga hitam di dalamnya yang dipisahkan oleh selaput tipis yang membagi biji menjadi dua bagian.  ","- Memiliki sifat diuretik dan memelihara kesehatan ginjal.  
+- Mengatasi mual dan kembung.  
+- Melancarkan pencernaan dan mengatasi sembelit.  
+- Membantu mengatasi ejakulasi dini dan lemah syahwat.  
+- Membantu meredakan flu dan sinus.  
+- Membantu mengelola tekanan darah.  
+- Membantu detoksifikasi racun dalam tubuh.  
+- Menjaga kesehatan mulut dan gigi.  
+- Sebagai antiinflamasi/antiperadangan.  ","- *Corrigens odoris*, memberi aroma harum dan menghilangkan bau tak sedap, baik dalam ramuan herbal maupun masakan.  
+- Digunakan untuk memberi aroma dan rasa yang kuat dan sedap pada masakan, misalnya gulai dan kari yang membutuhkan aroma kuat.  
+- Digunakan dalam obat tradisional untuk mengatasi beberapa penyakit, misalnya batuk, flu, radang, demam, dan mengatasi nyeri.  
+- Diambil ekstrak minyak atsirinya yang bisa dijadikan sebagai beberapa produk, salah satunya produk aromaterapi.  ","- Aktivitas antiasma    
+Jin-Ah. et al., (2010) melaporkan bahwa ekstrak etanol kapulaga menurunkan jumlah eosinofil infitrat dan hipersekresi mukus pada tikus. Penurunan jumlah mukus (penekanan sekresi mukus) pada saluran pernapasan menandakan bahwa ekstak etanol tersebut dapat mengatasi asma karena pada saluran pernapasan penderita asma akan terdapat banyak mukus yang membuat napas sesak/asma.   
+- Aktivitas antibakteri  
+Ekstrak aseton A. compactum menunjukkan aktivitas antibakteri terhadap bakteri Staphylococcus aureus dan Streptococcus mutans dengan nilai konsentrasi hambat minimum (MIC) sebesar 312,5 dan 625 g/mL serta nilai konsentrasi hambat minimum (MBC) sebesar 312,5 dan 2500 g/mL.   ","1. https://fredikurniawan.com/klasifikasi-dan-morfologi-tanaman-kapulaga/  
+2. https://www.satuharapan.com/read-detail/read/kapulaga-jawa-primadona-dunia-pengobatan  ",_,"3. https://hot.liputan6.com/read/4252989/9-manfaat-kapulaga-untuk-pria-bantu-jaga-kesehatan-ginjal  
+4. https://www.jawapos.com/kesehatan/health-issues/02/06/2019/rutin-minum-teh-kapulaga-bantu-obati-4-penyakit/  
+5. https://health.grid.id/read/352026237/5-khasiat-kapulaga-mulai-obati-hipertensi-hingga-penghalau-kanker?page=all  ",6. https://www.fimela.com/lifestyle-relationship/read/3871997/fungsi-kapulaga-dalam-masakan-penguat-rasa-dan-aroma  ,"7. Jin-Ah, L., Mee-Young L. In-Sik S., ChangSeob S., HyeKyung H., Hyeun KS. 2012Anti-inflammatory Effects of Amomum compactum on RAW 264.7 cells via induction of heme oxygenase-1. Archieves of Pharmacal research, 35 (4): 739–746.  
+8. Juwitaningsih, T., Jahro, I.S., dan Sari, S.A., 2019, Evaluation of North Sumatera Cardamom seed (Amomum compactum) Extract as Antibacterial and Anticancer, Journal of Physics: Conference Series 1485.  "
+17,Kapulaga sebrang,*Elettaria cardamomum* atau *Amomum cardamomum L.*,KapulagaSebrang.jpg,"Kapulaga sabrang, seberang, atau dikenal juga sebagai kapulaga india dan kapulaga hijau merupakan salah satu rempah di Indonesia asal luar negeri yang berbeda dengan kapulaga/kapulaga jawa (Amomum compactum) walaupun masih dalam satu famili Zingiberaceae. Kapulaga india berasal dari India (wilayah Malabar dan Mysore) lalu diduga menyebar ke wilayah Indocina dan Melasia (Kepulauan Melayu). Kapulaga india digunakan sebagai penyedap dalam masakan, terutama masakan yang berasal dari Kawasan Timur Tengah dan India serta bahan ramuan herbal.","- Tanaman kapulaga sabrang berbatang semu yang terbungkus oleh pelepah daun berwarna hijau. Batang kapulaga sabrang berbentuk bulat yang dapat tumbuh tegak dengan tinggi 1-3 meter. Batangnya tumbuh dari rimpang dan dalam satu rumpunnya terdapat sekitar 30-50 batang dengan warna merah kehitaman, putih, atau putih kehijauan tergantung jenisnya.  
+- Tanaman kapulaga sabrang berdaun tunggal, berbentuk lunset, dan bertangkai pendek dengan letak berselang-seling. Daun kapulaga sabrang relatif panjang dan warnanya lebih muda dibandingkan jenis lokal dengan panjang 20-55 cm dan lebar 2,5-11 cm.  
+- Bunga kapulaga sabrang tersusun dari tandan yang keluar dari rimpang. Bunganya berwarna putih bergaris coklat dengan daun pelindung berwarna kusam yang terdapat pada setiap ruang tangkai buah.  
+- Buah kapulaga sabrang berbentuk bulat panjang dan lonjong 3 sisi dengan Panjang sekitar 1-2 cm. Buahnya memiliki warna kulit buah hijau atau hijau muda dan Jika sudah masak, buahnya akan berubah warna menjadi hijau muda dari hijau tua. Buah yang sudah kering akan menjadi keriput dan bergaris-garis yang berisi 15-20 butir biji kecil dengan warna coklat kemerah-merahan. Rasanya agak pedas seperti jahe, tetapi baunya berbeda.  ","- Kapulaga sabrang berbentuk bulat panjang atau lonjong layaknya kacang almond yang bewarna hijau muda atau hijau sedikit kekuningan. Buahnya lebih lonjong daripada kapulaga jawa yang berbentuk bulat telur dengan warna putih.  
+- Kapulaga sabrang memiliki tekstur agak kasar dan bergaris-garis.  
+- Kapulaga sabrang mengandung biji sekitar 15-20 biji yang bewarna hitam atau cokelat kemerahan.  
+- Kapulaga sabrang memiliki aroma sedap yang khas dan cita rasa agak pedas.  ","- Memelihara kesehatan pencernaan.  
+- Memiliki sifat diuretik dan memelihara kesehatan ginjal.  
+- Memelihara kesehatan mulut.  
+- Membantu mengelola tekanan darah dan menjaga kesehatan jantung.  
+- Membantu mengatasi flu dan batuk.  
+- Membantu detoksifikasi racun dalam tubuh.  
+- Membantu mengatasi gangguan pernapasan.  
+- Membantu mencegah osteoporosis.  ","- *Corrigens odoris*, memberi aroma harum dan menghilangkan bau tak sedap, baik dalam ramuan herbal maupun masakan.  
+- Kapulaga hijau memiliki cita rasa agak manis dan beraroma harum ringan yang biasanya digunakan sebagai penambah aroma pada makanan yang manis dan lembut, misalnya manisan atau pudding, bahkan menjadi pengganti rasa manis gula.  
+- Digunakan dalam masakan yang berasal dari Timur Tengah atau India, misalnya nasi mandhi dan juga digunakan dalam minuman, contohnya *masala chai* (teh masala).  
+- Biasanya digunakan bersama dengan rempah lainnya dalam campuran garam masala, bumbu tradisional India yang digunakan dalam masakan India.  
+- Bisa juga digunakan di dalam kopi atau teh sebagai penambah aroma yang tentunya menambah khasiat di dalamnya. Bagian kapulaga yang digunakan sebagai tambahan adalah kulit kapulaga yang telah dipanggang atau disangrai.  ","- Aktivitas antiinflamasi   
+Elettaria cardamomum mengandung banyak sekali senyawa hidrokarbon-oksigen yang didominasi oleh senyawa 1,8- cineole dan ester, oc-terpinyl dan linalyl acetates yang membuat kombinasi unik dalam ekstrak minyak asirinya. Komponen utama oc-terpinyl acetate dan 1,8, - cineole diduga dapat menjadi senyawa antiseptik, antiinflamasi, dan karminatif.   
+- Aktivitas kemoprotektif   
+Penelitian Elguindy et al. (2016) menunjukkan bahwa ekstrak Elettaria cardamomum efektif dalam mencegah karsinoma hepatoseluler yang diinduksi DENA melalui mekanisme penghambatan stres oksidatif, penurunan sitokin pro-inflamasi dan NF-kB, dan juga penurunan ODC. Potensi kemopreventif ekstrak kapulaga diduga karena efek sinergis dari fitomolekul yang ada dalam ekstrak tersebut.   
+- Aktivitas sitotoksik  
+Menurut Majdalawieh dan Carr (2010), ekstrak cardamom sangat meningkatkan efek sitotoksik natural killer cells yang menunjukkan potensi antikankernya. Raksamiharja et al. (2012) melaporkan bahwa minyak esensial dari cardamom meningkatkan jumlah limfosit, CD4+ dan CD8+ pada tikus yang diberi doxorubicin yang tergantung pada dosis.   - Aktivitas antiinflamasi   
+Elettaria cardamomum mengandung banyak sekali senyawa hidrokarbon-oksigen yang didominasi oleh senyawa 1,8- cineole dan ester, oc-terpinyl dan linalyl acetates yang membuat kombinasi unik dalam ekstrak minyak asirinya. Komponen utama oc-terpinyl acetate dan 1,8, - cineole diduga dapat menjadi senyawa antiseptik, antiinflamasi, dan karminatif.   
+- Aktivitas kemoprotektif   
+Penelitian Elguindy et al. (2016) menunjukkan bahwa ekstrak Elettaria cardamomum efektif dalam mencegah karsinoma hepatoseluler yang diinduksi DENA melalui mekanisme penghambatan stres oksidatif, penurunan sitokin pro-inflamasi dan NF-kB, dan juga penurunan ODC. Potensi kemopreventif ekstrak kapulaga diduga karena efek sinergis dari fitomolekul yang ada dalam ekstrak tersebut.   
+- Aktivitas sitotoksik  
+Menurut Majdalawieh dan Carr (2010), ekstrak cardamom sangat meningkatkan efek sitotoksik natural killer cells yang menunjukkan potensi antikankernya. Raksamiharja et al. (2012) melaporkan bahwa minyak esensial dari cardamom meningkatkan jumlah limfosit, CD4+ dan CD8+ pada tikus yang diberi doxorubicin yang tergantung pada dosis.   ",1. https://id.wikipedia.org/wiki/Kapulaga_seberang       ,_,"2. http://cybex.pertanian.go.id/mobile/artikel/92639/TANAMAN-KAPULAGA/   
+3. https://www.orami.co.id/magazine/ketahui-manfaat-kapulaga-untuk-kesehatan-lebih-dari-sekadar-rempah/    ",_,"4. Korikanthimathm, V.S., Prasath, D., dan Rao, G., 2001, Medicinal properties of cardamom Elettaria cardamomum, Journal of Medicinal & Aromatic Crops, 22/23: 683-685.      
+5. https://www.sciencedirect.com/science/article/pii/S0254629915325709, Elguindy, N.M., Yacout, G.A., Azab, E.F.E, & Maghraby, H.K., 2016, Chemoprotective Effect of Elettaria Cardamomum against Chemically induced Hepatocellular Carcinoma in Rats by Inhibiting NF-κB, Oxidative Stress, and Activity of Ornithine Decarboxylase, South African Journal of Botany, 105: 251-258.    
+6. Majdalawieh, A.F., Carr, R.I., 2010. In vitro investigation of the potential immunomodulatory and anti-cancer activities of black pepper (Piper nigrum) and cardamom (Elettaria cardamomum). J Med Food. 13, 371-381. Raksamiharja, R., Sy, K., Zulharini, M.S., Novarina, A., Sasmito, E., 2012. Elettaria cardamomum distillate increases cellular immunity in doxorubicin treated rats. Indonesian J Cancer Chemoprev. 3, 437-443.    "
+18,Kayu manis ,*Cinnamomum verum*,KayuManis.jpg,"Kayu manis merupakan sejenis pohon penghasil rempah-rempah dan salah satu bumbu masakan tertua yang digunakan manusia. Rempah ini merupakan tanaman asli Indonesia yang tersebar di Jawa, Sumatera, Maluku, Nusa Tenggara dan Papua. Kayu manis juga secara tradisional dijadikan sebagai suplemen untuk berbagai penyakit, dengan dicampur madu, misalnya untuk pengobatan penyakit radang sendi, kulit, jantung, dan perut kembung.   ","- Tinggi tanaman kayu manis sekitar 5-15 meter berwarna abu-abu tua dan memiliki bau yang khas. 
+- Buahnya berbentuk bulat memanjang dan berwarna hijau tua (untuk yang muda) dan berwarna ungu tua (untuk yang tua). 
+- Daun kayu manis berbentuk elips yang memanjang sekitar 4 cm dan lebarnya sekitar 1,5-6 cmÂ  dengan ujung daun yang runcing. Bagian atas daun berwarna hijau licin sedangkan bagian bawah daun berwarna keabuan.  
+- Bunga kayu manis berukuran kecil dan berwarna kuning serta merupakan bunga sempurna karena memiliki 2 buah kelamin yaitu putik dan benang sari.  
+- Biji kayu manis berbentuk bulat dan kecil-kecil. Untuk biji usia muda berwarna hijau sedangkan biji yang sudah tua berwarna hitam.  ","- Kayunya berwarna merah kecoklatan muda. 
+- Kayu manis memiliki batang yang berserat halus.  
+- Memiliki bau yang tajam.  
+- Daun berwarna merah muda coklat.  ","- Menurunkan risiko diabetes.  
+- Mengatasi nyeri menstruasi.  
+- Membuat tubuh menjadi lebih sehat karena kandungan antioksidan yang tinggi.  
+- Menurunkan risiko peradangan.  
+- Meningkatkan kadar kolestrol baik dalam tubuh.  
+- Menurunkan berat badan. ","- Dapat menjadi penyedap rasa dalam masakan. 
+- Dapat dicampurkan ke dalam adonan kue untuk menambah aroma.  
+- Dapat menghilangkan bau amis dan bau tak sedap pada bahan makanan.  
+- Air rebusan kayu manis dapat memberikan efek hangat bagi tubuh.  
+- Dapat menghilangkan bau mulut. 
+- Dapat dijadikan obat pengusir serangga khususnya tungau jika dibuat dalam bentuk minyak atsiri. ","- Aktivitas antibakteri. 
+Sifat antibakteri dan komponen bioaktif utama C. Burmanni terhadap senyawa patogen dalam makanan menunjukkan bahwa C Burmanni memiliki efek antibakteri terhadap pertumbuhan *Bacillus cereus*, *Listeria monocytogenes*, *Staphylococcus aureus*, *Escherichia coli* dan *Salmonella anatum*. 
+- Aktivitas antidiabetes. 
+Teh kayu manis dapat bermanfaat untuk mengendalikan metabolisme glukosa pada seseorang non diabetes selama periode postprandial (bernardo). Meskipun belum ada bukti yang pasti, namun diduga kuat C. Burmanni memiliki senyawa bioaktif aktivitas antidiabetes yaitu *Methylhydroxy Calcone Polymer* (MHCP). 
+- Efek famakologis. 
+Kandungan senyawa aktif dari kayu manis mempunyai efek farmakologis yaitu antifungal, antikardiovaskuler, antikanker, antiinflamasi, antiulser, antidiabetes, antivirus, antihipertensi, antioksidan, dan penurun lemak serta kolesterol. 
+- Aktivitas anti asam urat. 
+Kandungan cinnamaldehyde dalam kulit kayu manis dapat mengurangi terbentuknya asam urat dengan dihambatnya enzim xanthin oksidase yang akan mengkatalis perubahan purin menjadi asam urat. Rebusan kulit kayu manis mengandung eugenol, sinamaldehide dan flavonoid yang dapat membantu menurunkan kadar asam urat. ",1. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-kayu-manis/   ,2. https://www.jurnalasia.com/ragam/kayu-manis/  ,3.  https://www.halodoc.com/artikel/rutin-minum-rebusan-kayu-manis-apa-khasiatnya  ,4. https://www.lemonilo.com/blog/bubuk-kayu-manis-memiliki-7-manfaat-berikut-penjelasannya  ,"5. Shan B, Cai YZ, Brooks JD, Corke H. Antibacterial properties and major bioactive components of cinnamon stick (Cinnamomum burmannii): activity against foodborne pathogenic bacteria. Journal of Agricultural and Food Chemistry 2007; 55(14):5484-5490. 
+6. Duguoa JJ et al. 2007. From Type 2 Diabetes to Antioxidant Activity: A Systematic Review of The Safety and Efficacy of Common and Casia Cinnamon Bark. Canadian Journal Physiologi Pharmacology Vol 85, 2007. P: 837-847. 
+7. Shen et al. (2012). Beneficial Effects of Cinnamon on the Metabolic Syndrome, Inflammation, and Pain, and Mechanisms Underlying These Effects - A Review Journal of Traditional and Complementary Medicine 2 (2012). 
+8. Rismunandar, Ferry B. Paimin.2009.Kayu manis: Budi Daya dan Pengolahan Edisi Revisi, Cetakan ke 8.Jakarta. Penebar Swadaya. "
+19,Keluwak,*Pangium edule*,Keluwak.jpg,"Kepayang atau keluak adalah tumbuhan liar yang dapat digunakan untuk bumbu masak masakan Nusantara, seperti rawon. Pohon kluwek ini banyak ditemukan di negara-negara Asia Tenggara seperti Indonesia, Malaysia, dan Papua Nugini. Biji kluwak dapat digunakan untuk bumbu dapur masakan Indonesia yang memberi warna hitam pada rawon, daging bumbu keluak, brongkos, serta sup konro. Bijinya, bila mentah sangat beracun karena mengandung asam sianida dalam konsentrasi tinggi.  ","- Pohon pucung dapat tumbuh mencapai ketinggian 60 meter namun rata rata hanya sekitar 18-40 meter.  
+- Ukuran batang yang besar sekitar 120 cm sampai 2,5 meter.  
+- Daunnya memiliki panjang 20 cm dan lebar 15 cm.  
+- Buah tanaman pucung memiliki ukuran sekitar 7-10 cm.  ","- Buah kluwek berwarna kehitaman dan sedikit lembek di bagian dalam.  
+- Bagian luar (batok) buahnya keras dan berwarna kecoklatan keabuan.  
+- Jenis akar tanaman pucung adalah tunggang dan strukturnya sangat kuat.  
+- Bunga tanaman pucung berwarna putih kehijauan. ","- Menjaga daya tahan tubuh.  
+- Mencegah anemia.  
+- Membantu menjaga kesehatan usus.  
+- Menurunkan risiko radang sendi akibat asam urat.  
+- Mencegah penyakit jantung dan stroke.  
+- Mencegah lemas dan kelelahan otot.  ","- Kayunya dapat digunakan sebagai batang korek api.  
+- Daunnya dapat digunakan sebagai obat cacing. 
+- Jika bijinya dihaluskan dapat digunakan untuk menghilangkan kutu rambut.  
+- Dapat membersihkan koreng pada kulit.  
+- Berguna untuk penyakit gatal gatal.  
+- Dapat digunakan untuk mengawetkan ikan karena mengandung tanin.  ","- Aktivitas Antimikroba. 
+Daging biji kluwek yang mengandung senyawa golongan flavonoid dapat berfungsi sebagai antibakteri di antaranya asam sianida, asam hidrokarpat, asam khaulmograt, asam gorlat, dan tannin.Ekstrak biji kluwek dapat menghambat pertumbuhan bakteri patogen pada makanan seperti *Bacillus sp*, *Salmonella sp*, *Escherichia sp*.
+- Insektisida.  
+Kandungan asam sianida pada biji kluwek dapat dimanfaatkan sebagai pembasmi hama atau insektisida. Asam sianida ini bersifat sebagai racun syaraf.
+- Bahan pengawet.  
+Kandungan flavonoid pada biji kluwek dapat menghambat pertumbuhan bakteri sehingga dapat digunakan sebagai bahan pengawet.  ",1. Klasifikasi dan Morfologi Tanaman Pucung - Ilmu Pertanian https://agrotek.id,2. Klasifikasi dan Morfologi Tanaman Pucung - Ilmu Pertanianhttps://agrotek.id,3. https://www.klikdokter.com/info-sehat/read/3629114/manfaat-kluwek-bagi-kesehatan-yang-jarang-diketahui   ,4. https://manfaat.co.id/manfaat-kluwek  ,"5. Nuraida LN, Andarwulan, Kristifikasari, E. 2000. Antimicrobial activity of fresh and fermented picung (Pangium edule Reinw) seed against pathogenic and spoilage bactery. Journal of Food Technology and Industry. 4(2): 18-26. 
+6. Yuningsih, R. Damayanti, Murdiati, dan Darmono. 2004. Kandungan dan Stabilitas Sianida dalamT anaman Picung(Pangiu medule reinw.) serta Pemanfaatannya. Laporan Hasil Penelitian APBN 2004. Balai Penelitian Veteriner. Bogor. (Online). (http://balitro. litbang.deptan.go.id.). 
+7. Nuraida LN, Andarwulan, Kristifikasari, E. 2000. Antimicrobial activity of fresh and fermented picung (Pangium edule Reinw) seed against pathogenic and spoilage bactery. Journal of Food Technology and Industry. 4(2): 18-26. "
+20,Kemiri,*Aleurites moluccana*,Kemiri.jpg,"Kemiri merupakan salah satu tumbuhan yang bijinya dapat dimanfaatkan sebagai sumber minyak dan rempah-rempah. Pada awalnya, kemiri ini berasal dari Malaysia, namun karena tanaman ini mudah tumbuh dimana saja, maka tanaman ini cepat menyebar ke seluruh Indonesia. Minyak yang diekstrak dari biji kemiri ini berguna dalam industri sebagai bahan campuran cat serta buah kemirinya sendiri dapat digunakan sebagai bumbu masakan.  ","- Tinggi pohon sekitar 25 sampai 40 meter. 
+- Panjang daun kurang lebih 30 cm dan punya 3 sampai 7 lekukan pada setiap daun.   
+- Ukuran bunga jantan antara 6 sampai 7 mm.  
+- Ukuran bunga betina antara 9 sampai 10 mm.  
+- Buah kemiri berukuranÂ  5-6 cm x 5,7 cm. ","- Batang tebal dan kulitnya berwarna abu-abu kecokletan. 
+- Terdapat tekstur halus dengan garis garis vertikal pada kulit batang.  
+- Pohon memiliki tunas tertutup oleh bulu halus batang pohon.  
+- Percabangan pohon yang tidak teratur.  
+- Sistem daun pohon kemiri adalah tunggal dan saling menyilang.  
+- Warna daun putih dan berubah hijau saat kemiri telah tua.  
+- Termasuk dalam golongan *monoceious* karena bunga jantan dan betina tumbuh dalam pohon yang sama.  
+- Bentuk buah kemiri seperti bulat telur agak kepeng, berwarna hijau zaitun dan tertutupi rambut beledu.  
+- Daging buah berwarna keputihan.  
+- Biji kemiri bertempurung tebal dan keras dan berwarna keputihan serta mengandung minyak. ","- Menjaga sistem pencernaan.  
+- Mencegah infeksi jamur dengan minyak kemiri. 
+- Mengurangi risiko penyakit jantung.    
+- Mengatasi insomnia.  
+- Memperkuat imunitas tubuh.  
+- Mengatasi sembelit.  
+- Mengobati demam pada anak dengan minyak kemiri.  
+- Mencegah kerusakan kulit dengan minyak kemiri.  
+- Menyembuhkan gigitan serangga. 
+- Menjaga kesehatan rambut dengan minyak kemiri. ","- Mencegah rambut kering dengan minyak kemiri.  
+- Membuat rambut lebih berkilau dengan minyak kemiri.  
+- Menumbuhkan rambut dengan minyak kemiri.  
+- Mengurangi rambut rontok dengan minyak kemiri.  
+- Mencegah ketombe dengan minyak kemiri.  ","- Aktivitas anti rontok. 
+Minyak kemiri memiliki kandungan antioksidan dari asam oleat (asam lemak tak jenuh) yang dapat mengurangi kerontokan dan mempercepat pertumbuhan rambut. 
+- Analgesik dan stimulator.  
+Ekstrak metanol dalam kemiri dapat meningkatkan aktivitas analgesik karena mengandung senyawa alkaloid, sterol, dan flavonoid. 
+Senyawa flavonoid bersifat sebagai anti inflamasi yang menghambat pembentukan radang penyebab ngeri dengan efek samping yang minimal. 
+Senyawa flavonoid dapat meningkatkan stamina dengan meningkatkan glikogen dan mengurangi asam laktat di otot. 
+- Aktivitas imunostimulan. 
+Bagian korteks dari tanaman kemiri mengandung tannin yang memiliki aktivitas imunostimulan yang bekerja dengan cara meningkatkan aktivitas sekresi tumor. ",1. https://rimbakita.com/pohon-kemiri/  ,2.  https://rimbakita.com/pohon-kemiri/  ,3.  https://www.brilio.net/kesehatan/10-manfaat-kemiri-untuk-kesehatan-menjaga-sistem-pencernaan-200915p.html   ,4.  5 Manfaat minyak kemiri untuk kesehatan rambut dan kulit ...https://kesehatan.kontan.co.id/kesehatan,"5. Sari, D. K. & Wibowo, A. (2016). Perawatan Herbal pada Rambut Rontok. Medical Journal of Lampung University; 5; 129-134. 
+6. Niazi J, Gupta V, Chakarborty P, Kumar P. 2010. Anti- inflammatory and antipyretic activity of Aleuritis moluccana leaves. AJPCR 3(1):35-37. 
+7. Xiao X, Wang X, Gui X, Chen L, Huang B. 2016. Natural flavonoids as promising analgesic candidates: a sys- tematic review. Chem Biodivers 13(11):1427-1440. 
+8. Li C, Zhang L. 2013. In vivo anti-fatigue activity of total flavonoids from sweetpotato (Ipomoea batatas (L.) Lam.) leaf in mice. IJBB 5:326-329. 
+9. Gali-Muhtasib, H. U., Younes, I. H., Karchesy,J.J., El-Sabban, Marwan E., 2001, Plant Tannins Inhibit the Induction of Aberrant Crypt Foci and Colonic Tumors by 1,2-Dimethylhydrazine in Mice   "
+21,Kencur,*Kaempferia galanga*,Kencur.jpg,"Kencur adalah salah satu jenis empon empon yang biasa digunakan sebagai bahan rempah-rempah dan ramuan obat. Awalnya, kencur berasal dari India, namun dibudidayakan secara meluas di Asia Tenggara, Cina Selatan, dan Nusantara. Biasanya, kencur digunakan sebagai obat alami ataupun penambah cita rasa masakan. ","- Bunga kencur berbentuk terompet dengan panjang sekitar 2,5 cm - 5 cm.  
+- Memiliki 4 helai daun mahkota pada setiap bunga. 
+- Panjang daun kencur sekitar 7-15 cm dengan lebarnya 2-8 cm.  
+- Pada bunganya terdapat benang sari berukuran 4 mm dan memiliki putik berwarna putih dan ungu.  
+- Dalam satu pohon biasanya terdapat 8-10 helai daun.  
+- Tanaman kencur tidak memiliki batang, hanya memiliki rhizoma yang dapat tumbuh sampai sekitar 30-70 cm. ","- Akar pada tanaman kencur berwarna coklat keputihan dan tumbuh berdampingan dengan rhizomanya. 
+- Jenis bunga kencur ini adalah bunga majemuk dan memiliki sekitar 4-12 kelopak bunga. 
+- Daunnya tumbuh secara mendatar di bagian permukaan tanah atas dan berbentuk elips.  
+- Pada rizihome yang masih mudah akan berwarna kuning karena banyaknya kandungan air, namun pada rizihome yang tua kandungan airnya lebih sedikit.  
+- Umbi kencur berbentuk bulat memanjang disertai dengan aroma yang khas ataupun aromatik. ","- Mencegah kanker.  
+- Menurunkan tekanan darah.  
+- Membasmi bakteri penyebab penyakit. 
+- Meredakan nyeri dan peradangan.  
+- Menangkal radikal bebas.  
+- Mengurangi stres. ","- Mengatasi jerawat.  
+- Mencerahkan kulit wajah.  
+- Mengontrol minyak wajah.  
+- Menjaga kekenyalan kulit.  
+- Mencegah penuaan dini. ","- Aktivitas anti inflamasi.  
+Kencur memiliki aktivitas antiinflamasi yang diperkirakan dapat digunakan sebagai antibiotik alami karena kencur mengandung etil parametoksi sinamat, kamfer, borneol, sineol serta penta dekana. 
+- Manfaat kencur secara medis. 
+Kencur dapat digunakan sebagai obat diare, malnutrisi, rematik, sakit maag, batuk, asma, gangguan saluran pencernaan, demam, ramuan untuk meningkatkan stamina, dan minuman pasca melahirkan serta bahan sauna tradisional. 
+- Sifat farmakologi minyak esensial.  
+Jenis senyawa minyak esensial yang paling banyak ditemukan di rhizoma adalah *ethyl-trans-p- methoxycinnamate* (28,35-69,96%) dan *trans-ethyl cinnamate* (11,48-26,56%) yang memiliki sifat farmakologi. 
+- Aktivitas antineoplastik. 
+Kencur memiliki sifat antineoplastik yang dapat melawan sel kanker. 
+- Aktivitas anti tuberkulosis.  
+Kencur mengandung molekul anti TB yaitu etil p-metoksisinamat sehingga memiliki aktivitas antibakteri. 
+- Aktivitas antioksidan. 
+Bioaktivitas tumbuhan kencur sebagai antioksidan berhubungan dengan adanya senyawa flavonoid. 
+- Aktivitas anti radikal bebas. 
+Daun kencur memiliki aktivitas anti radikal bebas yang lebih tinggi daripada rhizomanya.  ",1. https://jamupedia.com/mengenal-ciri-fisik-tanaman-kencur/  ,2. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-kencur/  ,3. https://www.alodokter.com/khasiat-kencur-bisa-menyaingi-efek-obat-obatan-modern ,4. https://www.klikdokter.com/info-sehat/read/3643727/manfaat-beras-kencur-untuk-wajah-bebas-jerawat-dan-glowing  ,"5. Hasanah, 2011. Analisis Kandungan Minyak Atsiri dan Uji Aktivitas Antiinflamasi Ekstrak Rimpang Kencur (Kaempferia galanga L.). Jurnal Matematika & Sains. 16(3): 147-152. 
+6. Silalahi, M., Nisyawati., Walujo, E.B., Supriatna, J., & W, Mangunwardoyo. (2015). The local knowledge of medicinal plants trader and diversity of medicinal plants in the Kabanjahe traditional market, North Sumatra, Indonesia. Journal Ethnopharmacology 175, 432-443. 
+7. Raina, A.P., Abraham, Z., & Sivaraj, N. (2015). Diversity analysis of Kaempferia galanga L. germplasm from South India using DIVA-GIS approach. Industrial Crops and Products 69: 433-439. 
+8. Ibrahim, H. (1999). Kaemferia galanga L. in: Plant Resources of South East Asia No 12(1) Medicinal and Poisinous Plants 1, de Padua LS, N. Bunyapraphhatsara and RHMJ Lemmens (editor). Backhuys Pblisher Leiden. P. 334. 
+9. Dash. P.R., Nasrin. M., & Shawkat. M. (2014). In vivo cytotoxic and In vitro antibacterial activities of Kaempferia galanga. Journal of Pharmacognosy and Phytochemistry 3(1): 172-177. 
+10. Ali, R., Yesmin, R., Satter, M.A., Habib, R., & Yeasmin, T. (2018). Antioxidant and antineoplastic activities of methanolic extract of Kaempferia galanga Linn. Rhizome against Ehrlich ascites carcinoma cells. Journal of King Saud University Science 30, 386- 392. 
+11. Chan, E.W.C., Lim, Y.Y., Wong, L.F., Lianto, F.S., Wong, S.K., & Lim, K.K. (2008). Antioxidant and tyrosinase inhibition properties of leaves and rhizomes of ginger species. Food Chemistry 109, 477-483. "
+22,Ketumbar,*Coriandrum Sativum*  ,Ketumbar.jpg,Ketumbar adalah salah satu rempah-rempah yang buahnya diperdagangkan baik yang dalam bentuk digerus maupun tidak. Asal ketumbar ini diduga dari Eropa Selatan dan sekitar laut Kaspia yang akhirnya menyebar di Indonesia. Ketumbar ini selain dapat digunakan sebagai penyedap dalam makanan ternyata mempunyai khasiat yang luar biasa untuk kesehatan dan kecantikan. ,"- Bunga ketumbar memiliki tangkai dengan panjang 2-10 cm. 
+- Bunga ketumbar memiliki ukuran 3-4 mm. 
+- Biji dari ketumbar memiliki diameter 1-2 mm.  
+- Tinggi tumbuhan ketumbar dapat mencapai 1,3 m. 
+- Buah ketumbar memiliki ukuran berdiameter kira-kira 4-5 milimeter.  ","- Tanaman ketumbar memiliki jenis akar tunggang. 
+- Batang tanaman ketumbar tidak berkayu.  
+- Jika batangnya diremukkan akan mengeluarkan aroma wangi. 
+- Daun ketumbar berkarakter majemuk dan jika diraba tepinya aka terasa bergerigi.  
+- Bunga ketumbar berkarakter majemuk dan berwarna merah pucat dan merah muda.  
+- Buah tanaman ketumbar berbentuk bulat dan berwarna hijau saat muda, namun saat buah sudah besar akan berubah warna menjadi kecoklatan. ","- Mengatasi sakit perut.  
+- Mengatasi mual. 
+- Mengatasi diare.  
+- Mengatasi kejang usus.  
+- Mengatasi perut kembung.  
+- Meredakan gejala campak. 
+- Meredakan wasir.  
+- Meredakan sakit gigi.  
+- Mengobati cacingan.  
+- Mengurangi nyeri sendi. ","- Dapat mencerahkan kulit wajah secara alami.  
+- Mampu meredakan jerawat.  
+- Mengatasi masalah pori pori wajah. 
+- Efektif untuk mendetoks wajah. 
+- Membantu pertumbuhan rambut. ","- Anti kolesterol.  
+Kandungan asam linoleat, asam oleat, asam palmitat, asam stearat, dan asam askorbat dalam air rebusan ketumbar dinilai efektif menurunkan kadar kolesterol dan mengurangi penumpukan kolesterol dalam dinding pembuluh darah jika disertai pola hidup sehat. 
+- Aktivitas anti stres oksidatif.  
+Biji ketumbar bermanfaat melindungi hati dari stres oksidatif yang disebabkan oleh carbon-tetrachloride karena mengandung senyawa alkaloid, flavonoid, dan fenofilik yang melindungi kerusakan hati. 
+- Meningkatkan pemecahan lemak.  
+Jika dibandingkan dengan obat herbal komersial untuk hipolipidemia, ketumbar dapat mengurangi penyerapan dan meningkatkan pemecahan lemak. 
+- Antibakteri dan antioksidan.  
+Biji ketumbar mengandung flavonoid yang bersifat sebagai antibakteri dan antioksidan sehingga dapat meningkatkan kerja sistem imun yang dapat mengurangi masalah keputihan pada wanita. ","1. https://tenderbytes.net/klasifikasi-dan-morfologi-tanaman-ketumbar/.   
+2. https://id.wikipedia.org/wiki/Ketumbar.    ",3. https://canadagooseparkaoutletuk.org.uk/klasifikasi-dan-morfologi-tanaman-ketumbar/   ,4. https://hellosehat.com/herbal-alternatif/herbal/ketumbar/   ,5. https://id.berita.yahoo.com/5-manfaat-ketumbar-untuk-kecantikan-070036213.html    ,"6. Bhatnagar, D., Soran, H., & Durrington, P., N. (2008). Hypercholesterolaemia and Its Management. British Medical Journal, 337: 503-508. 
+7. GuÌˆler T, ErtasÌ§ ON, CÌ§iftcÌ§i M, DalkihcÌ§ B. The effect of coriander seed (Coriandrum sativum L.) as diet ingredient on the performance of Japanese quail. South African J Anim Sci. 2005;35(4):261-267. doi:10.4314/sajas.v35i4.3969. 
+8. FG CE, JW S. In Vitro Carbohydrate Digestibility of Copper Nanoparticulated Bitter Gourd Extract. J Nutr Food Sci. 2016;06(02):2- 5. doi:10.4172/2155-9600.1000482. 
+9. Wangensteen, H., Samuelsen, A.B., dan Malterud, K.E., 2004. Antioxidant activity in extracts from coriander. Food Chemistry, 88: 293-297. "
+23,Kunyit kuning,*Curcuma Longa*  ,KunyitKuning.jpg,"Kunyit atau kunir merupakan salah satu tanaman yang dijadikan rempah-rempah dan obat-obatan tradisional. Pada awalnya, kunyit tumbuh di wilayah Asia Tenggara namun saat ini sudah mengalami penyebaran hingga Malaysia, Indonesia, Australia bahkan Afrika. Biasanya, kunyit ini digunakan untuk pelengkap bumbu masakan, jamu, ataupun untuk menjaga kesehatan dan kecantikan.  ","- Batang pada tanaman kunyit dapat tumbuh mencapai sekitar 70-100 cm dan bentuknya lurus ke atas.  
+- Di setiap tanamannya memiliki sekitar 5-15 helai daun. 
+- Panjang daun mencapai 85 cm dengan lebar mencapai 25 cm.  
+- Tebal bunga kunyit sekitar 2-5 mm dengan panjang 4-8 cm.  
+- Batang semu kunyit panjangnya mencapai 10-15 cm. 
+- Ukuran bunga kunyit memiliki panjang 3 cm dengan lebar 1,5 cm. ","- Akar kunyit memiliki bau khas. 
+- Batangnya berbentuk bulat dan rimpangnya tersusun dari pelepah daun yang sedikit agak lunak.  
+- Daunnya berbentuk elips.  
+- Bagian pangkal ujung daun berbentuk runcing dengan warna hijau tua.  
+- Bunganya muncul dari rimpang yang terdapat pada bagian batang kunyit.  
+- Jenis bunga kunyit adalah bunga majemuk dan mahkotanya berwarna putih. ","- Mengurangi nyeri pada penderita osteoarthritis.  
+- Mencegah penyakit jantung.  
+- Meredakan rasa gatal pada kulit.  
+- Meringankan gangguan menstruasi.  
+- Mengatasi gangguan saluran pencernaan.  
+- Mencegah kanker.  
+- Mengurangi depresi.  
+- Mengatasi masalah kulit. ","- Membuat wajah cerah alami. 
+- Menghilangkan bekas jerawat.  
+- Mengurangi kerutan di wajah.  
+- Mengatasi hiperpigmentasi kulit.  
+- Mengatasi jerawat. 
+- Mengatasi hirsutisme.  
+- Menyamarkan kantung mata hitam. 
+- Mengatasi kulit kering.  ","- Mencegah peningkatan asam lambung.  
+Ekstrak kunyit dapat memblok reseptor histamin secara langsung dan menghambat reseptor gastrin sehingga ekskresi asam lambung menurun. 
+- Aktivitas anti diabetik.  
+Rimpang kunyit memiliki kandungan kurkumin yang dapat menurunkan kadar glukosa darah. 
+- Agen anti inflamasi.  
+Kurkumin dalam kunyit memiliki khasiat sebagai agen anti inflamasi. 
+- Menurunkan kadar urea darah.  
+Pemberian minyak atsiri kunyit dengan dosis 25 mg/kgBB selama satu minggu apat menurunkan kadar urea darah secara signifikan pada penderita artritis gout. 
+- Menekan toksisitas ginjal.   
+Kurkuminoid pada kunyit dapat menekan terjadinya toksisitas ginjal. 
+",1. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-kunyit/  ,2. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-kunyit/  ,3. https://www.alodokter.com/kebenaran-manfaat-kunyit-ditinjau-dari-segi-medis     ,4. https://www.bola.com/ragam/read/4382123/8-manfaat-sempurna-masker-kunyit-untuk-kecantikan    ,"5. Kim DC, Kim SH. 2005. Curcuma longa extract protects against gastric ulcers by blocking Histamin. Bio Pharm Bull. December. 
+6. Anonim, (2017). Statistik Tanaman Biofarmaka Statistics of medicinal plants Indonesia 2017. Jakarta: BPS-Statistics Indonesia. 
+7. Muniroh L, Martini S, Nindya TS dkk. 2010. Minyak Atsiri Kunyit sebagai Anti Radang pada Penderita Gout Artritis dengan Diet Tinggi Purin. Makara 14(2):57-64. 
+8. Said, A. 2007. Khasiat dan Manfaat Kunyit.Jakarta : PT. Sinar Wadjar Lestari. 
+9. Varalakshmi, D., Abhinov, T. (2015). Protective effect of Aqueous Extract of Curcuma Longa on Ethanol Induced Hepatotoxicity in Rat. Indian Journal of Reasearch in Pharmacy and Biotechnology. Vol (3)1. "
+24,Kunyit putih,*Kaempferia rotunda L*  ,KunyitPutih.jpg,"Kunyit putih merupakan suatu rempah-rempah yang masih satu kerabat dengan kencur, namun lebih sering digunakan sebagai pengobatan daripada bumbu masakan. Tanaman ini berasal dari China, sub kontinen India, Indochina dan menyebar ke Jawa, Malaysia, dan Costa Rica. Kunyit putih ini memiliki sifat menghentikan pendarahan dan menambah nafsu makan. Selain itu, tanaman ini bersifat antineoplastik yaitu mengganggu pembentukan ribosom pada sel kanker sehingga dapat menghambat sel kanker. ","- Panjang akarnya dapat mencapai kurang lebih 22,50 cm dan berwarna coklat muda.  
+- Tanaman ini dapat tumbuh hingga 40 sampai 80 cm. 
+- Batang semunya berukuran kurang lebih 2 cm.  
+- Pelepah daunnya mencapai 7 hingga 24 cm.  
+- Helaian daun berbentuk bulat telur memanjang hingga 7 sampai 36 cm dengan lebar 4 sampai 11 cm.  
+- Kedalaman rimpang dalam tanah sekitar 15 cm.  
+- Ketebalan rimpang muda sekitar 2 cm dan rimpang tua sekitar 4 cm.  
+- Panjang bunga sekitar 3 hingga 7 cm.  ","- Sistem perakarannya termasuk akar serabut.  
+- Batangnya tegak, semu, bulat, dan agak lunak.  
+- Kulit rimpang muda berwarna kuning muda dan berdaging kuning sedangkan kulit rimpang tua berwarna jingga kecoklatan serta berdaging jingga terang agak kuning. 
+- Buahnya sangat jarang ditemukan. 
+- Bijinya sangat jarang ditemukan. 
+- Bunganya berwarna ungu-lila dengan rusuk kekuningan. 
+- Kelopak bunga putih atau kehijauan.  
+- Memiliki mahkota yang serupa tabung di pangkalnya dengan taju bentuk garis dan putih. ","- Antibakteri dan anti jamur.  
+- Anti nyeri.  
+- Obat tukak lambung.  
+- Anti Racun. 
+- Anti Radang. 
+- Antikanker. 
+- Kaya akan antioksidan. ","- Menghaluskan kulit yang kering dan bersisik.  
+- Mengobati jerawat.  
+- Mencegah penuaan dini.  
+- Mengangkat sel kulit mati.  
+- Mencerahkan kulit wajah. ","- Aktivitas antikanker.  
+Secara ilmiah, khasiat kunyit putih dalam pemberantasan sel kanker lebih baik dari aktivasi tanaman mahkota dewa. Kunyit putih mengandung protein toksik RIP yang bisa membantu mengaktifkan ribosom untuk mengganggu proses sintesis protein dari sel kanker sehingga sel kanker terhambat.  
+- Antioksidan. 
+Senyawa kurkumin dan flavonoid berfungsi sebagai antioksidan yang membantu proses penyembuhan kanker. 
+- Aktivitas antineoplastik. 
+Tanaman kunyit putih dapat mencegah dan menyembuhkan penyakit kanker karena bersifat antineoplastik sehingga merusak pembentukan ribosom pada sel kanker atau menghambat pertumbuhan sel kanker. 
+- Mencegah dan menyembuhkan maag. 
+Kunyit putih dapat mencegah dan menyembuhkan penyakit maag karena bersifat menghentikan pendarahan dan menghentikan rasa nyeri serta dapat meningkatkan nafsu makan. 
+- Mencegah penyakit tumor abdomen. 
+Kunyit putih dapat mencegah dan menyembuhkan penyakit tumor abdomen karena mengandung tanin, kurkumin, amilum, gula, minyak atsiri, damar, saponin, flavonoid, dan protein toksik untuk menghambat kanker. 
+- Mencegah dan menyembuhkan penyakit kelenjar getah bening.  
+Kunyit putih dapat mencegah dan menyembuhkan penyakit kelenjar getah bening karena kunyit putih memiliki zat anti inflamasi atau zat anti peradangan. ","1. Kartasapoetro, G. Budidaya Tumbuhan Berkhasiat Obat. Jakarta: Rineka Cipta, 2006.  
+2. http://www.tanobat.com/kunir-putih-ciri-ciri-tanaman-serta-khasiat-dan-manfaatnya.html  ","3. Kartasapoetro, G. Budidaya Tumbuhan Berkhasiat Obat. Jakarta: Rineka Cipta, 2006. 
+4. http://www.tanobat.com/kunir-putih-ciri-ciri-tanaman-serta-khasiat-dan-manfaatnya.html. ",5. https://www.alodokter.com/fakta-manfaat-kunyit-putih-bagi-kesehatan  ,6. https://www.popmama.com/life/fashion-and-beauty/bella-lesmana/manfaat-baik-kunyit-putih-untuk-kecantikan/5  ,"7. Pramono, E. The Commercial Use of Traditional Knowledge and Medicinal Plants in Indonesia. Submitted for Multistakeholder Dialoque on Trade: Intellectual Property and Biological Resourcesin Asia, 2002. 
+8. Mangestuti. Monografi Desa Trunyan. Bali: MDT Buku Panduan, 2002. 
+9. Aprilia, Putri. Buku Ajar Keperawatan Maternitas. Jakarta: EGC, 2009. 
+10. Zilmawati R. Faktor-Faktor yang Berhubungan dengan Gejala Gastritis. Padang: Universitas Baiturrahmah, 2007. 
+11. Sastropradjo. Tumbuhan Obat. Jakarta: Lembaga Biologi Nasional LIPI dan Balai Pustaka, 1990. 
+12. Nasution, R.E. Prosiding Seminar dan Loka Karya Nasional Etnobotani. Jakarta: Departement Pendidikan dan Kebudayaan RI LIPI, 2002. "
+25,Lada,*Piper Nigrum*  ,Lada.jpg,"Lada atau sering disebut sebagai merica merupakan salah satu rempah-rempah yang paling banyak digunakan di dunia. Tanaman lada ini sudah ada sejak puluhan abad lalu dan paling banyak ditemukan di Indonesia. Pada tahun 1987, Indonesia hampir menguasai seluruh kebutuhan lada dunia, sekitar 80%. Biasanya lada ini digunakan dalam bumbu masakan dan juga sebagai obat tradisional, misalnya meredakan hidung tersumbat, mengobat penyakit lambung, dan lain sebagainya. ","- Akar tanaman lada dapat mencapai 30 cm tebalnya. 
+- Akar tanaman lada bisa mencapai kedalaman 2 meter.  
+- Panjang batang tanaman lada dapat mencapai 10 meter.  
+- Panjang tangkai mencapai 5 cm. 
+- Daun tanaman lada memiliki panjang 8 cm dengan lebar sampai dengan 10 cm.  
+- Biji dari tanaman lada memiliki ukuran sekitar 4 sampai 5 mm.  ","- Merupakan jenis tanaman dikotil.  
+- Memiliki akar lateral.  
+- Merupakan golongan tanaman dimorfik. 
+- Daunnya berbentuk oval dan merupakan kategori jenis daun tunggal. 
+- Buahnya berbentuk bulat dengan tekstur kasar di permukaannya.  
+- Kulit dari tanaman lada bertekstur lunak dan berwarna hijau saat muda, apabila sudah tua akan berwarna merah dan akan mengeluarkan lendir serta memberikan rasa manis. ","- Melegakan pernapasan.  
+- Membantu mencegah kanker.  
+- Meredakan radang sendi. 
+- Baik untuk kesehatan otak.  
+- Bantu menurunkan kolesterol.  
+- Mencegah gangguan lambung.  
+- Membantu mengobati diare, malaria, nyeri, dan kolera. ","- Menghilangkan keriput. 
+- Mengangkat sel kulit mati.  
+- Mencegah jerawat.  
+- Menyembuhkan vitiligo.  
+- Menghilangkan bekas jerawat.  
+- Membantu menghilangkan ketombe. 
+- Merevitalisasi rambut.  
+- Mencegah kebotakan. ","- Aktivitas antibakteri. 
+Kandungan minyak atsiri pada lada memiliki aktivitas antibakteri terhadap *Staphylococcus aureus* dan *Escherichia Coli*. 
+- Membunuh kecoak (serangga). 
+Kandungan senyawa alkaloid (piperin) dalam ekstrak lada dapat membunuh kecoak. 
+- Insektisida alami.  
+Tanaman lada memiliki kemampuan sebagai insektisida alami karena mengandung senyawa metabolit yang bersifat insektisida seperti alkaloid, tanin, flavonoid, saponin, pipena, kariofilena, zat pahit, minyak lemak, dan minyak atsiri. Piperin yang terdapat dalam lada inilah yang biasanya dimanfaatkan sebagai insektisida. 
+- Pengobatan medis. 
+Lada (Piper Nigrum L.) memiliki kandungan senyawa Piperin, piperidin, chavicin, piperitin, eugenol, kaempferol, myrcene, quercetin, terpene, kavisin dan metil- pirolin; minyak atsiri yang dapat mengobati rematik, perut mulas, beri-beri, influenza, sesak nafas, radang mulut dan tekanan darah rendah. ",1. Klasifikasi dan Morfologi Tanaman Lada - Ilmu Pertanianhttps://agrotek.id/ klasifikasi-dan-morfologi-tanaman-lada  ,2. Klasifikasi dan Morfologi Tanaman Lada - Ilmu Pertanianhttps://agrotek.id/klasifikasi-dan-morfologi-tanaman-lada  ,3. https://www.sehatq.com/artikel/manfaat-lada-atau-merica-yang-menghangatkan-tubuh  ,4. https://www.briliofood.net/foodpedia/8-manfaat-merica-untuk-kecantikan-menghilangkan-bekas-jerawat-190313l.html   ,"5. Rismunandar. 2003. Lada Budidaya dan Tata Niaga. Edisi revisi. Jakarta : Penebar Swadaya. 
+6. Rachmawati, D dan E.Karlina. 2009. Pemanfaatan Pestisida Nabati Untuk Pengendalian rganisme Pengganggu Tanaman. Balai Pengkajian Teknologi Pertanian Jawa Timur, Departemen Pertanian. 
+7. Septiatin, Atin. 2008. Apotek Hidup dari Tanaman Buah. Bandung: Yrama Widya. 
+8. Singh, A. dan Duggal S. 2009. Piperin- review of Advances In Pharmacology. International Journal of Pharmaceutical Sciences and Nanotechnology 2(3) :615-620. "
+26,Lengkuas putih,*Alpinia galanga*  ,LengkuasPutih.jpg,Lengkuas atau biasa disebut laos merupakan umbi-umbian yang biasa hidup dataran tinggi maupun rendah. Tanamn ini diduga berasal dari Asia Tenggara atau China bagian Selatan lalu menyebar ke seluruh Asia. Lengkuas ini biasa dimanfaatkan oleh masyarakat sebagai bumbu dapur serta obat-obatan tradisional. ,"- Tanaman ini dapat tumbuh hingga ketinggian 3 meter untuk lengkuas putih sedangkan lengkuas merah sekitar 1-1,5 meter. 
+- Panjang daun sekitar 20-60 cm dan lebarnya 4-15 cm.  
+- Pelepah daunnya memiliki ukuran panjang kurang lebih 15-30 cm. 
+- Bunganya berukuran sekitar 10-30 cm untuk panjangnya dengan lebar 5-7 cm. 
+- Panjang bibir bunganya berkisar 2,5 cm.  
+- Buahnya berdiameter sekitar 1 cm.  
+- Diameter buahnya mencapai 2-4 cm serta bercabang-cabang. ","- Batangnya tumbuh tegak dan bersatu membentuk batang semu hijau keputihan.  
+- Daunnya tunggal dengan pertulangan menyirip dan memiliki tangkai pendek. 
+- Bunganya merupakan bunga majemuk berbentuk lonceng dan berbau harum.  
+- Buahnya berbentuk bulat dan agak keras. Saat muda berwarna hijau kekuningan sedangkan saat tua berwarna hitam kecoklatan.  
+- Rimpangnya cukup besar dan tebal serta dagingnya berbentuk silindris. 
+- Bagian luar rimpangnya berwarna coklat kemerahan dan kuning kehijauan.  ","- Meredakan nyeri sendi. 
+- Meningkatkan kesuburan pria. 
+- Menurunkan kadar gula darah dan kolesterol.  
+- Mengatasi gangguan pernapasan.  
+- Mengurangi risiko terkena penyakit kanker tertentu (kanker usus besar, kanker payudara, dan kanker kulit). 
+- Membunuh dan menghambat perkembangan virus dan bakteri. ","- Obat jerawat.  
+- Melindungi kulit dari paparan radikal bebas. 
+- Meremajakan kulit.  
+- Mencegah penuaan dini.  
+- Mengobati bekas luka bakar.  
+- Membersihkan bekas jerawat.  
+- Mengoptimalkan pertumbuhan rambut.  
+- Mengurangi bau rambut.  
+- Perawatan rambut kering dan rapuh.  
+- Menghilangkan ketombe. ","- Aktivitas antimikroba.   
+Aktivitas antimikroba dari lengkuas diduga berasal dari senyawa flavonoid dan tannin yang dimiliki. Flavonoid bekerja dengan menghambat sintesis asam nukleat sehingga pembentukan DNA dan RNA dari bakteri juga akan terhambat. Tanin bekerja dengan cara menginaktivasi enzim dan menginaktivasi fungsi dari materi genetik. 
+- Aktivitas anti jamur. 
+Kandungan minyak atsiri pada lengkuas dapat menghambat pertumbuhan jamur. Selain itu, fenol pada lengkuas merusak protein sel dan membran sel dari *Candida Albicans*.  
+",1. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-lengkuas/  ,2. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-lengkuas/  ,3. https://www.alodokter.com/inilah-manfaat-lengkuas-bagi-kesehatan  ,"4. Bebas Jerawat, Ini 3 Manfaat Lengkuas untuk Kecantikan https://www.klikdokter.com  
+5. https://manfaat.co.id/17-manfaat-lengkuas-untuk-kesehatan-dan-kecantikan   ","6. Damaraasri, P.A., Sri W., Purwani T., 2011. Efektivitas Ekstrak Etanol Rimpang Lengkuas (Alpinia galanga L. Willd) sebagai Antimikroba Terhadap Bakteri Salmonella typhi Secara In Vitro. Tugas Akhir Program Studi Pendidikan Dokter Fakultas Kedokteran Universitas Brawijaya : Malang. 
+7. Cushnie, T.P., Andrew J.L., 2005. Antimikrobial Activity of Flavonoids. International Journal of Antimicrobial Agents 26 ; 343-356. 
+8. Sari, F.P., Shofi, M.S., 2011. Ekstraksi Zat Aktif Antimikroba dari Tanaman Yodium (Jatropha multifida Linn) sebgai Bahan Baku Alternatif Antibiotik Alami. Jurusan Teknik Kimia Fakultas Teknik Universitas Diponegoro : Semarang. 
+9. Haraguchi, H., Kuwata, Y. K, Inada,. 1996. Antifungal Activity from Alpinia galanga and the Competition for Incorporation of Unsaturated Fatty Acid in Cell Growth. Planta Medica, 62, 4, 308-313. "
+27,Lengkuas merah,*Alpinia Purpurata*  ,LengkuasMerah.jpg,"Lengkuas merah merupakan rempah-rempah populer yang sering digunakan dalam bidang kuliner dan pengobatan tradisional di Indonesia maupun Asia Tenggara. Tanaman ini berasal dari Asia Tenggara dan Indonesia dan menyebar serta dibudidayakan di Negara-negara Malaysia, Laos, hingga Thailand. Rempah ini mengandung senyawa yang bersifat antiseptik, mencegah kanker, anti alergi, antijamur, antioksidan, serta banyak digunakan dalam bumbu masakan untuk menambah rasa sekaligus aroma. ","- Tanaman ini dapat tumbuh mencapai 1 hingga 2 meter. 
+- Ujung daun terdapat pangkal yang tumpul dengan panjang 30 hingga 90 cm dengan lebar 5 hingga 15 cm.  
+- Pelepah daunnya memiliki panjang antara 15-30 cm.  
+- Tangkai daunnya berambut dengan panjang antara 1 hingga 1,5 cm.  
+- Ukuran bunga lengkuas memiliki panjang sekitar 10 hingga 30 cm dengan lebar 5 hingga 7 cm. 
+- Panjang bibir bunga sekitar 2,5 cm dan berwarna putih dengan garis miring merah muda tiap sisi.  
+- Saat sudah tua buahnya berukuran sekitar 1 cm.  
+- Rimpangnya berukuran besar dan tebal dengan diameter 2 hingga 4 cm serta bercabang cabang. ","- Batangnya semu, tegak, masif, dan terdiri dari pelepah daun hijau kemerahan. 
+- Daunnya tunggal. 
+- Daunnya berbentuk lanset dengan ujung yang runcing.  
+- Pertulangan daunnya menyirip. 
+- Bunganya majemuk (berkelamin dua). 
+- Ujung batang berkelopak hijau dengan mahkota berwarna merah. 
+- Buahnya berbentuk kotak dan bulat dengan warna hijau. 
+- Bijinya bulat berwarna hitam. ","- Mencegah kanker. 
+- Mengobati diabetes. 
+- Meringankan batuk dan sakit tenggorokan.  
+- Meningkatkan kesuburan pria.  
+- Menyembuhkan berbagai penyakit kulit.  
+- Mendukung kesehatan otak.  ","- Meningkatkan kesuburan pria. 
+- Melawan jerawat.  
+- Melawan peradangan.  
+- Sumber antioksidan. 
+- Memberi rasa gurih. 
+- Mengurangi bau amis.  
+- Dapat digunakan sebagai lalapan. ","- Aktivitas antibakteri.  
+Mengandung komponen bioaktif 1’Asetoksi khavikol asetat, eugenol, dan flavanol yang memiliki aktivitas antibakteri. Selain itu, lengkuas merah mengandung saponin dan tannin serta senyawa flavonoid sebagai antioksidan yang dapat menghambat pertumbuhan bakteri serta terdapat senyawa fenolik dalam lengkuas merah juga bersifat antimikroba. 
+- Aktivitas anti jamur.  
+Salah satu komponen bioaktif yang terkandung dalam minyak atsiri rimpang lengkuas adalah eugenol dan senyawa diterpene yang memiliki efek antijamur. Selain itu, senyawa alpinetin yang terdapat di lengkuas dikenal sebagai senyawa fungistatik dan fungisida. Lengkuas merah juga dapat menghambat pertumbuhan jamur penyebab penyakit kulit. ",1. https://jenis.net/lengkuas/  ,2. https://repository.usm.ac.id/files/skripsi/D11A/2014/D.131.14.0006/D.131.14.0006-05-BAB-II-20190306101723.pdf   ,3. https://hot.liputan6.com/read/4131781/6-manfaat-lengkuas-merah-bagi-kesehatan-tidak-hanya-bumbu-masakan  ,"4. Apa Fungsi Lengkuas dalam Masakan? https://www.kompas.com  
+5. 12 Manfaat Lengkuas Merah untuk Kulit Wajah dan ...https://www.diadona.id ","1. Singh, R. & Rai, B. 2000. Antifungal potential of some higher plants against Fusarium udum causing wilt disease of Cajanus cajan. Microbios 102:165-173. 
+2. Pelczar, M.J. dan R.D. Reid. 1978. Microbiology Concept and application. Mc. Graw Hill Book Co. New York 396 pp. 
+3. Haraguchi H, Kuwata Y, Shingu K, dkk. Antifungal Activity from Alpinia Galanga and the competition for incorporotion of unsaturated fatty acids in cell growth. 2006. 
+4. Erna S. 2005. Pusat Penelitian dan pengembangan Tumbuhan Obat UNAS/P3TO UNAS. 
+5. Djuanda, Adhi., Mochtar Hamzah, Siti Aisah. Ilmu Penyakit Kulit dan Kelamin. Jakarta : Penerbit Fakultas Kedokteran Universitas Indonesia.2010. "
+28,Pala,*Myristica fragrans*  ,Pala.jpg,"Pala merupakan rempah yang berasal dari biji bagian dalam dari buah pala atau biasa disebut Myristica fragans. Tumbuhan ini berasal dari kepulauan Banda, Maluku dan sejak zaman eksplorasi Eropa, Pala tersebar luas di daerah tropik. Pala ini biasanya akan dijadikan dalam bentuk bubuk dan dapat digunakan sebagai penyedap dan minuman penyegar serta bagian lain dari tumbuhan pala seperti kulitnya dapat digunakan sebagai obat pengusir nyamuk. ","- Tinggi tanaman pala ini dapat mencapai 20 meter menjulang tinggi. 
+- Panjang daun dari tanaman pala sekitar 5 sampai 15 cm dengan lebar 4 sampai 7 cm.  
+- Panjang tangkai daun sekitar 0,4 cm sampai dengan 1,5 cm. 
+- Bunganya berwarna kuning dengan diameter sekitar 2,5 mm dan panjang 3 mm. 
+- Diameter buah tanaman pala sekitar 3 hingga 9 cm.  
+- Biji pala memiliki ukuran panjang yaitu sekitar 4,5 cm dengan lebar 2,5 cm.  ","- Sistem perakaran yang dangkal sehingga akar dapat terlihat dengan jelas di tanah.  
+- Memiliki mahkota pohon berbentuk silindris, bulat, dan meruncing dengan percabangan yang teratur.  
+- Daunnya berbentuk elips dan langsing.  
+- Merupakan tanaman berumah dua karena bunga jantan dan betina terdapat dalam satu pohon. 
+- Buah pada tanaman pala berbentuk lonjong dan berwarna kuning jika sudah masak.  
+- Biji pala berbentuk bulat atau lonjong dan berwarna coklat.  ","- Mengandung antioksidan.  
+- Memiliki efek antiradang.  
+- Bersifat antibakteri.  
+- Membantu menjaga tekanan darah.  
+- Meningkatkan libido. ","- Mengatasi jerawat. 
+- Mencerahkan kulit.  
+- Mengurangi kerutan di wajah.  
+- Mengangkat sel kulit mati.  
+- Meratakan warna kulit.  
+- Menghilangkan bekas luka dan bintik hitam. 
+- Mengurangi produksi sebum berlebih di wajah.  
+- Memberikan tampilan wajah yang sehat.  ","- Efek farmakologis.  
+Sebagai obat, biji pala bersifat karminatif (memperlancar buang angin), stomakik (memperlancar pencernaan), stimulan, spasmolitik, dan antiemetik atau antimual. 
+- Aktivitas anti bakteri.  
+Tanaman pala memiliki kandungan senyawa flavonoid diduga memiliki efek penghambat terhadap pertumbuhan bakteri. Flavonoid berfungsi sebagai antibakteri dengan cara mengikat protein bakteri sehingga menghambat aktivitas enzim yang pada akhirnya mengganggu proses metabolisme bakteri. 
+- Aktivitas anti fungi.  
+Kandungan buah pala yang menunjukkan aktivitas antifungi adalah flavonoid, saponin, dan alkaloid. 
+- Aktivitas anti jamur dan anti bakteri.  
+Fuli pada buah pala menunjukkan adanya aktivitas antijamur dan antibakteri. 
+- Aktivitas anti bakteri oral. 
+Eugenol dalam pala digunakan dalam kedokteran gigi sebagai sealer saluran akar dan menunjukkan adanya aktivitas antibakteri oral. ",1. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-pala/  ,2. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-pala/  ,3. https://www.klikdokter.com/info-sehat/read/3647316/nutrisi-dan-manfaat-buah-pala-untuk-kesehatan-tubuh  ,"4. https://www.klikdokter.com/info-sehat/read/3646751/ini-manfaat-biji-pala-untuk-kecantikan-kulit-wajah  
+5. https://review.bukalapak.com/beauty/5-manfaat-buah-pala-untuk-kulit-wajah-cerah-dan-bebas-kusam-82225  ","6. Okukpe KM, Adeloye MA, Alli OI, Adeyina OA, Annongu A. Investigation of pytohormonal potential of some selected tropical plants. Res j med plants. 2012; 6(6):425-432. 
+7. Nurdjannah, N. and Mulyono, E., 2007. Teknologi Pengolahan Pala. Badan Penelitian Dan Pengembangan Pertanian. Balai Besar Penelitian dan Pengembangan Pascapanen Pertanian. Bogor. 
+8. Robinson, T. 1995. Kandungan Organik Tumbuhan Tinggi. Edisi 6. ITB Press, Bandung. 
+9. Weil, A.T. 1966. The use of Nutmeg as a Psychotropic Agent. Buletin on Narcotica, Issue 4-002. 
+9. Singh A, Rao AR. Modulatory effect of areca nut on the action of mace (Myristica fragrans, Houtt) on the hepatic detoxification system in mice. Food Chem Toxicol. 1993:31:517-21. 
+10. Lai, et.all. 2001. Antimicrobial activity of four root cana sealer against endodontic pathogens. Clin Oral Investig. 5:236-9. "
+29,Serai,*Cymbopogon Citratus*  ,Serai.jpg,"Serai atau biasa disebut sereh merupakan tumbuhan bersuku rumput-rumputan yang biasanya dimanfaatkan sebagai bumbu dapur atau menambah aroma masakan. Tanaman ini dipercaya berasal dari Asia Tenggara atau Sri Lanka namun tanaman ini dapat tumbuh pada berbagai kondisi tanah di daerah tropis yang curah hujannya relatif tinggi. Serai ini biasa digunakan sebagai penambah aroma makanan, obat-obatan tradisional atau bahkan mengusir nyamuk. ","- Akarnya dapat mencapai kedalaman hingga 1 meter.  
+- Lebar daun serai sekitar 2 cm dengan panjang berkisar antara 50 hingga 100 cm.  
+- Tanaman serai mampu tumbuh hingga 1-1,5 meter. ","- Memiliki jenis akar serabut dengan rimpang yang pendek berwarna kecoklatan.  
+- Batangnya berongga dan lunak serta berbau khas.   
+- Daun serai berbentuk runcing, panjang, bertekstur kesat serta mengeluarkan aroma yang khas.  
+- Tepian daun serai bertekstur tajam dan kasar.  
+- Tanamn ini jarang sekali memiliki bunga, jikapun bunganya muncul hanya berbentuk seperti bulir-bulir.  
+- Tanaman ini juga jarang terlihat bijinya bahkan hampir tidak pernah.  ","- Sumber antioksidan.    
+- Baik untuk sumber pencernaan.   
+- Mengontrol tekanan darah.   
+- Mengendalikan kadar kolesterol dalam darah.    
+- Membakar lemak.  
+- Menjaga kesehatan kulit dan rambut.   
+- Memelihara daya tahan tubuh.  
+- Meredakan flu.   
+- Meredakan nyeri haid.   
+- Menjaga kadar gula dalam darah.   ","- Mengatasi jerawat.   
+- Menghilangkan ketombe di kulit kepala.  
+- Mengatasi kulit berminyak.   
+- Mengatasi tumit kering.   
+- Mengurangi selulit.  
+- Meningkatkan kesehatan kulit.  ","- Anti nyamuk.  
+Tanaman serai wangi menghasilkan pati atau minyak atsiri yang dikenal sebagail minyak citronella yang mengandung 2 senyawa kimia penting yaitu sitronelal dan geraniol yang berfungsi sebagai pengusir nyamuk.  
+- Pengawet.   
+Serai digolongkan sebagai pengawet alami karena mengandung senyawa saponin, tanin, alkaloid, flavonoid, dan minyak atsiri.  
+- Anti kanker dan anti inflamasi.   
+Serai kaya akan flavonoid yang bersifat sebagai antikanker dan antiinflamasi karena efek dari anti oksidasi lemak serai.  
+- Aktivitas antioksidan.   
+Senyawa *licochacone A* dan *licochacone B* memiliki aktivitas antioksidan yang sama dengan glaberen dan tiga kali lebih efektif dibandingkan dengan vitamin E.  
+- Aktivitas antimikroba.   
+Senyawa flavonoid lipofilik memiliki aktivitas antimikroba karena memiliki kemampuan penetrasi dalam membran sel.  ",1. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-serai/   ,2. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-serai/   ,3. https://www.klikdokter.com/info-sehat/read/3180941/memetik-manfaat-sereh-untuk-kesehatan   ,4. https://www.brilio.net/kesehatan/10-manfaat-serai-untuk-kecantikan-dan-kesehatan-200123b.html  ,"5. Flona. S, 2006, Herba dan Tanaman Hias , Penangkal Nyamuk dan Polusi Udara , Samidra Utama, Jakarta.  
+6. Hamza, I. S., Sundus, H. A., and Hussaine, A. (2009). Study the Antimicrobial Activity of Lemon Grass Leaf Extracts. 2:1. 134- 136.  
+7. Martin, F. R., Frutos, M. J. PeÌ_x0081_rez J. A., Alvarez, F., Martinez, S, and Tel Rio J. A. (2002). Flavonoids as Neutraceutical: Structural Related Antioxidant Properties and Their Role on Ascorbic Acid Preservation. In: Atta Ur-Rahman (Ed.). 2001. Studies in natural products chemistry. 26. 324-389.  
+8. Abd-El Fattah, S.M., Y.H. Abo sree., Bayoum, H.M., Eissa, H. A. (2010). The Use of Lemongrass Extracts as Antimicrobial and Food Additive Potential in Yoghurt. J. Am. Sci., 6:11. 582-594.  
+9. Hamdiyati, Yanti, dkk. 2008. Aktivitas Anti bakteri Ekstrak Daun Patikan Kebo (Euphorbia hirta) terhadap Pertumbuhan Bakteri Staphylococcus epidermidis.   "
+30,Temulawak,*Curcuma zanthorrhiza*  ,Temulawak.jpg,"Temu lawak adalah tumbuhan obat-obatan yang tergolong dalam temu-temuan. Tumbuhan ini berasal dari Indonesia, khususnya Pulau Jawa yang akhirnya menyebar ke kawasan Asia Tenggara. Temulawak dapat dimanfaatkan sebagai tanaman obat khususnya dapat mengobat penyakit kolesterol, meningkatkan nafsu makan, antiinflamasi, anemia, antioksidan, pencegah kanker, dan antimikroba.  ","- Tanaman ini dapat tumbuh hingga ketinggian 1 meter.  
+- Tiap tanaman rumpun dapat memiliki tanaman anakan, yang tiap tanamannya memiliki 2-9 helai daun.  
+- Panjang akarnya dapat mencapai sekitar 25 cm.   
+- Panjang daun temulawak sekitar 59-55 cm dengan lebar 15 cm.   
+- Tangkai bunga temulawak memiliki panjang sekitar 3 cm.   
+- Rangkaian bunganya mencapai 1,5 cm.   
+- Pada satu ketiak terdapat 3-4 buah bunga.  ","- Merupakan tumbuhan merumpun karena batangnya semu.   
+- Memiliki sistem perakaran serabut.   
+- Rimpangnya berukuran besar dan bercabang serta memiliki warna kulit rimpang coklat kemerahan.  
+- Daun temu lawak memiliki bentuk yang memanjang dan agak lebar hingga lanset.       
+- Bunga temulawak berwarna kuning dan kelopaknya berwarna kuning tua.   
+- Pangkal bunganya berwarna ungu.  ","- Mengatasi masalah sistem pencernaan.   
+- Mengatasi osteoarthritis.    
+- Mencegah serta membantu pengobatan kanker.    
+- Obat anti radang.   
+- Antibakteri dan anti jamur.  
+- Obat jerawat.  
+- Menjaga kesehatan liver.  
+- Obat diuretik.  
+- Antipasmodik (merelaksasi otot).  ","- Meremajakan kulit.   
+- Membantu mengatasi jerawat.   
+- Menghaluskan wajah.   
+- Menyamarkan noda hitam.   
+- Melembapkan kulit.   
+- Membantu mencerahkan kulit wajah.   
+- Mengecilkan pori-pori.  
+- Menghilangkan bekas luka pada wajah.   
+- Mengencangkan kulit.   
+- Antioksidan bagi kulit.   ","- Efek farmakologis.   
+Manfaat dari tanaman temulawak antara lain sebagai antihepatitis, antioksidan, antiinflamasi, anti karsinogen, antimikroba, antiviral, detoksifikasi, dan antihiperlipidemia.  
+- Antioksidan.   
+Temulawak dapat bersifat sebagai antioksidan karena mengandung flavonoid, fenol, dan kurkumin.  
+- Menghambat virus hepatitis B.   
+Kandungan kurkumin dalam temulawak mampu menghambat ekspresi gen dan replikasi dari virus hepatitis B.  
+- Menghambat kolesterol jahat.  
+Rimpang temulawak mengandung kurkumin yang dapat menghambat pembentukan LDL atau kolesterol jahat.  
+- Mencegah kerusakan lambung.  
+Mengandung antioksidan flavonoid, kurkumin, dan fenol yang dapat mencegah kerusakan sel pada mukosa lambung akibat radikal bebas.  ",1. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-temulawak/  ,2. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-temulawak/  ,3. https://hellosehat.com/herbal-alternatif/herbal/manfaat-temulawak/  ,4. https://www.brilio.net/kesehatan/10-manfaat-temulawak-untuk-kecantikan-dapat-meremajakan-kulit-200911k.html   ,"5. Hemeida RAM, Mohafez OM. Curcumin attenuates methotraxate- induced hepatic oxidative damage in rats. Journal of the Egyptian Nat. Cancer Inst. 2008; 20(2):141-8.  
+6. Jayaprakasha GK, Jaganmohan RL, Sakariah KK. Antioxidant activities of curcumin, demethoxycurcumin and bisdemethoxycurcumin. Food Chemistry. 2006; 98: 720-24.  
+7. Rechtman MM, Bar-Yishay I, Fishman S, Adamovich Y, Shaul Y, Halpern Z, Shlomai A. Curcumin inhibits hepatitis B via down-regulation of the metabolic coactivator PGC-1Î±. FEBS letters. 2010. hlm. 2485-90.  
+8. Kang Q, Chen A. Curcumin suppresses expression of low-density lipoprotein (LDL) receptor, leading to the inhibition of LDL- induced activation of hepatic stellate cells. Br J Pharmacol. 2009;157(8):1354-67.  
+9. Lacasa CI, Villegas CA, Lastra T, Motilva MJM, Calero. 2000. Evidence for protective and antioksidant properties of rutin, a natural flavone, against ethanol induced gastric lesions. J Ethnopharmacol. 71: 45-53.  "
+31,Temu putih,*Curcuma Zedoaria*  ,TemuPutih.jpg,"Temu putih merupakan suatu jenis tanaman rempah yang hampir semua bagian tanamannya dapat digunakan sebagai obat-obatan. Tanaman ini dapat ditemukan di daratan Indonesia dan India, hingga telah dibudidayakan di Eropa, Amerika, dan wilayah Asia lainnya. Kunyit putih ini biasanya dimanfaatkan sebagai obat-obat tradisional seperti pengobatan alternatif kanker dan mengatasi masalah pencernaan.  ","- Rimpang temu putih memiliki anak rimpang mencapai 3-4 buah.   
+- Batang tanaman rimpang putih dapat tumbuh mencapai 2 meter.   
+- Pada batang tanaman akan bermunculan pelepah daun bertangkai yang berukuran 1 meter.  
+- Ukuran tangkai daun dapat mencapai 1-2 meter.  
+- Ukuran daun tanaman ini memiliki panjang sekitar 35 cm dengan lebar 13 cm.   
+- Ukuran bunga dari temu putih ini sekitar 22 cm.   ","- Akar temu putih memiliki jenis rimpang dan berwarna coklat tua.   
+- Daun pada tanaman rimpang menempel pada tangkai.   
+- Setiap tangkai tumbuh sekitar 5 helai daun.  
+- Daun memiliki pertulangan lurus berwarna ungu tua.   
+- Bunga temu putih berwarna kuning keputihan atau kuning pucat.    ","- Meringankan gejala tidak enak badan.   
+- Menghambat pertumbuhan sel kanker.   
+- Menghambat perkembangan bakteri.  
+- Mengatasi gejala alergi.  
+- Penawar racun.   
+- Memperlancar pencernaan.  
+- Mengurangi peradangan dan rasa nyeri.  ","- Mengatasi kulit berminyak.   
+- Mencegah penuaan dini.   
+- Mencegah pigmentasi kulit.  
+- Mengatasi jerawat.   
+- Menghaluskan kulit.   
+- Membasmi ketombe.   
+- Memutihkan kulit.  
+- Menyegarkan kulit.   ","- Aktivitas anti bakteri.  
+Temu putih mengandung triterpenoid yang memiliki aktivitas antibakteri terhadap *Staphylococcus aureus* dan *Escherichia coli*. Temu putih juga memiliki kandungan methanol yang memiliki aktivitas antibakteri terhadap *Klebsielle pneumoniae*, salah satu penyebab penyakit pneumonia.  
+- Anti kanker.   
+Temu putih mengandung kurkuminoid, flavonoid, bisdemothxycurcumin, *demothxycurcumin*, dan *ethyl p- methoxycinnamate* yang diantaranya berfungsi sebagai zat anti kanker.  
+- Anti alergi.  
+Zat kurkumin, *dihydrocurcumin*, *tetrahydrodemethoxycurcumin,* dan *tetrahydrobisdemethoxycurcumin* dalam temu putih dapat bekerja sebagai anti alergi.  
+- Analgesik.  
+Zat kurkumenol dan steroid dalam temu putih ini memiliki aktivitas analgesik yang lebih kuat daripada obat kontrol.  
+- Menghambat pertumbuhan sel kanker.   
+Temu putih mengandung *ribosome Inacting Protein* (RIP) yang berfungsi menonaktifkan perkembangan sel kanker dan menghambat pertumbuhan sel kanker.  
+- Menghambat pertumbuhan jamur.   
+Zat kurkumin, *curzerenone*, dan *zedoarone* dalam temu putih memiliki aktivitas antijamur karena menghambat pertumbuhan jamur.  
+- Aktivitas anti mikroba.  
+Ekstrak petroleum eter, heksana, kloroform, aseton, dan etanol dari temu putih memiliki aktivitas antimikroba yang baik pada *Staphylococcus aureus*, *E. Coli*, *Corynebacterium amycolatum*, dan *Candida albicans*.  
+- Antioksidan alami.  
+Temu putih memiliki kandungan antioksidan alami yaitu diferuloylmethan yang dapat mencegah dan memperlambat proses penuaan yang berkaitan dengan penyakit degeneratif.    ",1. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-rimpang-temu-putih/  ,2. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-rimpang-temu-putih/  ,3. https://www.sehatq.com/artikel/manfaat-temu-putih-saudara-kunyit-kuning-dengan-segudang-khasiat  ,4. https://hot.liputan6.com/read/4271361/11-manfaat-temu-putih-untuk-kecantikan-kulit-dan-rambut-alami  ,"5. Rita WS. 2010. Isolasi, Identifikasi, dan Uji Aktivitas Antibakteri Senyawa Golongan Triterpenoid Pada Rimpang Temu Putih (Curcuma zedoaria (Berg) Roscoe). J Kimia 4:20-26.  
+6. Nurhayati N. 2010. Isolasi,Identifikasi dan Uji Aktivitas Antibakteri Senyawa Fenolik dari Rimpang Temu Putih (Curcuma zedoaria Rosc). Surabaya: Airlangga University Library.  
+7. Carvalho FR, VassaÌƒo RC, Nicoletti MA, Maria DA. Effect of Curcuma zedoaria crude extract against tumor progression and immunomodulation. J Venom Anim Toxins incl Trop Dis. 2010; 16(2): 324-41.  
+8. Matsuda H. Anti-allergic principles from Thai zedoary: structural requirements of curcuminoids for inhibition of degranulation and effect on the release of TNF-a and IL-4 in RBL-2H3 cells. Bioorg Med Chem. 2004; 12: 5891-8.  
+9. Navarro ND. Phytochemical analysis and analgesic properties of Curcuma zedoaria grown in Brazil. Phytomedicine. 2004; 9: 427-32.  
+10. Syu WJ, Shen CC, Don MJ, Ou JC, Lee GH, Sun CM. Cytotoxicity of curcuminoids and some novel compounds from Curcuma zedoaria. J Nat Prod. 1998; 61(12):1531-4.  
+11. Ficker CE, Smith ML, Susiarti S, Leaman DJ, Irawati C, Arnason JT. Inhibition of human pathogenic fungi by members of Zingiberaceae used by the Kenyah (Indonesian Borneo). J Ethnopharmacol. 2003; 85: 289-93.  
+12. Ficker CE, Smith ML, Susiarti S, Leaman DJ, Irawati C, Arnason JT. Inhibition of human pathogenic fungi by members of Zingiberaceae used by the Kenyah (Indonesian Borneo). J Ethnopharmacol. 2003; 85: 289-93.  
+13. Mau JL. Composition and antioxidant activity of the essential oil from Curcuma zedoaria. Food Chem. 2003; 82: 583-91.  "
+32,Temu mangga,*Curcuma Mangga*  ,TemuMangga.jpg,"Temu mangga merupakan salah satu tanaman rempah-rempah yang rimpangnya memiliki aroma spesifik seperti mangga. Tanaman ini asli dari daerah Indo-China dan dibudidayakan di Taiwan, Thailand, Pasifik, hingga Australia Utara. Rimpang dari tanaman ini dapat dimanfaatkan untuk berbagai macam pengobatan seperti gangguan perut, mengatasi penyakit kanker, dan menambah nafsu makan.  ","- Tanaman ini dapat tumbuh hingga ketinggain 1-2 meter.  
+- Daunnya memiliki panjang sekitar 1 m dengan lebar 10 hingga 20 cm.  
+- Akarnya dapat tumbuh hingga 25 cm dan letaknya tidak beraturan.   
+- Pelepah daunnya memiliki panjang 30 hingga 65 cm.   
+- Daunnya yang berbentuk nulat agak lonjong dapat tumbuh hingga panjangnya 30 sampai 45 cm dengan lebar 7,5 cm hingga 13 cm.   
+- Daunnya berbentuk lonjong menjorong dan lonjong melanset sungsang memiliki panjang sekitar 15-95 cm dengan lebar 5-23 cm.    ","- Tanaman ini berbentuk semak.   
+- Daunnya tunggal dengan pertulangan menyirip dan berwarna hijau.   
+- Akarnya serabut dan berwarna putih.  
+- Rimpangnya beraroma harum mangga dan rasanya manis.   
+- Kulit rimpangnya berwarna putih kekuningan pada kondisi segar dan berwarna kuning pada kondisi kering.   
+- Batangnya semu, tegak, dan batang yang di dalam tanah membentuk rimpang.   
+- Buahnya berbentuk bulat dan berwarna hijau kekuningan.  ","- Mengobati maag atau asam lambung.   
+- Mengobati diare.  
+- Menghilangkan nyeri saat haid.   
+- Mengobat keputihan.   
+- Mengobat jerawat dan bisul.   
+- Mengecilkan rahim.   
+- Menambah nafsu makan.  ","- Membantu meremajakan kulit.  
+- Membantu meningkatkan nafsu makan.   
+- Meningkatkan daya tahan tubuh.  ","- Aktivitas antioksidan.   
+Ekstrak etanol pada temu mangga memiliki aktivitas antioksidan yang tinggi yang disebabkan oleh senyawa fenolik. Ekstrak ini dapat menekan terjadinya stres oksidatif mampu menginduksi aktivitas glutation-S-transferase (GST).   sehingga proses detoksifikasi senyawa asing dalam tubuh menjadi maksimal
+- Menambah nafsu makan.   
+Senyawa kurkumin pada temu mangga bermanfaat sebagai penambah nafsu makan dan memperlancar produksi cairan empedu. Minyak atsiri pada temu mangga berkhasiat mempercepat gerak peristaltik usus halus dan dapat mempercepat terjadinya pengosongan lambung.   
+- Mendetoksifikasi tubuh.   
+Ekstrak temu mangga mengandung kurkuminoid yang memiliki gugus fenolik dan berperan esensial dalam mendetoksifikasi superoksida.  
+- Menekan pembentukan radikal bebas.  
+Kandungan fenol pada temu mangga memiliki aktivitas antioksidan yang baik karena efektif dalam mendonorkan hidrogen dan berperan dalam menangkal radikal bebas.  
+- Aktivitas anti radang, antikanker, dan antimutagenik.   
+Substansi fenolik pada temu mangga memiliki aktivitas antioksidan, anti radang, antikanker, dan antimutagenik.  ","1. Sudewo, B. (2004). Tanaman Obat Populer Penggempur Aneka Penyakit. Agomedia Pustaka. Yogyakarta. Hal. 13 - 15.  
+2. https://ccrc.farmasi.ugm.ac.id/?page_id=2249  ","3. Sudewo, B. (2004). Tanaman Obat Populer Penggempur Aneka Penyakit. Agomedia Pustaka. Yogyakarta. Hal. 13 - 15.  
+4. https://ccrc.farmasi.ugm.ac.id/?page_id=2249   ",5. https://ccrc.farmasi.ugm.ac.id/?page_id=2249  ,6. https://www.brilio.net/kesehatan/7-manfaat-kunyit-mangga-untuk-kesehatan-dan-cara-pakainya-191113h.html  ,"7. Tedjo, A., Sajuthi, D., Darusman, LK., 2005, Aktivitas Kemoprevensi Ekstrak Temu Mangga, Makara, Kesehatan, Vol. 9, No. 2, 57-62.
+8. Arifin, Z., dan Kardiyono. 1985. Temulawak Dalam Pengobatan Tradisional. Prosiding Simposium Nasional Temulawak. Bandung. Lembaga Penelitian Universitas Padjajaran.
+9. Rukmana, R. 2005. Temu Hitam. Yogyakarta: Kanisius.
+10. Cheville, N. F. 2006. Introduction to Veterinary Pathology Ed ke 3. USA. Blackwell Publishing.
+11. Saikia, L. R., dan S. Upadhyaya. 2011. Flavonoid Content of Some Less Known Medicinal Plants of Assam. International Journal of Pharma and Bio Sciences. (2): 384-388.
+12. Vareed, S. K., M. Kakarala., M. T. Ruffin., J. A. Crowell., D. P. Normolle., Z. Djuric., and D. E. Brener. 2008. Phamacokinetics of Curcumin Conjugate Metabolitees in Healthy Human Subjects. Cancer Epidemiol Biomarkers Prev 2008. 17 (6) : 141- 147.  "
+33,Temu hitam ,*Curcuma Aeruginosa Roxb*  ,TemuHitam.jpg,"Temu hitam atau biasa disebut sebagai temu ireng merupakan sejenis temu-temuan yang masih satu keluarga dengan temulawak, namun berukuran lebih kecil dan berwarna hitam. Tanaman ini diketahui berasal dari Burma dan akhirnya menyebar ke daerah tropis dunia terkhususnya Indo-Malaya. Rimpang dari temu hitam ini biasanya digunakan sebagai obat tradisional dan sebagai jamu ""cekok"" untuk anak-anak kecil yang susah makan.    ","- Panjang akar dapat mencapai 17 cm dan menjurus ke dalam tanah dengan kedalaman mencapai 11-60 cm.   
+- Untuk akar yang masih muda, jumlah rimpangnya sekitar 5 buah sedangkan untuk akar yang sudah tua, jumlah rimpangnya mencapai sekitar 9 buah.  
+- Panjang daun temu hitam sekitar 31-80 cm dengan lebarnya 10-18 cm.   
+- Bunga temu hitam muncul setiap 5 bulan sekali.  
+- Panjang tangkai bunganya sekitar 35 cm.   ","- Akar tanamannya berjenis rimpang.   
+- Warna rimpangnya gelap dan berbau aromatik.  
+- Daun temu hitam berbentuk bulat oval dengan jenis daun tunggal.  
+- Pertulangan daunnya menyirip.   
+- Memiliki bunga berjenis majemuk.   
+- Bunganya berwarna ungu muda dan ungu tua.  ","- Menambah nafsu makan.  
+- Mengobat malaria.  
+- Mengobati kudis dan kurap.  
+- Menurunkan kadar kolesterol tinggi.  
+- Meredakan nyeri haid.  
+- Mengobati cacingan.  
+- Mengobati masuk angin.  
+- Melembutkan kulit.  ","- Detoksifikasi.   
+- Menyehatkan saluran pencernaan.  
+- Antimikroba.  
+- Mengobati batuk, asma, dan rematik.  
+- Menyehatkan kulit.  ","- Aktivitas antioksidan.     
+Temu hitam mengandung oleorosin dari ekstrak diklorometana rimpang temu hitam yang menunjukkan aktivitas antioksidan.     
+- Aktivitas antimikroba.    
+Etil asetat, n-heksana, dan metanol dalam rimpang temu hitam menunjukkan adanya aktivitas sebagai antimikroba.  
+- Meningkatkan berat badan.  
+Ramuan jamu cekok berbahan temu hitam dapat meningkatkan berat badan anak.  
+- Meningkatkan imun tubuh.  
+Ekstrak etanol yang terdapat dalam temu hitam dapat meningkatkan kemampuan fagositosis yang berperan dalam meningkatkan imun tubuh.  
+- Meredakan nyeri.   
+Ekstrak metanol dan kloroform rimpang temu hitam menunjukkan sifat efek antinosiseptif dan efek relaksan eterus.  ",1. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-temu-hitam/   ,2. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-temu-hitam/    ,3. https://www.masjidalakbar.or.id/2020/01/04/manfaat-temu-ireng-bagi-kesehatan-dan-kecantikan-kulit/  ,4. https://www.sehatq.com/artikel/manfaat-temu-ireng-jamu-cekok-sekaligus-keluarkan-racun   ,"5. Rajmma AG, Bai V, Nambisan, B. (2012). ""Antioxidant and Antibacterial Activities of Oleorensis Isolatet from Nine Curcuma Species.,"" Phytopharmacology. 2(2), hal. 312-317.  
+6. Philip K, Abdul-Malek SN, Sani W, Shin SK, Kumar S, Lai HS, Serm LG, R. S. (2009). ""Antimicrobial activity of some medicinal plants,"" Malaysia. Am J Appl Sci, hal. 1613-1617.    
+7. Marni, Ambarwati R. (2015). Khasiat Jamu Cekok Terhadap Peningkatan Berat Badan pada Anak. KEMAS 11(1):102- 111. http://dx.doi.org/10.15294/kemas.v11i1. 3522.  
+8. Hidayana V. (2014). Pengaruh Pemberian Ekstrak Etanol Rimpang Temu Hitam (Curcuma aeruginosa Roxb.) terhadap Kemampuan Fagositis dan Jumlah Sel Leukosit pada Mencit Putih Betina. Jurnal Kesehatan STIKes Nusantara Bukittinggi 5(2):77-85.  
+9. Thaina P, Tungcharoen P, Wongnawa M, Reanmongkol W, Subhadhirasakul S. (2009). Uterine relaxant effects of Curcuma aeruginosa Roxb. rhizome extracts. Journal of Ethnopharmacology 121:433-443.  "
+34,Temu giring,*Curcuma Heyneana*  ,TemuGiring.jpg,"Temu giring merupakan salah satu jenis tumbuhan yang masih satu keluarga dengan temulawak. Temu giring ini dapat ditemukan di hutan-hutan kecil ataupun peladangan dekat rumah warga, terutama daerah sekitar jawa timur. Biasanya, temu giring ini digunakan sebagai obat cacing dan digunakan sebagai bahan kosmetika.  ","- Daunnya memiliki helai 3 hingga 8 buah.   
+- Rata rata panjang daun sekitar 20 hingga 40 cm dengan lebar 8 hingga 12,5 cm.  
+- Akarnya dapat tumbuh hingga mencapai kedalaman 10 cm hingga 25 cm.   
+- Tinggi tanaman dapat mencapai 1 meter.  
+- Dapat tumbuh di tempat dengan ketinggian 200 m hingga 750 m di atas permukaan laut.  
+- Dapat tumbuh di ph tanah sekitar 6 sampai 7.  ","- Daunnya tunggal dan berbentuk lanset memanjang dengan pertulangan menyirip serta berwarna hijau pucat.   
+- Batang semu, tegak, bulat, dan membentuk rimpang dengan warna hijau kekuningan.  
+- Bunganya terdapat di bagian samping batang semu.   
+- Bunganya memiliki bagian pelindung yang berujung lancip.   
+- Pinggiran mahkota bunga berwarna merah.   
+- Rimpang temu giring berupa umbi batang yang tumbuh menyebar di sebelah kanan dan kiri batang.   
+- Daging rimpang berwarna kuning cerah dengan bau khas aromatik.   ","- Mengobati cacingan terutama cacing gelang.  
+- Menormalkan jantung yang berdebar-debar.   
+- Mengobati kudis dan kulit yang gatal.   
+- Mengobati luka terkelupas untuk mempercepat pemulihan.  
+- Mengobati sakit perut.  
+- Mengobati disentri.  
+- Mengobati cacar air.  
+- Melembutkan kulit.   
+- Melangsingkan badan.  ","- Sebagai aromaterapi.  
+- Mengatasi otot kaku.  
+- Menghilangkan kulit kusam.  
+- Melancarkan peredaran darah.  ","- Bumbu memasak.  
+Temu giring mengandung minyak atsiri sehingga dapat digunakan sebagai bumbu memasak.  
+- Aktivitas fenolik.   
+Senyawa fenolik pada temu giring berperan dalam memberikan aroma yang khas pada produk makanan dan minuman juga sebagai antioksidan. Dalam industri farmasi fenolik digunakan sebagai antioksidan, antimikroba, dan antikanker. Selain itu, fenolik juga dapat digunakan sebagai insektisida dan fungisida.  
+- Aktivitas flavonoid.   
+Temu giring mengandung senyawa flavonoid yang dapat memperbaiki sel yang rusak akibat radikal bebas serta dapat mengurangi risiko kanker, hipertensi, dan diabetes.  
+- Aktivitas anti virus.   
+Temu giring disebut memiliki aktivitas antivirus karena mampu menurunkan titer virus.  
+- Antioksidan dan anti penuaan dini.   
+Mengandung senyawa antioksidan dan memiliki aktivitas anti penuaan yang kuat sehingga dapat digunakan sebagai alternatif obat anti penuaan.  
+- Kecantikan kulit.   
+Mengandung minyak atsiri, amilum, damar, lemak, tannin, saponin, dan flavonoid yang sangat baik untuk kecantikan kulit.  
+- Aktivitas antibakteri.   
+Temu giring memiliki aktivitas antioksidan yang sangat kuat sehingga memiliki aktivitas antibakteri.  
+- Obat cacing gelang.  
+Temu giring memiliki kandungan piperazin sitrat yang dapat dimanfaatkan sebagai obat cacing gelang.  ","1. Muhlisah, F. 1999. Temu Temuan dan Empon emponan Budidaya dan Manfaatnya Presented at the Yogyakarta. Yogyakarta: Penerbit Kanisius.   ","2. Muhlisah, F. 1999. Temu-Temuan dan Empon-emponan Budidaya dan Manfaatnya. Presented at the Yogyakarta. Yogyakarta: Penerbit Kanisius.  ",3. https://www.balipuspanews.com/khasiat-berlipat-temu-giring-untuk-kesehatan.html  ,4. https://cehate.com/lulur-temugiring-menjadikan-kulit-sehat-dan-glowing/  ,"5. Syamsuhidayat, S. S., & Hutapea, J. R. 1991. Inventaris Tanaman Obat Indonesia (I). Jakarta: Badan Penelitian dan Pengembangan Kesehatan Departemen Kesehatan RI.  
+6. Anonim. 2014. Senyawa Fenolik. Diunduh dari  http://tip.ub.ac.id/wp- content/uploads/2016/08/PBA9_Fenol_Flavonoid.pdf  
+7. Adrian, K. 2017. Ini Fakta Flavonoid yang Perlu Anda Ketahui. Diunduh dari https://www.alodokter.com/ini-fakta- flavonoid-yang-perlu-anda-ketahui  
+8. Lolita, Y. S. 2014. AKTIVITAS ANTIVIRAL JAMU VIRANUR (Piper cubeba, Foeniculum vulgae mill, Curcuma heyneana) 1% TERHADAP VIRUS Avian Influenza (Universitas Gadjah Mada). Diunduh dari http://etd.repository.ugm.ac.id/index.php?mod=penelitian_detail&sub=Pene litianDetail&act=view&typ=html&buku_id=72649  
+9. Kusumawati, I., Kurniawan, K.O., Rullyansyah, S., Prijo, T.A., Widyowati, R., Ekowati, J., Hestianah, E.P., Maat, S., Matsunami, K. 2018. Anti-aging properties of Curcuma heyneana Valeton & Zipj: A scientific approach to its use in Javanese tradition. Journal of Ethnopharmacology, 225, 64-70. Diunduh dari https://doi.org/10.1016/j.jep.2018.06.038  
+10. Arifah, H., Permatasari, R. I., & Fitri, H. E. 2011. Bedak Temugiring. Diunduh dari http://fmipa.uny.ac.id/berita/bedak-temugiring.html  
+11. Yustin, L. J., & Wijayanti, E. D. 2018. Aktivitas Antioksidan Sari Rimpang Temu Giring (Curcuma heyneana) Terfermentasi Lactobacillus bulgaricus. JC-T (Journal Cis-Trans): Jurnal Kimia Dan Terapannya, 2(1). https://doi.org/10.17977/um026v2i12018p001.  
+12. Rahmawati, A. A. D. 2019. Lengkuas hingga Temu Giring, Bumbu Dapur Sehat yang Bikin Makanan Enak. Retrieved July 31, 2019, Diunduh dari https://food.detik.com/info-sehat/d-4385779/lengkuas-hingga- temu-giring-bumbu-dapur-sehat-yang-bikin-makanan-enak  "
+35,Temu kunci,*Boesenbergia rotunda*   ,TemuKunci.png,"Temu kunci merupakan sejenis rempah-rempah asli dari Asia yang rimpangnya digunakan sebagai bumbu dalam masakan Asia Tenggara. Tanaman ini banyak tumbuh di daerah tropis dataran rendah dan tumbuh sangat baik pada iklim panas dan lembap pada tanah relatif subur dengan pertukaran udara dan tata air yang baik. Temu kunci ini banyak digunakan dalam bumbu masakan dan obat-obatan tradisional seperti obat disentri, obat antinflamasi, dan sebagainya.  ","- Dalam satu tahun, pertumbuhannya sekitar 0,3 hingga 0,9 cm.   
+- Batangnya memiliki panjang antara 5-30 cm dengan lebar 0,5 hingga 2 cm.   
+- Banyak daun setiap tanaman antara 2 hingga 7 helai.   
+- Panjang tangkai daun antara 7 hingga 16 cm.   
+- Lebar daunnya sekitar 5 hingga 11 cm.  
+- Panjang tangkai bunga hingga 41 cm.   
+- Kelopak bunganya terdiri dari 3 buah lepas dan runcing.   
+- Mahkota bunganya 3 buah dan berwarna merah muda atau kuning putih.  ","- Berperawakan herba rendah dan merayap di dalam tanah.  
+- Batangnya sebagai rimpang yang tertanam di dalam tanah, berwarna kuning, dab berbau aromatik.  
+- Batang yang berada di atas tanah berupa pelepah daun berwarna merah tanpa helaian daun.   
+- Tangkai tanaman tidak berambut.   
+- Helai daunnya tegak dan berbentuk lanset lebar atau agak jorong dengan ujung daun runcing.  
+- Pada tangkai daunnya terdapat lidah-lidah berbentuk segitiga melebar dan menyerupai selaput.   
+- Pelepah daunnya sering sama panjang dengan tangkainya.   
+- Bunga tanaman ini berbentuk susunan bulir tidak berbatas.  
+- Dalam satu tanaman terdapat 1 benang sari dan 1 putik.  ","- Meredakan batuk kering.  
+- Meningkatkan kualitas sperma.   
+- Menangkal radikal bebas.  
+- Mencegah kanker payudara.   
+- Menjaga kesehatan pencernaan.   
+- Berpotensi mencegah dan menyembuhkan Covid-19.  ","- Mengurangi bau badan dan bau nafas.   
+- Merawat organ kewanitaan.   
+- Mengencangkan kulit.  
+- Merawat rahim sehabis melahirkan.   
+- Menyembuhkan penyakit cacingan.  ","- Menghambat berbagai mikroba.   
+Minyak atsiri pada rimpang temu kunci dapat menghambat  *Entamoeba Coli*, *Staphylococcus aureus*, dan *Candida albicans*. Selain itu minyak atsiri temu kunci memiliki efek pada pelarutan batu ginjal.   
+- Analgetik dan antipiretik.   
+Perasan infusa dan rimpang temu kunci memiliki daya analgetik dan antipiretik.  
+- Aktivitas antioksidan.  
+Ekstrak rimpang temu kunci memiliki aktivitas antioksidan.  
+- Menghambat penyakit Orf.  
+Ekstrak rimpang temu kunci dapat menghambat bakteri isolat penyakit Orf pada domba.  
+- Menghambat sel kanker.   
+Panduratin A pada temu kunci menghambat pertumbuhan sel kanker HepG2 yang diinduksi dengan t-BHP. Panduratin A memproteksi sel HepG2 melalui perbaikan kerusakan oksidatif yang disebabkan oleh t-BHP dengan cara menangkap radikal bebas.  
+- Aktivitas antimutagenik.  
+Ekstrak metabolik dari rimpang temu kunci mempunyai efek antimutagenik. Kandungan yang menunjukkan aktivitas antimutagenik adalah kalkon, *cardamonin*, *pinocembrin*, pinostrobin, 4-hidroksipanduratin, dan panduratin A.  
+- Menghambat sel kanker payudara.  
+Panduratin A pada temu kunci dapat menghambat pertumbuhan sel kanker payudara dan menghambat inflamasi serta perkembangan sel tumor dengan mekanisme menginduksi apoptosis pada sel kankernya. Panduratin A juga terbukti memiliki aktivitas antimutagenik.  
+- Aktivitas lainnya.   
+Panduratin A yang merupakan derivat dari kalkon memiliki aktivitas antinflamasi, analgetik, dan antioksidan.  ","1. Plantus, 2008, Fingerroot (Boesenbergia pandurata Roxb. Schult). http://anekaplanta.wordpress.com/2008/01/04/temu-kunci-boesenbergia-pandurata-roxb-schlechter/","2. Plantus, 2008, Fingerroot (Boesenbergia pandurata Roxb. Schult). http://anekaplanta.wordpress.com/2008/01/04/temu-kunci-boesenbergia-pandurata-roxb-schlechter/   ",3. https://www.alodokter.com/ini-manfaat-temu-kunci-untuk-kesehatan  ,4. https://pojok.lovelybogor.com/manfaat-dan-khasiat-jamu-temu-kunci-untuk-kecantikan/  ,"5. Plantus, 2008, Fingerroot (Boesenbergia pandurata Roxb. Schult). http://anekaplanta.wordpress.com/2008/01/04/temu-kunci-boesenbergia-pandurata-roxb-schlechter   
+ 6. Plantus, 2008, Fingerroot (Boesenbergia pandurata Roxb. Schult). http://anekaplanta.wordpress.com/2008/01/04/temu-kunci-boesenbergia-pandurata-roxb-schlechter   
+7. Plantus, 2008, Fingerroot (Boesenbergia pandurata Roxb. Schult). http://anekaplanta.wordpress.com/2008/01/04/temu-kunci-boesenbergia-pandurata-roxb-schlechter   
+8. Plantus, 2008, Fingerroot (Boesenbergia pandurata Roxb. Schult). http://anekaplanta.wordpress.com/2008/01/04/temu-kunci-boesenbergia-pandurata-roxb-schlechter   
+9. Sohn, J.H., Han, K.L., Lee, S.H., and Hwang, J.K., 2005, Protective Effects of Panduratin Against Oxidative Damage of tert-Butylhydroperoxide in Human HepG2 Cells, Biological and Pharmaceutical Bulletin, 28(6):1083-1086.  
+10. Trankoontivakorn, G., Nakahara, K., Shinmoto, H., Takenaka, M., Kameyama, M.O., Ono, H., Yoshida, H.M., Nagata, T., and Tsushida, T., 2001. Structural Analysis of a Novel Antimutagenic Activity of Flavonoids in Thai Spice, Fingerroot (Boesenbergia pandurata Schult.) Against Mutagenic Heterocyclic Amines, J. Agric. Food. Chem, 49(6):3046-3050.  
+11. Kirana, C., Jones, G.P., Record, I.R., and McIntosh, G.H., 2006, Anticancer Properties of Panduratin A Isolated from Boesenbergia Pandurata (Zingiberaceae), Journal of Natural Medicine, 61:131-137.  
+12. Yun, J.M., Kweon, M.H., Kwon, H.J., Hwang, J.K., and Mukhtar, H., 2006, Induction of Apoptosis and Cell Cycle Arrest by a Chalcone Panduratin A Isolated from Kaempferia pandurata in Androgen-Independent Human Prostate Cancer Cells PC3 and DU145, Carcinogenesis Advance Access, 27(7):1454-1464.  "
+36,Kemukus,*Piper cubeba L*  ,Kemukus.jpg,"Kemukus merupakan tanaman yang masih tergolong dalam satu famili dengan lada. Tanaman ini berasal dari daerah Jawa dan Sumatera sehingga terkadang disebut dengan lada jawa. Oleh masyarakat Indonesia, kemukus sering digunakan sebagai bumbu dalam masakan nusantara. Selain itu, kemukus digunakan sebagai penguat rasa pada gin (minuman alkohol) dan rokok. Tidak hanya itu, minyak atsiri kemukus dapat digunakan sebagai salah satu bahan farmasetis.  ","- Diameter batangnya sekitar 5-15 mm.  
+- Daun kemukus memiliki panjang 8,5 - 15,5 cm dengan lebarnya sekitar 3 - 9,5 cm.  
+- Bunganya berbentuk bulir dengan panjang sekitar 3 hingga 10 cm.  
+- Tangkai bunganya berukuran 6 hingga 20 cm.   
+- Buah kemukus memiliki diameter 6-8 mm dengan panjang 2-5 mm.  ","- Memiliki sistem percabangan simpodial.  
+- Batangnya tidak berkayu dan terasa lunak.  
+- Akarnya serabut dan berwarna kecoklatan kekuningan.  
+- Daunnya berjenis tunggal berbentuk bulat telur.   
+- Jenis bunga kemukus adalah majemuk dan berwarna hijau.  
+- Buah kemukus berbentuk bulat sedangkan pada pangkalnya berkerut dan berwarna coklat kehitaman.  
+- Bijinya berbentuk seperti bola dan berwarna putih kecoklatan serta mengandung banyak minyak.  ","- Mengobati sesak nafas dan asma.  
+- Mengatasi demam dan meriang.  
+- Antiseptik untuk melawan peradangan.  
+- Meredakan sakit kepala.  ","- Minyak atsirinya digunakan pada industri parfum dan sabun.  
+- Sebagai pelega tenggorokan.   
+- Sebagai bahan rokok.  
+- Sebagai bumbu daging dan saus pada masakan Eropa.  
+- Sebagai pelengkap rasa minuman anggur.  ","- Kemukus memiliki aktivitas anti inflamasi sehingga secara tradisional sering digunakan untuk mengobat infeksi saluran urogenital seperti radang ginjal, radang kandung kemih, infeksi ureter, prostat, dan radang rahim.  
+- Senyawa metilen klorida (cubebin) pada kemukus menunjukkan aktivitas antiinflamasi yang paling baik dibandingkan senyawa anti inflamasi lain dalam kemukus.  
+- Senyawa piperin pada kemukus dapat digunakan sebagai obat batuk herbal karena bersifat antitusif dan melegakan jalur pernapasan hingga digunakan sebagai obat asma.  
+- Kemukus mengandung senyawa afrodisiak yang dapat meningkatkan daya seksual.  
+- Cubebin dalam kemukus diamati dapat digunakan sebagai pengobatan berbagai kanker seperti kanker paru, kanker tenggorokan, karsinoma nasofaring, leukimia menahun, kanker serviks, dan kanker usus besar.  ",1. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-kemukus/  ,2. https://agrotek.id/klasifikasi-dan-morfologi-tanaman-kemukus/  ,3.  Budidaya Tanaman Kemukus(Piper cubeba) - KKN Unneshttps://kkn.unnes.ac.id ,4. https://idnmedis.com/kemukus   ,"5. Gayatri Nahak and R.K. Sahu. Phytochemical Evaluation and Antioxidant activity of Piper cubeba and Piper nigrum. 01(08): 153-157. Journal of Applied Pharmaceutical Science; 2011.  
+6. Godoy de Lima, R., Barros, M. T., & da Silva Laurentiz, R. Medicinal Attributes of Lignans Extracted from Piper Cubeba: Current Developments. 7(2): 180-191. Chemistry Open; 2018.
+7. Ken Fern. Piper cubeba. Useful Tropical Plants; 2019.  
+8. Godoy de Lima, R., Barros, M. T., & da Silva Laurentiz, R. Medicinal Attributes of Lignans Extracted from Piper Cubeba: Current Developments. 7(2): 180-191. Chemistry Open; 2018.  
+9. Godoy de Lima, R., Barros, M. T., & da Silva Laurentiz, R. Medicinal Attributes of Lignans Extracted from Piper Cubeba: Current Developments. 7(2): 180-191. Chemistry Open; 2018.  "
