@@ -1,4 +1,6 @@
+import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'package:rempahsis/camera_screen.dart';
 import 'package:rempahsis/list_rempah.dart';
 import 'package:rempahsis/detail_rempah.dart';
 import 'package:rempahsis/landing_page.dart';
@@ -7,15 +9,18 @@ import 'package:rempahsis/about_page.dart';
 
 
 class MyHomePage extends StatefulWidget{
-  MyHomePage({Key? key}) : super(key: key);
+  MyHomePage({Key? key, required this.camera}) : super(key: key);
+
+  final CameraDescription camera;
+
   @override
   State<StatefulWidget> createState(){
-    return _MyHomePageState( title: "RempahSIS");
+    return _MyHomePageState( title: "RempahSIS",);
   }
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  _MyHomePageState({ required this.title});
+  _MyHomePageState({ required this.title,});
 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
@@ -25,7 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
   // case the title) provided by the parent (in this case the App widget) and
   // used by the build method of the State. Fields in a Widget subclass are
   // always marked "final".
-
+  
   final String title;
   int _currentIndex=0;
   final List<Widget> _children = [
@@ -75,8 +80,11 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void onTabTapped(int index){
-    setState(() {
+    if(index == 2) Navigator.push(context, MaterialPageRoute(builder: (context) => RempahScannerScreen()));
+    else{
+      setState(() {
       _currentIndex = index;
     });
+    }
   }
 }

@@ -72,11 +72,11 @@ class _RempahDetailPage extends State<RempahDetailPage>{
                   SizedBox(height: 15,),
                   
                   SizedBox(height: 15,),
-                  ExpandableInformation(context: context, title: "Morfologi", data: _dataRempah, infoCol: 5, refCol: 10),
-                  ExpandableInformation(context: context, title: "Ciri-Ciri", data: _dataRempah, infoCol: 6, refCol: 11),
-                  ExpandableInformation(context: context, title: "Khasiat", data: _dataRempah, infoCol: 7, refCol: 12),
-                  ExpandableInformation(context: context, title: "Kegunaan", data: _dataRempah, infoCol: 8, refCol: 13),
-                  ExpandableInformation(context: context, title: "Potensi", data: _dataRempah, infoCol: 9, refCol: 14),
+                  expandableInformation(context: context, title: "Morfologi", data: _dataRempah, infoCol: 5, refCol: 10),
+                  expandableInformation(context: context, title: "Ciri-Ciri", data: _dataRempah, infoCol: 6, refCol: 11),
+                  expandableInformation(context: context, title: "Khasiat", data: _dataRempah, infoCol: 7, refCol: 12),
+                  expandableInformation(context: context, title: "Kegunaan", data: _dataRempah, infoCol: 8, refCol: 13),
+                  expandableInformation(context: context, title: "Potensi", data: _dataRempah, infoCol: 9, refCol: 14),
                 ],
               ),
             )
@@ -150,7 +150,7 @@ void referensi(context,data,refCol) {
   );
 }
 
-Widget ExpandableInformation({required context,required title,required data,required infoCol,required refCol}){
+Widget expandableInformation({required context,required title,required data,required infoCol,required refCol}){
   return Column(
     children: [
               ExpandablePanel(

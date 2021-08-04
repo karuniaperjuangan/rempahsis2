@@ -33,6 +33,10 @@ dependencies:
   flutter_markdown: ^0.6.2
   csv: ^5.0.0
   path_provider: ^2.0.2
+  image_picker: ^0.8.2
+  camera: ^0.8.1
+  path: ^1.8.0
+  tflite: ^1.1.2
 
 dev_dependencies:
   flutter_test:
@@ -46,6 +50,7 @@ flutter:
   assets:
     - images/
     - database/
+    - model/
   fonts:
     - family : Montserrat
       fonts:

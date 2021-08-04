@@ -1,20 +1,30 @@
+import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:rempahsis/home.dart';
 import 'package:flutter/services.dart';
 
+late CameraDescription camera;
 
-void main() {
+Future<void> main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  final cameras = await availableCameras();
+  camera = cameras.first;
   runApp(RempahSIS());
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
     statusBarColor: Colors.transparent 
   ));
+  
 }
 
 class RempahSIS extends StatelessWidget {
+  
+  
+
   @override
   Widget build(BuildContext context) {
+    print("Hallo gaes");
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Rempah SIS',
@@ -41,7 +51,7 @@ class RempahSIS extends StatelessWidget {
           iconTheme: IconThemeData(color: Colors.white)
         ),
       ),
-      home: MyHomePage(),
+      home: MyHomePage(camera: camera,),
     );
   }
 }
