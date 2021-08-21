@@ -51,6 +51,7 @@ flutter:
     - images/
     - database/
     - model/
+    - assets/info.json
   fonts:
     - family : Montserrat
       fonts:
