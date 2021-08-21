@@ -37,7 +37,7 @@ class AboutPage extends StatelessWidget{
 
             SizedBox(height: 12,),
             Row(
-              children: [Flexible(child: Text("“Radifa digunakan untuk menyemarakkan bulan puasa dan meningkatkan ibadah serta amalan-amalan kita meskipun dalam keadaan pandemi. Sebagai kaum milenial kita diharapkan dapat memanfaatkan teknologi untuk menjalankan amanah dalam ibadah puasa dan menyemarakkan bulan Ramadhan,” sambut Adha dalam acara tersebut."))],
+              children: [Flexible(child: Text("Aplikasi rempah SIS berfungsi sebagai scanner atau pemindai rempah yang dapat Anda gunakan mengetahui rempah-rempah di sekitar Anda melalui teknik pemindaian visual yang akurat."))],
               ),
             SizedBox(height: 12,),
             Row(
