@@ -16,8 +16,7 @@ class LandingPage extends StatefulWidget {
 
 class _LandingPageState extends State<LandingPage> {
   List _items = [];
-  String _text =
-      "Alasan Spanyol dan Portugis datang ke Maluku untuk mencari rempah adalah naiknya harga rempah-rempah pasca kejatuhan Konstantinopel ke tangan bangsa Turki pada 29 Mei 1453";
+  String _text = "";
   Random random = new Random();
   final infoController = TextEditingController();
 
