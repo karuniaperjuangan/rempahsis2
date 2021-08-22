@@ -79,7 +79,7 @@ class _RempahListPageState extends State<RempahListPage>{
 
 
       ),
-      body: Padding(padding: EdgeInsets.all(15),
+      body: Padding(padding: EdgeInsets.only(left: 15, right: 15),
         child: FutureBuilder(
             future: _future,
             builder: (context, AsyncSnapshot snapshot) {
@@ -108,7 +108,7 @@ class _RempahListPageState extends State<RempahListPage>{
                         child: Card(
                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                             elevation: 0,
-                            margin: EdgeInsets.symmetric(vertical: 5),
+                            margin: EdgeInsets.only(top: index == 0? 10: 0, bottom:10),
                             child: MaterialButton(
                               onPressed:(){
                                 Navigator.push(context,
