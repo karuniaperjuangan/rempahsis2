@@ -44,7 +44,7 @@ class _RempahDetailPage extends State<RempahDetailPage> {
             builder: (context, AsyncSnapshot snapshot) {
               final _dataRempah = snapshot.data;
               if (snapshot.hasData) {
-                saveLastSeen(_dataRempah[int.parse(widget.id)]);
+                saveLastSeen(_dataRempah);
                 return Center(
                     child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -154,29 +154,93 @@ class _RempahDetailPage extends State<RempahDetailPage> {
     final buffer = data.buffer;
     Directory tempDir = await getTemporaryDirectory();
     String tempPath = tempDir.path;
-    var filePath = tempPath + '/file_01.tmp'; // file_01.tmp is dump file, can be anything
+    var filePath =
+        tempPath + '/file_01.tmp'; // file_01.tmp is dump file, can be anything
     return new File(filePath).writeAsBytes(
         buffer.asUint8List(data.offsetInBytes, data.lengthInBytes));
-}
+  }
 
-void referensi(context,data,refCol) {
-  showModalBottomSheet(
-    context: context,
-    builder: (BuildContext bc) {
-      return BackdropFilter(
-        filter: ImageFilter.blur(sigmaX: 2,sigmaY: 2),
-        child: Container(
-          padding: EdgeInsets.all(15),
-          child:  Container(
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10),
-              color: Colors.black.withOpacity(0.25),
-              
-            ),
+  void saveLastSeen(dataRempah) async {
+    List<ModelRempah> listLastseen = [];
+    var lastSeenData = ModelRempah(
+      id: dataRempah[int.parse(widget.id)][0],
+      namaRempah: dataRempah[int.parse(widget.id)][1],
+      namaIlmiah: dataRempah[int.parse(widget.id)][2],
+      gambar: dataRempah[int.parse(widget.id)][3],
+      ikhtisar: dataRempah[int.parse(widget.id)][4],
+      morfologi: dataRempah[int.parse(widget.id)][5],
+      ciri: dataRempah[int.parse(widget.id)][6],
+      khasiat: dataRempah[int.parse(widget.id)][7],
+      kegunaan: dataRempah[int.parse(widget.id)][8],
+      potensi: dataRempah[int.parse(widget.id)][9],
+      referensiMorfologi: dataRempah[int.parse(widget.id)][10],
+      referensiCiri: dataRempah[int.parse(widget.id)][11],
+      referensiKhasiat: dataRempah[int.parse(widget.id)][12],
+      referensiKegunaan: dataRempah[int.parse(widget.id)][13],
+      referensiPotensi: dataRempah[int.parse(widget.id)][14],
+    );
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    var jsonText = prefs.getString("last_seen");
+    if (jsonText != null && jsonText.isNotEmpty) {
+      final List lastSeenJosn = jsonDecode(jsonText);
+      listLastseen =
+          lastSeenJosn.map((val) => ModelRempah.fromJson(val)).toList();
+      bool isExisting = false;
+      for (int i = 0; i < listLastseen.length; i++) {
+        if (listLastseen[i].id == lastSeenData.id) {
+          isExisting = true;
+          break;
+        }
+      }
+      if (listLastseen.isNotEmpty) {
+        if (listLastseen.length == 3) {
+          if (!isExisting) {
+            List<ModelRempah> newListLastSeen = [];
+            newListLastSeen.add(lastSeenData);
+            newListLastSeen.add(listLastseen[1]);
+            newListLastSeen.add(listLastseen[2]);
+            savetoLocal(newListLastSeen, prefs);
+          }
+        } else {
+          if (!isExisting) {
+            listLastseen.add(lastSeenData);
+            savetoLocal(listLastseen, prefs);
+          }
+        }
+      } else {
+        if (!isExisting) {
+          listLastseen.add(lastSeenData);
+          savetoLocal(listLastseen, prefs);
+        }
+      }
+    } else {
+      listLastseen.add(lastSeenData);
+      savetoLocal(listLastseen, prefs);
+    }
+  }
+
+  void savetoLocal(List<ModelRempah> listLastseen, SharedPreferences prefs) {
+    String jsonData = jsonEncode(listLastseen);
+    prefs.setString("last_seen", jsonData);
+  }
+
+  void referensi(context, data, refCol) {
+    showModalBottomSheet(
+      context: context,
+      builder: (BuildContext bc) {
+        return BackdropFilter(
+          filter: ImageFilter.blur(sigmaX: 2, sigmaY: 2),
+          child: Container(
+            padding: EdgeInsets.all(15),
             child: Container(
-              margin: EdgeInsets.all(12),
-              child: Wrap(
-                children: <Widget>[
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                color: Colors.black.withOpacity(0.25),
+              ),
+              child: Container(
+                margin: EdgeInsets.all(12),
+                child: Wrap(
+                  children: <Widget>[
                     MarkdownBody(
                       data: data[int.parse(widget.id)][refCol],
                       styleSheet: MarkdownStyleSheet(
@@ -245,17 +309,3 @@ void referensi(context,data,refCol) {
   }
 }
 
-void saveLastSeen(dataRempah) async {
-  List<ModelRempah> listLastseen;
-  var dataLastSeen = ModelRempah(id: dataRempah['id']);
-  print(dataLastSeen.id);
-  SharedPreferences prefs = await SharedPreferences.getInstance();
-  var jsonText = prefs.getString("last_seen");
-  if (jsonText!.isNotEmpty) {
-    var lastSeenJosn = jsonDecode(jsonText);
-    listLastseen = List.from(lastSeenJosn);
-    if (listLastseen.isNotEmpty && listLastseen.length == 3) {}
-  } else {
-    // var datalastSeen = ModelRempah(id: );
-  }
-}

@@ -1,11 +1,13 @@
 import 'dart:convert';
 import 'dart:math';
 
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:rempahsis/detail_rempah.dart';
+import 'package:rempahsis/model_rempah.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class LandingPage extends StatefulWidget {
   LandingPage({Key? key}) : super(key: key);
@@ -16,6 +18,7 @@ class LandingPage extends StatefulWidget {
 
 class _LandingPageState extends State<LandingPage> {
   List _items = [];
+  List<ModelRempah> lastSeenList = [];
   String _text = "";
   Random random = new Random();
   final infoController = TextEditingController();
@@ -27,6 +30,12 @@ class _LandingPageState extends State<LandingPage> {
       _items = data;
       _text = _items[random.nextInt(_items.length - 1)]['text'];
     });
+  }
+
+  Future<String?> loadLastSeenData() async {
+    SharedPreferences pref = await SharedPreferences.getInstance();
+    var jsonText = pref.getString("last_seen");
+    return jsonText;
   }
 
   @override
@@ -133,72 +142,106 @@ class _LandingPageState extends State<LandingPage> {
                           ],
                         ),
                         SizedBox(
-                          height: 20,
+                          height: 40,
                         ),
                         //Daftar Terakhir
                         SizedBox(
                           height: 250,
-                          child: ListView.builder(
-                              reverse: true,
-                              physics: NeverScrollableScrollPhysics(),
-                              dragStartBehavior: DragStartBehavior.down,
-                              itemCount: 3,
-                              itemBuilder: (context, index) => Container(
-                                    decoration: BoxDecoration(boxShadow: [
-                                      BoxShadow(
-                                        color: Colors.black.withOpacity(0.05),
-                                        blurRadius: 4,
-                                        spreadRadius: -2,
-                                      )
-                                    ]),
-                                    child: Card(
-                                        shape: RoundedRectangleBorder(
-                                            borderRadius:
-                                                BorderRadius.circular(10)),
-                                        elevation: 0,
-                                        margin:
-                                            EdgeInsets.symmetric(vertical: 5),
-                                        child: MaterialButton(
-                                          onPressed: () {
-                                            Navigator.push(
-                                                context,
-                                                MaterialPageRoute(
-                                                    builder: (context) =>
-                                                        RempahDetailPage(
-                                                            id: '5')));
-                                          },
-                                          child: ListTile(
-                                              title: Text(
-                                                "Jahe Merah",
-                                                style: TextStyle(
-                                                    fontSize: 14,
-                                                    fontWeight:
-                                                        FontWeight.w500),
-                                              ),
-                                              subtitle: Text(
-                                                "Zingiber Officinale var Rubrum",
-                                                style: TextStyle(
-                                                    fontSize: 12,
-                                                    fontWeight:
-                                                        FontWeight.w300),
-                                              ),
-                                              trailing: Icon(
-                                                Icons.navigate_next,
-                                                color: Colors.black,
-                                              ),
-                                              leading: ClipRRect(
+                          child: FutureBuilder(
+                            future: loadLastSeenData(),
+                            builder: (context, AsyncSnapshot snapshot) {
+                              final jsonData = snapshot.data;
+                              if (snapshot.hasData) {
+                                List<ModelRempah> lastSeenDataList = [];
+                                final List lastSeenDataJson =
+                                    jsonDecode(jsonData);
+                                lastSeenDataList = lastSeenDataJson
+                                    .map((val) => ModelRempah.fromJson(val))
+                                    .toList();
+                                return Column(children: [
+                                  Expanded(child: lastSeenDataList.length > 0? ListView.builder(
+                                      itemCount: lastSeenDataList.length,
+                                      itemBuilder: (context, index) => Container(
+                                        decoration: BoxDecoration(boxShadow: [
+                                          BoxShadow(
+                                            color: Colors.black
+                                                .withOpacity(0.05),
+                                            blurRadius: 4,
+                                            spreadRadius: -2,
+                                          )
+                                        ]),
+                                        child: Card(
+                                            shape: RoundedRectangleBorder(
                                                 borderRadius:
-                                                    BorderRadius.circular(10),
-                                                child: Image(
-                                                  image: AssetImage(
-                                                      './images/JaheMerahExample.jpg'),
-                                                  height: 45,
-                                                  width: 45,
-                                                  fit: BoxFit.fill,
-                                                ),
-                                              )),
-                                        )),
-                                  )),
+                                                BorderRadius.circular(
+                                                    10)),
+                                            elevation: 0,
+                                            margin: EdgeInsets.symmetric(
+                                                vertical: 5),
+                                            child: MaterialButton(
+                                              onPressed: () {
+                                                Navigator.push(
+                                                    context,
+                                                    MaterialPageRoute(
+                                                        builder: (context) =>
+                                                            RempahDetailPage(
+                                                                id: lastSeenDataList[
+                                                                index]
+                                                                    .id
+                                                                    .toString())));
+                                              },
+                                              child: ListTile(
+                                                  title: Text(
+                                                    lastSeenDataList[index]
+                                                        .namaRempah!,
+                                                    style: TextStyle(
+                                                        fontSize: 14,
+                                                        fontWeight:
+                                                        FontWeight.w500),
+                                                  ),
+                                                  //Nama Ilmiah
+                                                  subtitle: MarkdownBody(
+                                                    data: lastSeenDataList[
+                                                    index]
+                                                        .namaIlmiah!,
+                                                    styleSheet:
+                                                    MarkdownStyleSheet(
+                                                        p: TextStyle(
+                                                            fontSize: 12,
+                                                            fontWeight:
+                                                            FontWeight
+                                                                .w300)),
+                                                  ),
+                                                  trailing: Icon(
+                                                    Icons.navigate_next,
+                                                    color: Colors.black,
+                                                  ),
+                                                  leading: ClipRRect(
+                                                    borderRadius:
+                                                    BorderRadius.circular(
+                                                        10),
+                                                    child: Image(
+                                                      image: AssetImage(
+                                                          './images/' +
+                                                              lastSeenDataList[
+                                                              index]
+                                                                  .gambar!),
+                                                      height: 45,
+                                                      width: 45,
+                                                      fit: BoxFit.fill,
+                                                    ),
+                                                  )),
+                                            )),
+                                      )): Center(
+                                    child: Column(mainAxisAlignment: MainAxisAlignment.center,children: [
+                                      Text("Tidak ada data",style: TextStyle(fontSize: 24,fontWeight: FontWeight.w500),textAlign: TextAlign.center,)
+                                    ],),
+                                  ))
+                                ],);
+                              } else
+                                return Center();
+                            },
+                          ),
                         ),
                       ],
                     ),
