@@ -196,9 +196,9 @@ class _RempahDetailPage extends State<RempahDetailPage> {
         if (listLastseen.length == 3) {
           if (!isExisting) {
             List<ModelRempah> newListLastSeen = [];
-            newListLastSeen.add(lastSeenData);
             newListLastSeen.add(listLastseen[1]);
             newListLastSeen.add(listLastseen[2]);
+            newListLastSeen.add(lastSeenData);
             savetoLocal(newListLastSeen, prefs);
           }
         } else {
