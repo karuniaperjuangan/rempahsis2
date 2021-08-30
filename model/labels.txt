@@ -1,6 +1,37 @@
-0 Jahe
-1 Bunga Lawang
-2 Asam Sunti
-3 Jintan
-4 Kemiri
-5 Ketumbar
+Kosong
+Adas
+Asam gelugur
+Asam jawa
+Asam kandis
+Asam sunti
+Bunga lawang
+Cabai jawa
+Cabai keriting
+Cabai merah besar
+Cabai rawit
+Cengkih
+Jahe gajah
+Jahe emprit
+Jahe merah
+Jintan
+Kapulaga jawa
+Kapulaga sebrang
+Kayu manis
+Keluwak
+Kemiri
+Kencur
+Ketumbar
+Kunyit kuning
+Kunyit putih
+Lada
+Lengkuas putih
+Lengkuas merah
+Pala
+Serai
+Temulawak
+Temu putih
+Temu mangga
+Temu hitam
+Temu giring
+Temu kunci
+Kemukus

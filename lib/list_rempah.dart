@@ -66,7 +66,7 @@ class _RempahListPageState extends State<RempahListPage>{
               decoration: InputDecoration(
                   fillColor: Colors.transparent,
                   prefixIcon: Icon(Icons.search, size: 18,),
-                  hintText: "Search...",
+                  hintText: "Cari...",
                   filled: true,
                   border: InputBorder.none,
                   focusedBorder: InputBorder.none,

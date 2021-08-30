@@ -38,6 +38,8 @@ dependencies:
   path: ^1.8.0
   tflite: ^1.1.2
   shared_preferences: ^2.0.6
+  dio: ^4.0.0
+  url_launcher: ^6.0.9
 
 dev_dependencies:
   flutter_test:
@@ -54,6 +56,9 @@ flutter:
     - model/
     - assets/info.json
   fonts:
+    - family : Oswald
+      fonts:
+      - asset: fonts/Oswald/Oswald-VariableFont_wght.ttf
     - family : Montserrat
       fonts:
       - asset: fonts/Montserrat/Montserrat-Thin.ttf

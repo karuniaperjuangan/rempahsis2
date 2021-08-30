@@ -1,6 +1,7 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:rempahsis/camera_screen.dart';
+import 'package:rempahsis/image_scan_screen.dart';
 import 'package:rempahsis/list_rempah.dart';
 import 'package:rempahsis/detail_rempah.dart';
 import 'package:rempahsis/landing_page.dart';
@@ -36,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final List<Widget> _children = [
     LandingPage(),
     RempahListPage(),
-    RempahDetailPage(id: '2'),
+    ChooseImagePage(),
     AboutPage(),
   ];
 
@@ -80,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void onTabTapped(int index){
-    if(index == 2) Navigator.push(context, MaterialPageRoute(builder: (context) => RempahScannerScreen()));
+    if(false) Navigator.push(context, MaterialPageRoute(builder: (context) => RempahScannerScreen()));
     else{
       setState(() {
       _currentIndex = index;

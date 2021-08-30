@@ -277,30 +277,42 @@ class _RempahDetailPage extends State<RempahDetailPage> {
       required refCol}) {
     return Column(
       children: [
-        ExpandablePanel(
-            header: Text(title),
-            collapsed: Text(""),
-            expanded: Column(
-              children: [
-                Row(
-                  children: [
-                    TextButton(
-                        onPressed: () {
-                          referensi(context, data, refCol);
-                        },
-                        child: Text("Referensi")),
-                  ],
-                  mainAxisAlignment: MainAxisAlignment.end,
+        Container(
+          padding: EdgeInsets.all(10),
+          decoration: BoxDecoration(
+            border: Border.all(color: Colors.grey.withOpacity(0.25)),
+            borderRadius: BorderRadius.circular(5)
+          ),
+          child: ExpandablePanel(
+              header: Container(
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(15, 10, 15, 10),
+                  child: Text(title, ),
                 ),
-                MarkdownBody(
-                  data: data[int.parse(widget.id)][infoCol],
-                  styleSheet: MarkdownStyleSheet(
-                      p: TextStyle(fontWeight: FontWeight.w500, fontSize: 12),
-                      textAlign: WrapAlignment.spaceBetween,
-                      unorderedListAlign: WrapAlignment.spaceBetween),
-                ),
-              ],
-            )),
+              ),
+              collapsed: SizedBox(),
+              expanded: Column(
+                children: [
+                  Row(
+                    children: [
+                      TextButton(
+                          onPressed: () {
+                            referensi(context, data, refCol);
+                          },
+                          child: Text("Referensi")),
+                    ],
+                    mainAxisAlignment: MainAxisAlignment.end,
+                  ),
+                  MarkdownBody(
+                    data: data[int.parse(widget.id)][infoCol],
+                    styleSheet: MarkdownStyleSheet(
+                        p: TextStyle(fontWeight: FontWeight.w500, fontSize: 12),
+                        textAlign: WrapAlignment.spaceBetween,
+                        unorderedListAlign: WrapAlignment.spaceBetween),
+                  ),
+                ],
+              )),
+        ),
         SizedBox(
           height: 10,
         ),
