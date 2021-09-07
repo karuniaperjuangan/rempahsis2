@@ -142,7 +142,7 @@ class _LandingPageState extends State<LandingPage> {
                                           MaterialPageRoute(
                                               builder: (context) =>
                                                   ArticleListPage(
-                                                      ArticleList:
+                                                      WPList:
                                                           _ArticleList)));
                                     },
                                     child: Text(
@@ -352,9 +352,16 @@ class RempahArticleCard extends StatelessWidget {
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10),
             image: DecorationImage(
-                image: NetworkImage(_ArticleList[index]['_embedded']
-                    ['wp:featuredmedia'][0]['source_url']),
-                fit: BoxFit.cover)),
+                                  image: _ArticleList[index]['_embedded']
+                                                  ['wp:featuredmedia'] !=
+                                          null
+                                      ? NetworkImage(_ArticleList[index]
+                                              ['_embedded']['wp:featuredmedia']
+                                          [0]['source_url'])
+                                      : Image.asset(
+                                              'images/ImagePlaceholder.png')
+                                          .image,
+                                  fit: BoxFit.cover)),
         height: 200,
         width: 200,
         alignment: Alignment.bottomLeft,

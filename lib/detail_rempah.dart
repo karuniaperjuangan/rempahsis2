@@ -8,9 +8,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:rempahsis/model_rempah.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class RempahDetailPage extends StatefulWidget {
   final String id;
@@ -42,95 +44,114 @@ class _RempahDetailPage extends State<RempahDetailPage> {
         child: FutureBuilder(
             future: loadingCSVData('./database/RempahSIS.csv'),
             builder: (context, AsyncSnapshot snapshot) {
-              final _dataRempah = snapshot.data;
               if (snapshot.hasData) {
+              final _dataRempah = snapshot.data;
                 saveLastSeen(_dataRempah);
-                return Center(
-                    child: Column(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: <Widget>[
-                      SizedBox(height: 20),
-                      //Nama Rempah
-                      Text(_dataRempah[int.parse(widget.id)][1],
-                          style: TextStyle(
-                              fontWeight: FontWeight.w500, fontSize: 28)),
-                      //Nama Ilmiah Rempah
-                      MarkdownBody(
-                        data: _dataRempah[int.parse(widget.id)][2],
-                        styleSheet: MarkdownStyleSheet(
-                            p: TextStyle(
-                                fontWeight: FontWeight.w600, fontSize: 12)),
-                      ),
-                      SizedBox(height: 15),
-                      //Gambar Rempah
-                      ClipRRect(
-                          borderRadius: BorderRadius.circular(10),
-                          child: Image(
-                            image: AssetImage('./images/' +
-                                _dataRempah[int.parse(widget.id)][3]),
-                            width: 300,
-                          )),
+                return Container(
+                  decoration: BoxDecoration(
+                    image: DecorationImage(image: AssetImage('./images/' +
+                                  _dataRempah[int.parse(widget.id)][3]),fit: BoxFit.contain, alignment: Alignment.topCenter)
+                  ),
+                  child: Column(
+                    children: [
+                      SizedBox(height: 200),
                       Container(
-                        margin: EdgeInsets.fromLTRB(50, 20, 50, 0),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          children: [
-                            //Ikhtisar
+                        padding: EdgeInsets.fromLTRB(25, 20, 25, 0),
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.only(topLeft: Radius.circular(20), topRight: Radius.circular(20)),
+                          boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.15), blurRadius: 4, spreadRadius: 4)],
+                          color: Color(0xffF5F5F5)
+                        ),
+                          child: Column(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: <Widget>[
+                            SizedBox(height: 20),
+                            //Nama Rempah
                             Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
                               children: [
-                                Flexible(
-                                  child: MarkdownBody(
-                                    data: _dataRempah[int.parse(widget.id)][4],
-                                    styleSheet: MarkdownStyleSheet(
-                                        p: TextStyle(
-                                            fontWeight: FontWeight.w500,
-                                            fontSize: 12),
-                                        textAlign: WrapAlignment.spaceAround),
-                                  ),
+                                Text(_dataRempah[int.parse(widget.id)][1],
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.w500, fontSize: 28)),
+                              ],
+                            ),
+                            //Nama Ilmiah Rempah
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                MarkdownBody(
+                                  data: _dataRempah[int.parse(widget.id)][2],
+                                  styleSheet: MarkdownStyleSheet(
+                                      p: TextStyle(
+                                          fontWeight: FontWeight.w600, fontSize: 12)),
                                 ),
                               ],
                             ),
-                            SizedBox(
-                              height: 15,
-                            ),
+                            SizedBox(height: 15),
+                            Container(
+                              
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: [
+                                  //Ikhtisar
+                                  Row(
+                                    children: [
+                                      Flexible(
+                                        child: MarkdownBody(
+                                          data: _dataRempah[int.parse(widget.id)][4],
+                                          styleSheet: MarkdownStyleSheet(
+                                              p: TextStyle(
+                                                  fontWeight: FontWeight.w400,
+                                                  fontSize: 12),
+                                              textAlign: WrapAlignment.spaceAround),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                  SizedBox(
+                                    height: 15,
+                                  ),
 
-                            SizedBox(
-                              height: 15,
-                            ),
-                            expandableInformation(
-                                context: context,
-                                title: "Morfologi",
-                                data: _dataRempah,
-                                infoCol: 5,
-                                refCol: 10),
-                            expandableInformation(
-                                context: context,
-                                title: "Ciri-Ciri",
-                                data: _dataRempah,
-                                infoCol: 6,
-                                refCol: 11),
-                            expandableInformation(
-                                context: context,
-                                title: "Khasiat",
-                                data: _dataRempah,
-                                infoCol: 7,
-                                refCol: 12),
-                            expandableInformation(
-                                context: context,
-                                title: "Kegunaan",
-                                data: _dataRempah,
-                                infoCol: 8,
-                                refCol: 13),
-                            expandableInformation(
-                                context: context,
-                                title: "Potensi",
-                                data: _dataRempah,
-                                infoCol: 9,
-                                refCol: 14),
-                          ],
-                        ),
-                      )
-                    ]));
+                                  SizedBox(
+                                    height: 15,
+                                  ),
+                                  expandableInformation(
+                                      context: context,
+                                      title: "Morfologi",
+                                      data: _dataRempah,
+                                      infoCol: 5,
+                                      refCol: 10),
+                                  expandableInformation(
+                                      context: context,
+                                      title: "Ciri-Ciri",
+                                      data: _dataRempah,
+                                      infoCol: 6,
+                                      refCol: 11),
+                                  expandableInformation(
+                                      context: context,
+                                      title: "Khasiat",
+                                      data: _dataRempah,
+                                      infoCol: 7,
+                                      refCol: 12),
+                                  expandableInformation(
+                                      context: context,
+                                      title: "Kegunaan",
+                                      data: _dataRempah,
+                                      infoCol: 8,
+                                      refCol: 13),
+                                  expandableInformation(
+                                      context: context,
+                                      title: "Potensi",
+                                      data: _dataRempah,
+                                      infoCol: 9,
+                                      refCol: 14),
+                                ],
+                              ),
+                            )
+                          ])),
+                    ],
+                  ),
+                );
               } else
                 return Column(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -160,6 +181,7 @@ class _RempahDetailPage extends State<RempahDetailPage> {
         buffer.asUint8List(data.offsetInBytes, data.lengthInBytes));
   }
 
+  
   void saveLastSeen(dataRempah) async {
     List<ModelRempah> listLastseen = [];
     var lastSeenData = ModelRempah(
@@ -242,6 +264,7 @@ class _RempahDetailPage extends State<RempahDetailPage> {
                 child: Wrap(
                   children: <Widget>[
                     MarkdownBody(
+                      onTapLink: (text,url,title){if(url != null)launch(url??"");},
                       data: data[int.parse(widget.id)][refCol],
                       styleSheet: MarkdownStyleSheet(
                         p: TextStyle(
@@ -306,7 +329,7 @@ class _RempahDetailPage extends State<RempahDetailPage> {
                   MarkdownBody(
                     data: data[int.parse(widget.id)][infoCol],
                     styleSheet: MarkdownStyleSheet(
-                        p: TextStyle(fontWeight: FontWeight.w500, fontSize: 12),
+                        p: TextStyle(fontWeight: FontWeight.w400, fontSize: 12),
                         textAlign: WrapAlignment.spaceBetween,
                         unorderedListAlign: WrapAlignment.spaceBetween),
                   ),
