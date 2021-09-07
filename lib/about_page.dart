@@ -31,20 +31,33 @@ class AboutPage extends StatelessWidget{
 
               SizedBox(height: 12,),
               Row(
-                children: [Flexible(child: Text("Aplikasi rempah SIS berfungsi sebagai scanner atau pemindai rempah yang dapat Anda gunakan mengetahui rempah-rempah di sekitar Anda melalui teknik pemindaian visual yang akurat."))],
+                children: [Flexible(child: Text("Rempah SIS, \"Scanner of Indonesian Spices\", adalah aplikasi mengenai rempah yang dikembangkan tim PKM Rempah SIS dari UGM sebagai hasil keikutsertaan dari Program Kreativitas Mahasiswa (PKM) 2021 yang berfungsi sebagai scanner atau pemindai rempah yang dapat Anda gunakan mengetahui rempah-rempah di sekitar Anda melalui teknik pemindaian visual yang akurat. Selain itu, aplikasi ini juga menyediakan berbagai informasi tambahan mengenai rempah-rempah tersebut yang dapat memperkaya wawasan Anda. Kami harap aplikasi ini dapat bermanfaat bagi Anda serta mendukung usulan Jalur Rempah yang diajukan oleh Kemdikbudristek sebagai warisan budaya dunia kepada UNESCO."))],
                 ),
               SizedBox(height: 12,),
               Row(
                 children: [
-                Icon(Icons.email_outlined, size: 16,),
-                Text(" Kontak Kami", 
+                Icon(Icons.web, size: 16,),
+                Text(" Situs Kami", 
                 style: TextStyle(color: Colors.black, fontSize: 16,fontWeight: FontWeight.w600),
               )
               ],
               ),
               SizedBox(height: 12,),
               Row(
-                children: [Flexible(child: Text("adha.m.e@mail.ugm.ac.id "))],
+                children: [Flexible(child: Text("rempahsis.id "))],
+                ),
+              SizedBox(height: 12,),
+              Row(
+                children: [
+                Icon(Icons.camera, size: 16,),
+                Text(" Instagram Kami", 
+                style: TextStyle(color: Colors.black, fontSize: 16,fontWeight: FontWeight.w600),
+              )
+              ],
+              ),
+              SizedBox(height: 12,),
+              Row(
+                children: [Flexible(child: Text("@rempah_sis "))],
                 ),
               SizedBox(height: 12,),
               Row(
@@ -57,7 +70,9 @@ class AboutPage extends StatelessWidget{
               ],
               ),
               SizedBox(height: 12,),
-              Image(image: AssetImage('./images/QRCode.png'), width: 150), 
+              Row(
+                children: [Flexible(child: Text("089618628853 (Gopay/OVO)"))],
+                ),
             ],
           ),
           ),

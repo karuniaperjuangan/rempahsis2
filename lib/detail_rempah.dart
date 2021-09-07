@@ -29,17 +29,6 @@ class _RempahDetailPage extends State<RempahDetailPage> {
   @override
   Widget build(BuildContext context) => Scaffold(
       backgroundColor: Color(0xffF5F5F5),
-      appBar: AppBar(
-        backgroundColor: Color(0xFFfdfdfd),
-        elevation: 0,
-        centerTitle: true,
-        title: Text("REMPAHSIS",
-            style: GoogleFonts.oswald(
-                textStyle: TextStyle(
-                    color: Color(0xffCE8D51), fontWeight: FontWeight.w500),
-                fontSize: 25,
-                letterSpacing: 6)),
-      ),
       body: SingleChildScrollView(
         child: FutureBuilder(
             future: loadingCSVData('./database/RempahSIS.csv'),

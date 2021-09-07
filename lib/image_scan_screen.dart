@@ -72,7 +72,7 @@ class _ChooseImagePagePage extends State<ChooseImagePage> {
         if (result.isNotEmpty) indeksHasil = result.first['index'];
         //if (result.isNotEmpty) confidence = double.parse(result.first['confidence']);
         setState(() {
-          if (result.isEmpty) {
+          if (result.isEmpty || result.first['index'] ==0) {
             hasil = "Rempah tidak ditemukan";
             descEnabled = false;
           } else {
