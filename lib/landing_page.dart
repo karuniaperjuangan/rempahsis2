@@ -33,7 +33,7 @@ class _LandingPageState extends State<LandingPage> {
   Future<void> loadWordpressArticle() async {
     if(_ArticleList.length>0) return;
     final response =
-        await Dio().get('https://rempahsis.id/wp-json/wp/v2/posts?_embed');
+        await Dio().get('https://rempahsis.id/wp-json/wp/v2/posts?_embed&category_name=artikel&per_page=100');
     _ArticleList = response.data;
   }
 
