@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:rempahsis/camera_screen.dart';
 import 'package:rempahsis/image_scan_screen.dart';
 import 'package:rempahsis/list_rempah.dart';
-import 'package:rempahsis/detail_rempah.dart';
 import 'package:rempahsis/landing_page.dart';
 import 'package:rempahsis/about_page.dart';
 

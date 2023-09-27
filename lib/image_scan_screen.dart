@@ -7,7 +7,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
-import 'package:tflite/tflite.dart';
+//import 'package:tflite/tflite.dart';
 import 'package:csv/csv.dart';
 
 import 'detail_rempah.dart';
@@ -46,9 +46,9 @@ class _ChooseImagePagePage extends State<ChooseImagePage> {
   }
 
   loadModel() async {
-    var res = await Tflite.loadModel(
-        model: "model/model_unquant.tflite", labels: "model/labels.txt");
-    print(res);
+    //var res = await Tflite.loadModel(
+    //    model: "model/model_unquant.tflite", labels: "model/labels.txt");
+    //print(res);
   }
 
   void chooseImage(String mode) async {
@@ -59,7 +59,7 @@ class _ChooseImagePagePage extends State<ChooseImagePage> {
     _imageFile = _checkerImageFile;
     int startTime = DateTime.now().millisecondsSinceEpoch;
     try {
-      Tflite.runModelOnImage(
+      /*Tflite.runModelOnImage(
         path: _imageFile.path,
         imageMean: 127.5,
         imageStd: 127.5,
@@ -81,6 +81,7 @@ class _ChooseImagePagePage extends State<ChooseImagePage> {
           }
         });
       });
+      */
     } catch (e) {
       print(e);
     }

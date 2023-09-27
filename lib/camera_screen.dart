@@ -1,6 +1,6 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:tflite/tflite.dart';
+//import 'package:tflite/tflite.dart';
 import 'main.dart';
 
 class RempahScannerScreen extends StatefulWidget {
@@ -25,9 +25,9 @@ class RempahScannerState extends State<RempahScannerScreen> {
   }
 
   loadModel() async {
-    var res = await Tflite.loadModel(
-        model: "model/model_unquant.tflite", labels: "model/labels.txt");
-    print(res);
+    //var res = await Tflite.loadModel(
+    //    model: "model/model_unquant.tflite", labels: "model/labels.txt");
+    //print(res);
   }
 }
 
@@ -66,6 +66,7 @@ class _CameraState extends State<Camera> {
           isDetecting = true;
           int startTime = DateTime.now().millisecondsSinceEpoch;
           try {
+            /*
             Tflite.runModelOnFrame(
               bytesList: image.planes.map((plane) => plane.bytes).toList(),
               imageHeight: image.height,
@@ -82,6 +83,7 @@ class _CameraState extends State<Camera> {
                 hasil = result.toString();
               });
             });
+            */
           } catch (e) {
             print(e);
           }

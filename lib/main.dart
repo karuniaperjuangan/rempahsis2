@@ -1,6 +1,5 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:rempahsis/home.dart';
 import 'package:flutter/services.dart';
 
@@ -28,7 +27,6 @@ class RempahSIS extends StatelessWidget {
 
         primarySwatch: Colors.brown,
         primaryColor: Color(0xffCE8D51),
-        accentColor: Colors.white,
         textTheme: TextTheme(),
         inputDecorationTheme: InputDecorationTheme(
           border: UnderlineInputBorder(
